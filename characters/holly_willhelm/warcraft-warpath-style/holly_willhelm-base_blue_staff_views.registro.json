@@ -1,0 +1,122 @@
+{
+  "asset_family": "holly_willhelm-base_blue_staff",
+  "date": "2026-11-01",
+  "timezone": "Europe/Madrid",
+  "status": "two_additional_views_pending_user_review",
+  "user_request": "Two more versions of the same staff: completely lateral and three-quarter, matching the two supplied perspective screenshots.",
+  "interpretation": "The user's '3:4' is interpreted as three-quarter perspective, consistent with the second attached image and the request for perspectives.",
+  "generator": {
+    "tool": "OpenAI image_gen.imagegen",
+    "mode": "built-in",
+    "effective_model": "not exposed by the tool",
+    "transparent_background": true
+  },
+  "references_common": [
+    {
+      "file": "holly_willhelm-base_blue_staff.png",
+      "role": "IDENTITY + STYLE CONTINUITY",
+      "use": "Existing finished isolated staff. Same hardware, colors, proportions and Warpath rendering; only view changes."
+    },
+    {
+      "file": "../../../.agents/skills/warcraft-warpath-style/references/warpath/003_human-warrior-defending-stance.png",
+      "role": "STYLE",
+      "use": "Angular dark drawing and broad cel-shaded matte metal planes only."
+    },
+    {
+      "file": "../../../.agents/skills/warcraft-warpath-style/references/calibration/007-A.png",
+      "role": "FINISH",
+      "use": "Approved subtle A finish only."
+    }
+  ],
+  "input_reference_order": [
+    "Existing staff illustration",
+    "View-specific screenshot",
+    "STYLE-003",
+    "FINISH-007-A"
+  ],
+  "outputs": [
+    {
+      "view": "side",
+      "file": "holly_willhelm-base_blue_staff_side.png",
+      "prompt_file": "holly_willhelm-base_blue_staff_side.prompt.txt",
+      "perspective_reference": "../sources/blue_staff/staff_detail_side_request.png",
+      "source_role": "SHOT + GEOMETRY AT REQUESTED ANGLE",
+      "framing": "Entire staff, butt at left and head at right, mild upward-right shaft slope, head seen edge-on.",
+      "technical_validation": {
+        "format": "PNG",
+        "width": 1944,
+        "height": 809,
+        "pixel_format": "32-bit ARGB",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "fully_transparent_pixels": 1452985,
+        "visible_bbox_alpha_over_32": [
+          45,
+          269,
+          1916,
+          567
+        ],
+        "visible_margins_px": [
+          45,
+          269,
+          28,
+          242
+        ],
+        "sha256": "A57A5FAABE5B23ABA7D12EA9BC24A5E2C0674C6E376CDC6B4CBBD853561F950A"
+      },
+      "review": {
+        "drawing": "matches established isolated staff: thin dark outlines and angular graphic shapes",
+        "shading": "approximate Warpath rendering; broad cel bands with some residual small facets",
+        "identity": "same shaft, cobalt grip, collars, pale metal tips and blue gem construction; central opening/crystal occluded by the edge-on head",
+        "perspective": "matches reference's narrow side silhouette and overlapping corners; exact hidden thickness is interpreted from the screenshot",
+        "background": "genuine alpha; source watermark and dark backdrop excluded",
+        "framing": "whole staff visible; minimum visible margin 28 px",
+        "notes": "Fine colored edge pixels remain at high magnification, as in the preceding isolated staff."
+      }
+    },
+    {
+      "view": "three_quarter",
+      "file": "holly_willhelm-base_blue_staff_three_quarter.png",
+      "prompt_file": "holly_willhelm-base_blue_staff_three_quarter.prompt.txt",
+      "perspective_reference": "../sources/blue_staff/staff_detail_three_quarter_request.png",
+      "source_role": "SHOT + GEOMETRY AT REQUESTED ANGLE",
+      "framing": "Entire staff, butt at left and head at right, mild upward-right shaft slope, open diamond head viewed obliquely.",
+      "technical_validation": {
+        "format": "PNG",
+        "width": 1944,
+        "height": 809,
+        "pixel_format": "32-bit ARGB",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "fully_transparent_pixels": 1397190,
+        "visible_bbox_alpha_over_32": [
+          21,
+          195,
+          1929,
+          612
+        ],
+        "visible_margins_px": [
+          21,
+          195,
+          15,
+          197
+        ],
+        "sha256": "4D1ABD842660F72B62682AA0D154B5C162B62F2812F2C1E75FE22B97B72B7492"
+      },
+      "review": {
+        "drawing": "matches established isolated staff: thin dark outlines and angular graphic shapes",
+        "shading": "approximate Warpath rendering; broad cel bands and restrained blue crystal facets",
+        "identity": "same shaft, cobalt grip, collars, four principal blue frame gems and suspended central blue crystal",
+        "perspective": "open diamond is foreshortened with visible bevels and coherent near/far overlap; minor setting-edge details are interpreted",
+        "background": "genuine alpha; no source watermark or dark backdrop",
+        "framing": "whole staff visible; minimum visible margin 15 px",
+        "notes": "Fine colored edge pixels remain at high magnification, as in the preceding isolated staff."
+      }
+    }
+  ],
+  "preservation": "The existing isolated staff, character canon, character views and shared manifest were not modified. The new PNGs are proposals, not recorded as user-approved."
+}
