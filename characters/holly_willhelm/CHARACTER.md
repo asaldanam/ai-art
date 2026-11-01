@@ -405,3 +405,8 @@ The [reproducible script](warcraft-warpath-style/compose_blue_staff.py) and [exa
 ### Approval of both exact montages
 
 User evidence: **“Bien apruebo ambas”**, recorded at 2026-11-01T22:59:46.331495+01:00. This explicitly approves front v05 and anatomical-left three-quarter v05 for equipment revision 2. Rear v04 remains approved. Profile v03 remains pending review; this message does not approve it. The complementary four-view set stays `awaiting_sheet_review` until the profile is explicitly approved.
+
+
+### Final equipment approval and requested cleanup
+
+The user explicitly approved profile v03: “Si, la apruebo también”. All four requested equipped full-body views are now approved: front v05, profile v03, rear v04 and anatomical-left three-quarter v05. This supersedes earlier pending-review statements. At explicit user request, seven incorrect intermediate PNGs, their prompts and their image/generation/validation entries were deleted. Previous instructions to preserve these intermediates are overridden by this request. The approved images and their execution records remain available.

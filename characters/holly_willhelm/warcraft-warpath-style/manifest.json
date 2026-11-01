@@ -139,7 +139,17 @@
           "scope": "base_blue_staff equipment design only; base revision 1 remains approved"
         },
         "selection": null,
-        "sheet": null,
+        "sheet": {
+          "identity_revision": 2,
+          "scope": [
+            "fullbody_front v05",
+            "fullbody_profile v03",
+            "fullbody_back v04",
+            "fullbody_three_quarter v05"
+          ],
+          "evidence": "Cumulative explicit approvals: rear, both montages, and profile.",
+          "recorded_at": "2026-11-01T23:05:04.127328+01:00"
+        },
         "rear_view": {
           "identity_revision": 2,
           "scope": "reference_view:fullbody_back v04",
@@ -160,17 +170,20 @@
           ],
           "evidence": "Bien apruebo ambas",
           "recorded_at": "2026-11-01T22:59:46.331495+01:00"
+        },
+        "profile_view": {
+          "identity_revision": 2,
+          "scope": "reference_view:fullbody_profile v03",
+          "evidence": "Si, la apruebo también",
+          "recorded_at": "2026-11-01T23:05:04.127328+01:00"
         }
       },
       "identity_revision": 2,
       "id": "base_blue_staff",
-      "stage": "awaiting_sheet_review",
-      "execution_status": "rear_front_and_three_quarter_approved_profile_v03_pending_review",
+      "stage": "approved",
+      "execution_status": "four_requested_fullbody_views_approved",
       "resume_instructions": [
-        "Rear v04, front v05 and three-quarter v05 are explicitly approved.",
-        "Only profile v03 remains pending artistic user review.",
-        "Do not infer profile approval from the approval of both montages.",
-        "Previous rejected front/three-quarter v02-v04 retained only for history."
+        "All four requested full-body views are approved."
       ],
       "source_reference_ids": [
         "BLUE-FRONT",
@@ -661,202 +674,6 @@
       }
     },
     {
-      "id": "base_blue_staff_fullbody_front_r02_v02",
-      "file": "holly_willhelm_base_blue_staff_fullbody_front_v02.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_front_v02.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_front",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "front",
-      "source_ids": [
-        "STAFF-ART-FRONT",
-        "BLUE-FRONT",
-        "STYLE-003"
-      ],
-      "reference_image_ids": [
-        "base_fullbody_front_r01",
-        "base_blue_staff_fullbody_back_r02_v04"
-      ],
-      "derived_from": "base_fullbody_front_r01",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 946245,
-        "visible_bbox_alpha_over_128": [
-          182,
-          5,
-          842,
-          1490
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff socket/head axis geometry does not faithfully reproduce the original corner-supported construction. Three-quarter foreshortening also requires correction."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ],
-      "rejection_evidence": "User identified wrong corner/socket construction; three-quarter must match isolated three-quarter staff."
-    },
-    {
-      "id": "base_blue_staff_fullbody_front_r02_v03",
-      "file": "holly_willhelm_base_blue_staff_fullbody_front_v03.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_front_v03.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_front",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "front",
-      "source_ids": [
-        "STAFF-ART-FRONT"
-      ],
-      "reference_image_ids": [
-        "base_blue_staff_fullbody_front_r02_v02",
-        "base_blue_staff_fullbody_back_r02_v04"
-      ],
-      "derived_from": "base_blue_staff_fullbody_front_r02_v02",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 935882,
-        "visible_bbox_alpha_over_128": [
-          172,
-          6,
-          856,
-          1493
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff socket/head axis geometry does not faithfully reproduce the original corner-supported construction. Three-quarter foreshortening also requires correction."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ]
-    },
-    {
-      "id": "base_blue_staff_fullbody_front_r02_v04",
-      "file": "holly_willhelm_base_blue_staff_fullbody_front_v04.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_front_v04.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_front",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "front",
-      "source_ids": [
-        "STAFF-ART-FRONT"
-      ],
-      "reference_image_ids": [
-        "base_blue_staff_fullbody_front_r02_v03"
-      ],
-      "derived_from": "base_blue_staff_fullbody_front_r02_v03",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 919939,
-        "visible_bbox_alpha_over_128": [
-          126,
-          3,
-          862,
-          1488
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff socket/head axis geometry does not faithfully reproduce the original corner-supported construction. Three-quarter foreshortening also requires correction. Additional face/proportion and color drift; rejected, do not use as character reference."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ]
-    },
-    {
-      "id": "base_blue_staff_fullbody_profile_r02_v02",
-      "file": "holly_willhelm_base_blue_staff_fullbody_profile_v02.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_profile_v02.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_profile",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "left",
-      "source_ids": [
-        "STAFF-ART-SIDE",
-        "BLUE-PROFILE",
-        "STYLE-003"
-      ],
-      "reference_image_ids": [
-        "base_fullbody_profile_r01",
-        "base_blue_staff_fullbody_back_r02_v04"
-      ],
-      "derived_from": "base_fullbody_profile_r01",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 1134431,
-        "visible_bbox_alpha_over_128": [
-          271,
-          13,
-          816,
-          1519
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff floats behind the back; user approves perspective but requires direct contact."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ]
-    },
-    {
       "id": "base_blue_staff_fullbody_profile_r02_v03",
       "file": "holly_willhelm_base_blue_staff_fullbody_profile_v03.png",
       "prompt_file": "holly_willhelm_base_blue_staff_fullbody_profile_v03.prompt.txt",
@@ -864,14 +681,12 @@
       "identity_revision": 2,
       "kind": "reference",
       "view": "fullbody_profile",
-      "status": "pending_review",
+      "status": "approved",
       "candidate_round": null,
       "camera_side": "left",
       "source_ids": [],
-      "reference_image_ids": [
-        "base_blue_staff_fullbody_profile_r02_v02"
-      ],
-      "derived_from": "base_blue_staff_fullbody_profile_r02_v02",
+      "reference_image_ids": [],
+      "derived_from": null,
       "technical_validation": {
         "format": "PNG",
         "dimensions": [
@@ -893,159 +708,20 @@
         "checks_passed": true
       },
       "visual_review": {
-        "status": "pending_review",
+        "status": "approved_by_user",
         "finding": "Staff translated toward back; grip now meets rear silhouette; edge-on head retained. Pending user review."
       },
       "notes": [
         "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ]
-    },
-    {
-      "id": "base_blue_staff_fullbody_three_quarter_r02_v02",
-      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v02.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v02.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_three_quarter",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "left",
-      "source_ids": [
-        "STAFF-ART-THREE-QUARTER",
-        "BLUE-THREE-QUARTER",
-        "STYLE-003"
+        "Original approved staff-free character references preserved.",
+        "Intermediate edit input removed at explicit user request."
       ],
-      "reference_image_ids": [
-        "base_fullbody_three_quarter_r01",
-        "base_blue_staff_fullbody_back_r02_v04"
-      ],
-      "derived_from": "base_fullbody_three_quarter_r01",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 966098,
-        "visible_bbox_alpha_over_128": [
-          213,
-          11,
-          886,
-          1503
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff socket/head axis geometry does not faithfully reproduce the original corner-supported construction. Three-quarter foreshortening also requires correction."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ],
-      "rejection_evidence": "User identified wrong corner/socket construction; three-quarter must match isolated three-quarter staff."
-    },
-    {
-      "id": "base_blue_staff_fullbody_three_quarter_r02_v03",
-      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v03.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v03.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_three_quarter",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "left",
-      "source_ids": [
-        "STAFF-ART-THREE-QUARTER"
-      ],
-      "reference_image_ids": [
-        "base_blue_staff_fullbody_three_quarter_r02_v02",
-        "base_blue_staff_fullbody_back_r02_v04"
-      ],
-      "derived_from": "base_blue_staff_fullbody_three_quarter_r02_v02",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 968026,
-        "visible_bbox_alpha_over_128": [
-          212,
-          20,
-          888,
-          1504
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff socket/head axis geometry does not faithfully reproduce the original corner-supported construction. Three-quarter foreshortening also requires correction."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ]
-    },
-    {
-      "id": "base_blue_staff_fullbody_three_quarter_r02_v04",
-      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v04.png",
-      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v04.prompt.txt",
-      "outfit_id": "base_blue_staff",
-      "identity_revision": 2,
-      "kind": "reference",
-      "view": "fullbody_three_quarter",
-      "status": "rejected",
-      "candidate_round": null,
-      "camera_side": "left",
-      "source_ids": [
-        "STAFF-ART-THREE-QUARTER"
-      ],
-      "reference_image_ids": [
-        "base_blue_staff_fullbody_three_quarter_r02_v03"
-      ],
-      "derived_from": "base_blue_staff_fullbody_three_quarter_r02_v03",
-      "technical_validation": {
-        "format": "PNG",
-        "dimensions": [
-          1024,
-          1536
-        ],
-        "mode": "RGBA",
-        "alpha_range": [
-          0,
-          254
-        ],
-        "fully_transparent_pixels": 962987,
-        "visible_bbox_alpha_over_128": [
-          211,
-          15,
-          916,
-          1506
-        ],
-        "checks_passed": true
-      },
-      "visual_review": {
-        "status": "rejected",
-        "finding": "Staff socket/head axis geometry does not faithfully reproduce the original corner-supported construction. Three-quarter foreshortening also requires correction."
-      },
-      "notes": [
-        "Built-in OpenAI image generation; model not exposed.",
-        "Original approved staff-free character references preserved."
-      ]
+      "user_approval": {
+        "identity_revision": 2,
+        "scope": "reference_view:fullbody_profile v03",
+        "evidence": "Si, la apruebo también",
+        "recorded_at": "2026-11-01T23:05:04.127328+01:00"
+      }
     },
     {
       "id": "base_blue_staff_fullbody_front_r02_v05",
@@ -1405,74 +1081,11 @@
       "model": "not_exposed"
     },
     {
-      "view": "fullbody_front",
-      "outfit_id": "base_blue_staff",
-      "version": "v02",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_front_v02.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
-      "view": "fullbody_front",
-      "outfit_id": "base_blue_staff",
-      "version": "v03",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_front_v03.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
-      "view": "fullbody_front",
-      "outfit_id": "base_blue_staff",
-      "version": "v04",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_front_v04.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
-      "view": "fullbody_profile",
-      "outfit_id": "base_blue_staff",
-      "version": "v02",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_profile_v02.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
       "view": "fullbody_profile",
       "outfit_id": "base_blue_staff",
       "version": "v03",
       "result": "saved",
       "file": "holly_willhelm_base_blue_staff_fullbody_profile_v03.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
-      "view": "fullbody_three_quarter",
-      "outfit_id": "base_blue_staff",
-      "version": "v02",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v02.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
-      "view": "fullbody_three_quarter",
-      "outfit_id": "base_blue_staff",
-      "version": "v03",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v03.png",
-      "tool": "image_gen.imagegen",
-      "model": "not_exposed"
-    },
-    {
-      "view": "fullbody_three_quarter",
-      "outfit_id": "base_blue_staff",
-      "version": "v04",
-      "result": "saved",
-      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v04.png",
       "tool": "image_gen.imagegen",
       "model": "not_exposed"
     },
