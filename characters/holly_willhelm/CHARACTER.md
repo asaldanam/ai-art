@@ -365,8 +365,26 @@ Actual new sources attached to v03:
 
 The approved `base_fullbody_back_r01` was the edit target, and STYLE-003 was also attached for drawing. The side staff illustration and annotated second attachment were inspected but not attached to the generator. The side illustration confirms thickness; the rear composition calls for a broad-face head. Source illustrations are used per the current user request; this does not fabricate an earlier artistic approval.
 
-- [Additional rear view v04](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v04.png) — **pending user review**.
+- [Additional rear view v04](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v04.png) — **approved by the user**.
 - [Exact final cleanup prompt](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v04.prompt.txt).
 - [Complete composition prompt v03](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v03.prompt.txt).
 
 v03 is retained as superseded. v04 used v03 alone as its edit target for transparency cleanup. PNG alpha and full framing were checked; slight low-alpha fringe remains. No other angles were generated. The approved nine-view staff-free library remains unchanged. OpenAI built-in image generation was used; effective model identifier is not exposed. Await explicit review of this single additional image before other work on equipped views.
+
+
+### Rear approval and remaining full-body views
+
+User explicitly approved rear v04: “La apruebo.” They then requested the other three full-body versions: front, anatomical-left profile and anatomical-left three-quarter. Rear approval is recorded independently; the new outputs require their own review. This request supersedes the previous rear-only checkpoint.
+
+
+### Remaining views — correction checkpoint
+
+The three requested views were generated independently from the corresponding approved staff-free image, approved equipped rear v04, isolated staff at relevant angle, original equipped screenshot and STYLE-003. Exact English prompts and every generated PNG are retained in the style directory and manifest.
+
+User rejected the front and three-quarter v02 head construction: shaft must attach to a corner terminal, not a side midpoint. Three-quarter must follow the supplied isolated three-quarter perspective. Two targeted corrections per view (v03 and v04) remain insufficiently faithful and are recorded as rejected. Front v04 also shows unwanted face/proportion/color changes; it must not be used as an identity anchor. No further automatic retries.
+
+User confirmed the profile perspective but corrected placement: the staff must touch the back directly. The game's anti-clipping clearance is not an illustration requirement. Profile v02 is rejected for floating placement; [profile v03](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_profile_v03.png) moves the rigid staff against the back and is **pending user review**. This clarification supersedes previous prompt wording asking for clearance.
+
+Current state: rear v04 approved; profile v03 pending review; front and three-quarter unresolved. Proposed next approach is exact compositing of the isolated original staff over the unchanged approved character views, preserving geometry, scale, perspective and occlusion. Await explicit user instruction before switching from built-in image editing. No approval of the remaining views is inferred.
+
+Technical checks are in [blue_staff_remaining_views_validation.json](warcraft-warpath-style/blue_staff_remaining_views_validation.json); all generated outputs have genuine PNG alpha and matching prompt files. Images were generated with the built-in OpenAI tool; effective model is not exposed.

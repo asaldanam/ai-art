@@ -1,0 +1,173 @@
+{
+  "checks": [
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_front_v02.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 946245,
+      "visible_bbox_alpha_over_128": [
+        182,
+        5,
+        842,
+        1490
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_front_v03.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 935882,
+      "visible_bbox_alpha_over_128": [
+        172,
+        6,
+        856,
+        1493
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_front_v04.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 919939,
+      "visible_bbox_alpha_over_128": [
+        126,
+        3,
+        862,
+        1488
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_profile_v02.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1134431,
+      "visible_bbox_alpha_over_128": [
+        271,
+        13,
+        816,
+        1519
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_profile_v03.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1168619,
+      "visible_bbox_alpha_over_128": [
+        270,
+        15,
+        814,
+        1488
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v02.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 966098,
+      "visible_bbox_alpha_over_128": [
+        213,
+        11,
+        886,
+        1503
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v03.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 968026,
+      "visible_bbox_alpha_over_128": [
+        212,
+        20,
+        888,
+        1504
+      ],
+      "checks_passed": true
+    },
+    {
+      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v04.png",
+      "format": "PNG",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 962987,
+      "visible_bbox_alpha_over_128": [
+        211,
+        15,
+        916,
+        1506
+      ],
+      "checks_passed": true
+    }
+  ],
+  "artistic_status": "Only profile v03 pending review. Front and three-quarter unresolved after two corrections; technical PNG checks do not imply artistic approval."
+}
