@@ -394,9 +394,14 @@ Technical checks are in [blue_staff_remaining_views_validation.json](warcraft-wa
 
 User explicitly answered **“Autorizo”** to the proposal to composite the original isolated staffs over approved character views using non-generative image editing. This supersedes the previous pause and authorizes this method only; it does not approve unseen results.
 
-- [Front v05](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_front_v05.png) — pending user review.
-- [Anatomical-left three-quarter v05](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png) — pending user review.
+- [Front v05](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_front_v05.png) — **approved by the user**.
+- [Anatomical-left three-quarter v05](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png) — **approved by the user**.
 
 The two approved staff-free character PNGs are reused unchanged at native scale, translated down 200 pixels on a 1024 × 1766 transparent canvas. Original isolated broad-face and three-quarter staff artwork is transformed as a single rigid image using uniform scale, rotation and translation only. The original socket/corner relationship, four terminals, gem positions, shaft and source perspective are preserved. The character silhouette occludes the staff, with head above anatomical left shoulder and lower tip beside right upper thigh. No new image generation, face redrawing or costume changes were performed. Exact pixel comparisons confirm all solid character pixels are unchanged. Real alpha and full framing were checked and outputs inspected against a light background.
 
-The [reproducible script](warcraft-warpath-style/compose_blue_staff.py) and [exact composition parameters](warcraft-warpath-style/blue_staff_montage.json) record the operation. Corresponding `.prompt.txt` files are explicitly labeled non-generative execution records, not prompts sent to a generator. Prior rejected attempts remain archived. Rear v04 remains approved; profile v03 and both new montages await user approval.
+The [reproducible script](warcraft-warpath-style/compose_blue_staff.py) and [exact composition parameters](warcraft-warpath-style/blue_staff_montage.json) record the operation. Corresponding `.prompt.txt` files are explicitly labeled non-generative execution records, not prompts sent to a generator. Prior rejected attempts remain archived. Rear v04 and both v05 montages are approved; only profile v03 awaits user approval.
+
+
+### Approval of both exact montages
+
+User evidence: **“Bien apruebo ambas”**, recorded at 2026-11-01T22:59:46.331495+01:00. This explicitly approves front v05 and anatomical-left three-quarter v05 for equipment revision 2. Rear v04 remains approved. Profile v03 remains pending review; this message does not approve it. The complementary four-view set stays `awaiting_sheet_review` until the profile is explicitly approved.

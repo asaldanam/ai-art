@@ -126,7 +126,7 @@
             "fullbody_three_quarter"
           ],
           "finding": "Incorrect shaft/corner relationship persists; front v04 also drifts in identity.",
-          "status": "addressed_by_authorized_exact_compositing_pending_artistic_review"
+          "status": "resolved_by_user_approved_exact_compositing"
         }
       ],
       "selected_candidate_id": null,
@@ -151,16 +151,25 @@
           "scope": "Profile v02 camera and staff edge-on perspective only; does not approve floating placement or v03.",
           "evidence": "En este caso la perspectiva está bien, pero el bastón está demasiado separado",
           "placement_override": "Staff must directly touch back; game anti-clipping clearance must not be copied."
+        },
+        "front_and_three_quarter_montages": {
+          "identity_revision": 2,
+          "scope": [
+            "reference_view:fullbody_front v05",
+            "reference_view:fullbody_three_quarter v05"
+          ],
+          "evidence": "Bien apruebo ambas",
+          "recorded_at": "2026-11-01T22:59:46.331495+01:00"
         }
       },
       "identity_revision": 2,
       "id": "base_blue_staff",
       "stage": "awaiting_sheet_review",
-      "execution_status": "front_and_three_quarter_montages_pending_review_profile_v03_pending_review",
+      "execution_status": "rear_front_and_three_quarter_approved_profile_v03_pending_review",
       "resume_instructions": [
-        "Rear v04 remains approved.",
-        "Front v05 and three-quarter v05 are exact authorized montages; await artistic user review.",
-        "Profile v03 remains pending review after direct back-contact correction.",
+        "Rear v04, front v05 and three-quarter v05 are explicitly approved.",
+        "Only profile v03 remains pending artistic user review.",
+        "Do not infer profile approval from the approval of both montages.",
         "Previous rejected front/three-quarter v02-v04 retained only for history."
       ],
       "source_reference_ids": [
@@ -1046,7 +1055,7 @@
       "identity_revision": 2,
       "kind": "reference",
       "view": "fullbody_front",
-      "status": "pending_review",
+      "status": "approved",
       "candidate_round": null,
       "camera_side": "front",
       "source_ids": [
@@ -1107,7 +1116,7 @@
           1721
         ],
         "method": "Pillow similarity transform, original staff behind original character; no generation",
-        "approval": "pending_user_review"
+        "approval": "approved_by_user"
       },
       "visual_review": {
         "construction": "Original isolated staff preserved as one rigid object; socket remains on original corner terminal.",
@@ -1115,7 +1124,16 @@
         "identity": "Solid original character pixels unchanged by exact comparison.",
         "occlusion": "Original silhouette occludes shaft and grip; hands remain empty.",
         "alpha": "True transparent PNG; complete staff and body within canvas.",
-        "approval": "pending_user_review"
+        "approval": "approved_by_user"
+      },
+      "user_approval": {
+        "identity_revision": 2,
+        "scope": [
+          "reference_view:fullbody_front v05",
+          "reference_view:fullbody_three_quarter v05"
+        ],
+        "evidence": "Bien apruebo ambas",
+        "recorded_at": "2026-11-01T22:59:46.331495+01:00"
       }
     },
     {
@@ -1126,7 +1144,7 @@
       "identity_revision": 2,
       "kind": "reference",
       "view": "fullbody_three_quarter",
-      "status": "pending_review",
+      "status": "approved",
       "candidate_round": null,
       "camera_side": "left",
       "source_ids": [
@@ -1187,7 +1205,7 @@
           1723
         ],
         "method": "Pillow similarity transform, original staff behind original character; no generation",
-        "approval": "pending_user_review"
+        "approval": "approved_by_user"
       },
       "visual_review": {
         "construction": "Original isolated staff preserved as one rigid object; socket remains on original corner terminal.",
@@ -1195,7 +1213,16 @@
         "identity": "Solid original character pixels unchanged by exact comparison.",
         "occlusion": "Original silhouette occludes shaft and grip; hands remain empty.",
         "alpha": "True transparent PNG; complete staff and body within canvas.",
-        "approval": "pending_user_review"
+        "approval": "approved_by_user"
+      },
+      "user_approval": {
+        "identity_revision": 2,
+        "scope": [
+          "reference_view:fullbody_front v05",
+          "reference_view:fullbody_three_quarter v05"
+        ],
+        "evidence": "Bien apruebo ambas",
+        "recorded_at": "2026-11-01T22:59:46.331495+01:00"
       }
     }
   ],

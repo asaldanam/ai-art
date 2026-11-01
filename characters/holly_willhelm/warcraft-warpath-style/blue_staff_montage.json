@@ -47,7 +47,16 @@
       1721
     ],
     "method": "Pillow similarity transform, original staff behind original character; no generation",
-    "approval": "pending_user_review"
+    "approval": "approved_by_user",
+    "user_approval": {
+      "identity_revision": 2,
+      "scope": [
+        "reference_view:fullbody_front v05",
+        "reference_view:fullbody_three_quarter v05"
+      ],
+      "evidence": "Bien apruebo ambas",
+      "recorded_at": "2026-11-01T22:59:46.331495+01:00"
+    }
   },
   "three_quarter": {
     "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
@@ -97,6 +106,15 @@
       1723
     ],
     "method": "Pillow similarity transform, original staff behind original character; no generation",
-    "approval": "pending_user_review"
+    "approval": "approved_by_user",
+    "user_approval": {
+      "identity_revision": 2,
+      "scope": [
+        "reference_view:fullbody_front v05",
+        "reference_view:fullbody_three_quarter v05"
+      ],
+      "evidence": "Bien apruebo ambas",
+      "recorded_at": "2026-11-01T22:59:46.331495+01:00"
+    }
   }
 }
