@@ -1,0 +1,41 @@
+# Initial generation — built-in OpenAI image_gen
+
+Use case: stylized-concept.
+Asset type: one isolated fantasy staff reference asset, full-length PNG with genuine transparent background.
+
+REFERENCE ROLES, in the actual attachment order:
+Image 1 — IDENTITY + SHOT: the user's horizontal blue staff screenshot. Preserve this exact staff design, proportions, component count, colors and orientation; ignore its dark backdrop and repeated watermark. Reinterpret its low-resolution game rendering in the 2D drawn animation style of Image 2.
+Image 2 — STYLE: Warpath capture 003, angular drawing, clean dark contours, economical internal lines, broad matte metal planes and sharply defined cel shadows. Use only its drawing/rendering language, not the warrior, shield, setting or palette.
+Image 3 — FINISH: approved subtle A calibration 007-A, for barely visible luminance grain, gently softened contours and small drawing irregularities. Do not import its warrior, environment, pose, warm palette or costume.
+
+SUBJECT AND CONSTRUCTION:
+Only the blue staff in Image 1. A very long straight slim pale gray-green metal shaft. A small pointed pale-metal butt at the far LEFT with a blue-banded collar. A cobalt-blue segmented grip with dark separating bands sits around the middle, slightly toward the head; maintain the screenshot's grip length and band rhythm. Above the grip, retain a visible straight shaft section and a compact blue/pale-metal collar beneath the head.
+The head is at the far RIGHT: a single rigid open square turned 45 degrees into a diamond, in a flat face-on view. Its four sloping sides form one continuous symmetrical frame around an open center. Blue-steel faceted sections, pale silver/champagne faceted corner projections, four small blue gems in restrained muted-gold settings (exactly one at the midpoint of each sloping side), and one larger sapphire/cyan-blue faceted crystal floating centrally in the opening. Preserve the reference's central crystal shape and apparent size, including the visible angular light/dark facets. Keep open transparent space between the crystal and frame. No spokes or internal supports. Preserve four broad pale-metal corner tips as in the screenshot, including the shaft-side junction, rather than inventing extra spikes.
+
+COMPOSITION:
+One complete staff only, horizontal left-to-right, perfectly straight shaft, pointed butt on the left and diamond head on the right, face-on as in Image 1. Broad landscape transparent canvas approximately 2.4:1. Preserve the object's long slender proportions: the entire head width/height is about 22 percent of the total staff length. Center the whole staff with comfortable clear margins on every side; neither end nor any corner is cropped. The shaft joins the left corner of the diamond head. No duplicate views, no labels, no person, hands, display stand or ground.
+
+RENDERING:
+Draw this as a prop from the same 2D fantasy animation as Image 2. Use readable angular shapes, thin dark outer contours with subtle natural variation and selective internal lines. Apply flat base colors, one or two large hard-edged cel-shadow shapes and restrained flat facet highlights. Metal should read as simplified matte pale metal and blue steel, not polished chrome. Blue gem facets should be clean graphic shapes, with contained cyan highlights, not photoreal glass. Preserve the source's intrinsic colors under neutral mildly cool top-left light, with lower-right shadow planes; do not add magical illumination, aura, bloom or particles.
+Match approved finish A: very fine barely visible luminance grain and gently softened drawn edges while retaining clear silhouette and sharp cel-shadow geometry. Keep the long plain shaft quiet and simple.
+
+CONSTRAINTS:
+Preserve the reference design rather than redesigning or embellishing it. No new gems, runes, emblems, ornaments, extra rings, curved shaft, bowed frame, red accents, perspective distortion or asymmetry. No 3D/game-render shading, smooth airbrush gradients, chrome reflections, photographic surface texture, heavy grain, vector-sharp uniform outlines or promotional gloss. Do not reproduce the screenshot's background or watermark.
+Output exactly one finished PNG with genuine alpha transparency throughout the exterior AND all empty openings inside the head. No painted checkerboard, white/black backdrop, text, border or cast shadow.
+
+# Targeted rendering correction — built-in OpenAI image_gen
+
+Use case: style-transfer.
+Asset type: final isolated transparent PNG prop reference.
+
+ACTUAL INPUT ROLES:
+Image 1 — EDIT TARGET: the first generated blue staff. Preserve its exact straight horizontal silhouette, component placement, proportions, single continuous open diamond frame, five blue gems, cobalt segmented grip, four pale-metal corner tips and pointed left butt. Keep its current horizontal orientation, butt on the LEFT and head on the RIGHT.
+Image 2 — IDENTITY: user's original blue staff screenshot, to prevent any design drift. Preserve the hardware and colors; ignore its backdrop and repeated watermark.
+Image 3 — STYLE: Warpath capture 003. Match the broad clean cel-shaded metal planes visible on its shield and armor, selective thin dark lines, restrained contrast, simple matte painted colors. Do not copy the warrior, shield design, scenery, lighting color or composition.
+Image 4 — FINISH ONLY: approved 007-A; barely visible grain and gently softened drawn edges. No warm palette or character.
+
+MAKE ONE TARGETED CORRECTION TO IMAGE 1:
+Simplify the rendering of the metal and the grip into broad, calm, hand-drawn 2D cel-color shapes as in Image 3. Eliminate the small mottled polygon patches, faux-low-poly triangulated surface texture, and irregular speckled highlights across the grip and head frame. Use a flat base and one or two clean hard-edged shadow regions on each metal component, restrained flat highlights, clean thin dark contours and selective interior lines. Keep the staff shaft straight and quiet. The center crystal and the four side gems may retain a small number of deliberate broad graphic facets, not dozens of triangles or photographic reflections. Maintain existing intrinsic pale gray-green metal, champagne/silver corner tips, blue-steel links, muted gold gem settings and sapphire/cyan-blue gem colors.
+
+Do not change the object geometry, extend the shaft, bend the frame, move or add a component, change gem count, change corner shapes, add filigree or redesign anything. Preserve the open transparent gaps around the central crystal. No aura, magical light, particles, cast shadow, ground, people, text, background, checkerboard or watermark.
+Keep a wide approximately 2.4:1 composition, centered with safe clear margins around the WHOLE staff. Output exactly one final full-length PNG with genuine alpha transparency, completely transparent exterior and all internal empty spaces, no stray disconnected alpha specks. Apply the subtle A finish only on the object itself. Aim for a clean drawn animation prop matching the STYLE reference.

@@ -1,0 +1,141 @@
+{
+  "asset_id": "holly_willhelm-base_blue_staff",
+  "date": "2026-11-01",
+  "timezone": "Europe/Madrid",
+  "status": "proposal_pending_user_review",
+  "request": "Create an isolated PNG of the supplied blue staff in warcraft-warpath-style and save under the user-specified filename.",
+  "output": "holly_willhelm-base_blue_staff.png",
+  "prompt_file": "holly_willhelm-base_blue_staff.prompt.txt",
+  "generator": {
+    "tool": "OpenAI image_gen.imagegen",
+    "mode": "built-in",
+    "effective_model": "not exposed by the tool",
+    "transparent_background": true
+  },
+  "director_model": "not exposed",
+  "style_skill": "../../../.agents/skills/warcraft-warpath-style/SKILL.md",
+  "references": [
+    {
+      "file": "../sources/blue_staff/staff_detail_isolated_request.png",
+      "role": "IDENTITY + SHOT",
+      "use": "User attachment copied unchanged into the project. Staff only; source background and repeated watermark excluded."
+    },
+    {
+      "file": "../../../.agents/skills/warcraft-warpath-style/references/warpath/003_human-warrior-defending-stance.png",
+      "role": "STYLE",
+      "use": "Angular drawing, dark contours, broad cel shadows and simplified matte metal. Character and setting excluded."
+    },
+    {
+      "file": "../../../.agents/skills/warcraft-warpath-style/references/calibration/007-A.png",
+      "role": "FINISH",
+      "use": "Approved subtle A finish only; identity, setting and warm palette excluded."
+    }
+  ],
+  "generation_steps": [
+    {
+      "id": "initial",
+      "input_reference_order": [
+        "IDENTITY + SHOT",
+        "STYLE",
+        "FINISH"
+      ],
+      "output_sha256": "9D3C54F2026DFBFA913B1D27C2583D2116CBBBC307D8E11B41E54169D07C8DB2",
+      "retained": false,
+      "note": "Intermediate image inspected and used as the edit target. Superseded by the rendering correction."
+    },
+    {
+      "id": "rendering_correction",
+      "input_reference_order": [
+        "initial generated image as EDIT TARGET",
+        "IDENTITY + SHOT",
+        "STYLE",
+        "FINISH"
+      ],
+      "change": "Simplify mottled metal/grip facets into broader cel-color shapes while preserving geometry.",
+      "output": "holly_willhelm-base_blue_staff.png",
+      "retained": true
+    }
+  ],
+  "framing": {
+    "orientation": "horizontal; pointed butt at left, diamond head at right",
+    "background": "transparent",
+    "light": "restrained neutral/cool top-left, graphic lower-right shadows",
+    "subject_count": 1
+  },
+  "technical_validation": {
+    "format": "PNG",
+    "width": 1944,
+    "height": 809,
+    "pixel_format": "32-bit ARGB",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "fully_transparent_pixels": 1382591,
+    "visible_bbox_alpha_over_32": [
+      32,
+      178,
+      1910,
+      615
+    ],
+    "visible_margins_px": [
+      32,
+      178,
+      34,
+      194
+    ],
+    "opening_alpha_samples": [
+      {
+        "x": 1628,
+        "y": 390,
+        "alpha": 0
+      },
+      {
+        "x": 1685,
+        "y": 331,
+        "alpha": 0
+      },
+      {
+        "x": 1685,
+        "y": 462,
+        "alpha": 0
+      }
+    ],
+    "sha256": "0890E64AE1019277114F407564B8FA4F6A8E0F5F2A35E738592D2C2E19D8D752"
+  },
+  "visual_review": {
+    "drawing": {
+      "result": "approximate",
+      "observation": "Dark contours, angular components and broad color regions; some small metal facets remain."
+    },
+    "shading": {
+      "result": "approximate",
+      "observation": "Grip and shaft use broader light/shadow bands after correction."
+    },
+    "identity": {
+      "result": "matches",
+      "observation": "Straight shaft, cobalt grip, diamond head, four small blue gems and suspended central blue crystal preserved."
+    },
+    "lighting": {
+      "result": "matches",
+      "observation": "Restrained highlights, no aura or dramatic added illumination."
+    },
+    "materials": {
+      "result": "approximate",
+      "observation": "Simplified pale metal and blue steel; residual faceting and fine colored edge pixels remain at high magnification."
+    },
+    "background": {
+      "result": "matches",
+      "observation": "Genuine alpha transparency, including gaps around the center crystal; no source watermark or backdrop."
+    },
+    "framing": {
+      "result": "matches",
+      "observation": "Whole horizontal staff visible with clear margins; no person or extra object."
+    },
+    "integrity": {
+      "result": "matches",
+      "observation": "One straight staff; continuous four-sided head; correct gem count and open center."
+    }
+  },
+  "continuity": "Isolated accessory only. Character canon, character images and shared manifest were not edited by this task. No user approval inferred."
+}
