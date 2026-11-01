@@ -1,0 +1,27 @@
+{
+  "status": "propuesta; pendiente de aprobación del usuario",
+  "tool": "OpenAI image_gen integrada",
+  "model": "modelo efectivo no expuesto por la herramienta",
+  "prompt": "Use case: style-transfer.\nCreate ONE illustrated adaptation of input 1.\nREFERENCE ROLES: Input 1 is the edit target and sole IDENTITY, SCENE, POSE, LIGHT reference: the smiling couple taking a selfie in front of the Costa Toscana cruise ship. Input 2 is STYLE and approved subtle finish A ONLY: match its angular 2D character drawing, dark gently softened contours, economical facial lines, broad hard-edged cel-shadow shapes and painted background texture. Do not copy its warrior, armor, hair, landscape, pose or sunset palette.\nSCENE: Preserve the two recognizable adults, woman on the left leaning toward the taller man on the right, both looking toward the selfie camera, woman smiling with teeth visible and raising her hand in a peace sign at left, man with short dark hair, full dark beard and slight closed-mouth smile. Preserve both distinct sunglasses shapes, skin tones, dark hair, light casual shirts, dark bag straps, individual facial proportions and their affectionate relaxed pose. Keep them adults of the same apparent ages and body shapes. The modern white cruise ship with blue glass balcony tiers, yellow funnel with blue C, yellow lifeboats, dock fence and clear deep-blue daytime sky remain the setting. Preserve the readable ship name \"Costa Toscana\". No fantasy redesign.\nFRAMING: Recompose into the project's approximately 2.4:1 panoramic frame without black bars: retain close selfie perspective, couple together at right/center foreground, peace-sign hand readable to their left, ship filling background with recognizable funnel and name visible above/to the left. Preserve relative head heights, gesture and proximity. Adapt existing ship architecture across the horizontal image, no added people or new attractions.\nLIGHT: Preserve the source photo's sunny daytime light, bright white ship and darker foreground facial planes; translate this into clean geometrical cel-shadow shapes with restrained cool shadows. Do not replace daylight with the warm mountain light of input 2.\nRENDERING: Angular but identity-faithful drawn faces, restrained detail, hair and beard grouped into large graphic masses, flat base colors and one or two main cel-shadow levels. Layered painted ship/background with grouped brush textures, simplified repetitive railings and lower background contrast. Match input 2's barely visible fine luminance grain, gently softened dark contours and small drawing irregularities while keeping shadow shapes and faces clear.\nCONSTRAINTS: Change rendering style and adapt framing only. Keep identity, outfit, emotion and hand gesture. No armor, weapons, magic, elf ears, doll faces, giant eyes, cosmetic blush, photoreal skin, 3D shading, waxy rendering, individual hair strands, airbrushed facial modeling, excessive texture, artificial rim lights, lens flares, ornamental particles, captions, watermark or UI.",
+  "references": [
+    {
+      "file": "foto-original.png",
+      "role": "IDENTITY, SCENE, POSE, LIGHT"
+    },
+    {
+      "file": ".agents/skills/warcraft-warpath-style/references/calibration/007-A.png",
+      "role": "STYLE, acabado A"
+    }
+  ],
+  "output": "crucero-warpath-v1.png",
+  "review": {
+    "drawing": "coincide: contornos angulares y detalle selectivo",
+    "shading": "coincide: masas cel geométricas",
+    "identity": "aproximada: mantiene gafas, barba, peinado y expresiones; simplifica rasgos",
+    "light": "aproximada: sol diurno; piel algo más cálida",
+    "background": "aproximada: arquitectura reconocible, más detallada que la referencia",
+    "framing": "coincide: adaptación panorámica, pareja y gesto visibles",
+    "integrity": "coincide: gesto y oclusiones legibles",
+    "deviations": "Pequeñas nubes añadidas al cielo; rasgos faciales estilizados."
+  }
+}

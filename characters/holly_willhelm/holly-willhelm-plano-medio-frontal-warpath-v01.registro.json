@@ -1,0 +1,125 @@
+{
+  "scene_id": "holly-willhelm-plano-medio-frontal-warpath",
+  "version": "v01",
+  "status": "propuesta; pendiente de aprobación del usuario",
+  "date": "2026-11-01",
+  "user_request": "Regenerar exactamente el mismo personaje y plano frontal neutro, sin báculo y sin fondo, aplicando warcraft-warpath-style.",
+  "authority": {
+    "identity": "Retrato frontal previo aceptado en la conversación; no existe ficha canónica independiente.",
+    "style": "Capturas Warpath y acabado A documentado en la habilidad."
+  },
+  "camera": "Plano medio frontal a la altura de los ojos, vertical 2:3, cabeza completa, cinturón y comienzo de caderas visibles; misma pose y recorte del retrato previo.",
+  "lighting": "Luz neutra difusa frontal conservada del retrato de referencia.",
+  "references": [
+    {
+      "path": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\holly willhelm\\holly-willhelm-plano-medio-frontal.png",
+      "role": "IDENTITY + SHOT + CONTINUITY; edit target"
+    },
+    {
+      "path": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\warpath\\003_human-warrior-defending-stance.png",
+      "role": "STYLE: angular drawing, line economy, cel-shadow shapes"
+    },
+    {
+      "path": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\.agents\\skills\\warcraft-warpath-style\\references\\calibration\\007-A.png",
+      "role": "STYLE: approved subtle finish A"
+    }
+  ],
+  "prompt_file": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\holly willhelm\\holly-willhelm-plano-medio-frontal-warpath-v01.prompt.txt",
+  "tool": "image_gen.imagegen; herramienta integrada de OpenAI",
+  "director_model": "Identificador efectivo no expuesto en esta ejecución.",
+  "generator_model": "Modelo efectivo no expuesto por la herramienta; sin selector disponible.",
+  "parameters": {
+    "transparent_background": true,
+    "dimensions_observed": [
+      1024,
+      1536
+    ],
+    "reference_image_count": 3
+  },
+  "output_path": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\holly willhelm\\holly-willhelm-plano-medio-frontal-warpath-v01.png",
+  "continuity": {
+    "retained": "Rasgos y proporciones, ojos amarillos, piel cadavérica intacta, melena ciruela con raya central, motivos y piezas de la túnica, paleta, expresión neutra, postura y cámara.",
+    "authorized_change": "Tratamiento de dibujo, simplificación de sombras cel y materiales, acabado A.",
+    "equipment": "Sin báculo ni armas; sin accesorios nuevos."
+  },
+  "visual_review": {
+    "drawing": {
+      "status": "coincide",
+      "observation": "Dibujo angular y líneas interiores selectivas; menos trazos dentro del cabello que en la versión previa."
+    },
+    "shading": {
+      "status": "coincide",
+      "observation": "Sombras faciales y pliegues en masas cel nítidas; desaparece gran parte del modelado continuo anterior."
+    },
+    "identity": {
+      "status": "aproximada",
+      "observation": "Se mantienen silueta del peinado, posiciones faciales y todos los motivos principales del atuendo. Es una reinterpretación dibujada, no una conservación idéntica de píxeles."
+    },
+    "light": {
+      "status": "coincide",
+      "observation": "Frontal neutra; no se transfieren los baños azul y cálido de las referencias de estilo."
+    },
+    "materials": {
+      "status": "coincide",
+      "observation": "Pelo en mechones amplios, piel plana y ribetes mates de facetas simples."
+    },
+    "finish_a": {
+      "status": "aproximada",
+      "observation": "Textura y suavidad muy sutiles en la previsualización. El acabado continúa algo más uniforme que el de las capturas; no se afirma igualdad exacta."
+    },
+    "background": {
+      "status": "coincide",
+      "observation": "PNG RGBA; muestras del área exterior tienen alfa 0. Los tonos oscuros que muestra la previsualización no constituyen un fondo opaco."
+    },
+    "shot": {
+      "status": "coincide",
+      "observation": "Frontal, expresión neutra, figura única, sin báculo; mismo formato y recorte."
+    },
+    "effect": {
+      "status": "coincide",
+      "observation": "Sólo luminosidad amarilla de los ojos, conservada como rasgo de identidad."
+    },
+    "integrity": {
+      "status": "coincide",
+      "observation": "Anatomía y superposiciones coherentes en las partes visibles, sin interfaz ni texto; manos fuera de encuadre."
+    }
+  },
+  "alpha_verification": [
+    {
+      "X": 0,
+      "Y": 0,
+      "Alpha": 0
+    },
+    {
+      "X": 512,
+      "Y": 0,
+      "Alpha": 0
+    },
+    {
+      "X": 1023,
+      "Y": 0,
+      "Alpha": 0
+    },
+    {
+      "X": 0,
+      "Y": 500,
+      "Alpha": 0
+    },
+    {
+      "X": 1023,
+      "Y": 500,
+      "Alpha": 0
+    },
+    {
+      "X": 512,
+      "Y": 400,
+      "Alpha": 253
+    },
+    {
+      "X": 512,
+      "Y": 768,
+      "Alpha": 253
+    }
+  ],
+  "approval": "No se ha marcado como aprobada ni sustituido la referencia anterior."
+}

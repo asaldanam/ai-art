@@ -1,0 +1,439 @@
+{
+  "corpus": "Warpath",
+  "inspected_on": "2026-11-01",
+  "expected_count": 43,
+  "storage_policy": "Keep original images and locally derived images within this skill.",
+  "images": [
+    {
+      "id": "001",
+      "filename": "001_dwarf-shaman-casting.png",
+      "skill_relative_path": "references/warpath/001_dwarf-shaman-casting.png",
+      "width": 2547,
+      "height": 1055,
+      "aspect_ratio": 2.41421801,
+      "bytes": 2204837,
+      "sha256": "251147c62557017b7ea99a6724064ec388d1f90639bf950e0795f0b729bd9949"
+    },
+    {
+      "id": "002",
+      "filename": "002_dwarf-shaman-battle-stance-2.png",
+      "skill_relative_path": "references/warpath/002_dwarf-shaman-battle-stance-2.png",
+      "width": 2534,
+      "height": 1054,
+      "aspect_ratio": 2.40417457,
+      "bytes": 2016499,
+      "sha256": "e74c1e075b797580f805b0569f83c1d3f717fc741f2c6c2d7dce97d36be3480a"
+    },
+    {
+      "id": "003",
+      "filename": "003_human-warrior-defending-stance.png",
+      "skill_relative_path": "references/warpath/003_human-warrior-defending-stance.png",
+      "width": 2545,
+      "height": 1058,
+      "aspect_ratio": 2.40548204,
+      "bytes": 1450380,
+      "sha256": "97088c504c231f5c8d1dc66101acf59005ff3432ea915115cba92e159d100b05"
+    },
+    {
+      "id": "004",
+      "filename": "004_orc-and-tauren-crossing-wheat-field.png",
+      "skill_relative_path": "references/warpath/004_orc-and-tauren-crossing-wheat-field.png",
+      "width": 2545,
+      "height": 1059,
+      "aspect_ratio": 2.40321058,
+      "bytes": 2234578,
+      "sha256": "ed48a9ec7d6d362283f9a8f195e1bb86693c41caacbaf97ed35dcb036b128fb6"
+    },
+    {
+      "id": "005",
+      "filename": "005_orc-and-tauren-charging.png",
+      "skill_relative_path": "references/warpath/005_orc-and-tauren-charging.png",
+      "width": 2547,
+      "height": 1056,
+      "aspect_ratio": 2.41193182,
+      "bytes": 1617635,
+      "sha256": "ae4f07027cd94b831e65541de9e0f44e0dc15c10998590dfb7c3ebd26d00868a"
+    },
+    {
+      "id": "006",
+      "filename": "006_human-warrior-profile-at-night.png",
+      "skill_relative_path": "references/warpath/006_human-warrior-profile-at-night.png",
+      "width": 2534,
+      "height": 1058,
+      "aspect_ratio": 2.39508507,
+      "bytes": 824288,
+      "sha256": "4982241bd4ee21b6ab4deae686144c6283ad37b80401310b37c62ec2de9f2856"
+    },
+    {
+      "id": "007",
+      "filename": "007_human-warrior-scouting-mountain-pass.png",
+      "skill_relative_path": "references/warpath/007_human-warrior-scouting-mountain-pass.png",
+      "width": 2546,
+      "height": 1056,
+      "aspect_ratio": 2.41098485,
+      "bytes": 2570981,
+      "sha256": "759b750fd7f5707b555bb140ec7353b2a77325a3e922a476d00442989cbcc615"
+    },
+    {
+      "id": "008",
+      "filename": "008_mountain-valley-and-winding-river.png",
+      "skill_relative_path": "references/warpath/008_mountain-valley-and-winding-river.png",
+      "width": 2548,
+      "height": 1066,
+      "aspect_ratio": 2.3902439,
+      "bytes": 2317335,
+      "sha256": "78c70ac0d385216fd1277f2bcd95059d22c97838d94a1822e4d14e8d09983611"
+    },
+    {
+      "id": "009",
+      "filename": "009_human-warrior-alert-in-mountain-pass.png",
+      "skill_relative_path": "references/warpath/009_human-warrior-alert-in-mountain-pass.png",
+      "width": 2545,
+      "height": 1062,
+      "aspect_ratio": 2.39642185,
+      "bytes": 1671139,
+      "sha256": "3192151cf4a99939969f319e90c22d6fedff62bd8f81e833a2ff50f8a53084d9"
+    },
+    {
+      "id": "010",
+      "filename": "010_night-elf-priest-holding-glowing-staff.png",
+      "skill_relative_path": "references/warpath/010_night-elf-priest-holding-glowing-staff.png",
+      "width": 2547,
+      "height": 1060,
+      "aspect_ratio": 2.40283019,
+      "bytes": 1580641,
+      "sha256": "0f6337e877b6e3db13eb951df77c34098370323e4c8d3c0f136a40c7a1ce176d"
+    },
+    {
+      "id": "011",
+      "filename": "011_orc-and-tauren-stalking-through-jungle.png",
+      "skill_relative_path": "references/warpath/011_orc-and-tauren-stalking-through-jungle.png",
+      "width": 2539,
+      "height": 1060,
+      "aspect_ratio": 2.39528302,
+      "bytes": 1834323,
+      "sha256": "58953fee393e2c711a1549ffe7295abba73048ec4e3314856e3667cb8a9b85e1"
+    },
+    {
+      "id": "012",
+      "filename": "012_orc-rogue-leading-through-jungle.png",
+      "skill_relative_path": "references/warpath/012_orc-rogue-leading-through-jungle.png",
+      "width": 2538,
+      "height": 1057,
+      "aspect_ratio": 2.40113529,
+      "bytes": 1448363,
+      "sha256": "ac3f30fb6c4b0b01a5db0dffcc8126d459bbcf1c5aba2a596d2af2bbdcc676a3"
+    },
+    {
+      "id": "013",
+      "filename": "013_troll-mage-signaling-silence.png",
+      "skill_relative_path": "references/warpath/013_troll-mage-signaling-silence.png",
+      "width": 2545,
+      "height": 1055,
+      "aspect_ratio": 2.41232227,
+      "bytes": 1693012,
+      "sha256": "ddd32755be8cba0a1f8be4cc46f552699f657cbd99260045d19337d002139b66"
+    },
+    {
+      "id": "014",
+      "filename": "014_giant-devilsaur-looming-over-horde-party.png",
+      "skill_relative_path": "references/warpath/014_giant-devilsaur-looming-over-horde-party.png",
+      "width": 2545,
+      "height": 1064,
+      "aspect_ratio": 2.39191729,
+      "bytes": 2339456,
+      "sha256": "83b1ee2b1cb3cb02820de8d22ca29053b9781d8cd565d25ec5373328b3704cac"
+    },
+    {
+      "id": "015",
+      "filename": "015_night-elf-priest-casting-holy-magic.png",
+      "skill_relative_path": "references/warpath/015_night-elf-priest-casting-holy-magic.png",
+      "width": 2551,
+      "height": 1067,
+      "aspect_ratio": 2.39081537,
+      "bytes": 1680616,
+      "sha256": "d40f5041c8d1f88b4616857e826d7578352f6a0cec4fcea4bd8a5afbde3e08d2"
+    },
+    {
+      "id": "016",
+      "filename": "016_dwarf-shaman-casting-lightning.png",
+      "skill_relative_path": "references/warpath/016_dwarf-shaman-casting-lightning.png",
+      "width": 2545,
+      "height": 1062,
+      "aspect_ratio": 2.39642185,
+      "bytes": 1011918,
+      "sha256": "9720336ae9d6677a373105f66a62610304de431e30c80bc16541a727c8694dab"
+    },
+    {
+      "id": "017",
+      "filename": "017_troll-mage-conjuring-fireball.png",
+      "skill_relative_path": "references/warpath/017_troll-mage-conjuring-fireball.png",
+      "width": 2547,
+      "height": 1058,
+      "aspect_ratio": 2.4073724,
+      "bytes": 1165649,
+      "sha256": "582fc409e0bfcfd50f556b54c61acc6d6471cf2fc66ca70950e0a2659b6cacd5"
+    },
+    {
+      "id": "018",
+      "filename": "018_fire-and-lightning-spells-colliding.png",
+      "skill_relative_path": "references/warpath/018_fire-and-lightning-spells-colliding.png",
+      "width": 2538,
+      "height": 1060,
+      "aspect_ratio": 2.39433962,
+      "bytes": 1795703,
+      "sha256": "bfb19c759d86a2094eee84129bb8b10e64b78953ec7ef652d22aedff5da9f089"
+    },
+    {
+      "id": "019",
+      "filename": "019_alliance-party-ready-for-battle-in-dark-forest.png",
+      "skill_relative_path": "references/warpath/019_alliance-party-ready-for-battle-in-dark-forest.png",
+      "width": 2545,
+      "height": 1058,
+      "aspect_ratio": 2.40548204,
+      "bytes": 2362163,
+      "sha256": "e5f889249720c281a5ecd4bd91b0e2731d00628d2092221b635dcdc141cf6f98"
+    },
+    {
+      "id": "020",
+      "filename": "020_warlock-summoning-blue-flaming-skull.png",
+      "skill_relative_path": "references/warpath/020_warlock-summoning-blue-flaming-skull.png",
+      "width": 2535,
+      "height": 1060,
+      "aspect_ratio": 2.39150943,
+      "bytes": 1769069,
+      "sha256": "54b9d8ac553ff9e723c0735374449417b5afe896b36b17c3a7d216f8c5c84d38"
+    },
+    {
+      "id": "021",
+      "filename": "021_gnome-warlock-channeling-blue-arcane-runes.png",
+      "skill_relative_path": "references/warpath/021_gnome-warlock-channeling-blue-arcane-runes.png",
+      "width": 2538,
+      "height": 1057,
+      "aspect_ratio": 2.40113529,
+      "bytes": 1766459,
+      "sha256": "b14c85c6b69338686e2ded5f5bd54d117ebb6438fb864c718da273109d02963e"
+    },
+    {
+      "id": "022",
+      "filename": "022_orc-rogue-close-up-in-purple-light.png",
+      "skill_relative_path": "references/warpath/022_orc-rogue-close-up-in-purple-light.png",
+      "width": 2539,
+      "height": 1059,
+      "aspect_ratio": 2.39754485,
+      "bytes": 1488306,
+      "sha256": "8e5a7a69a8b54a7323df0368073fb48903d9c1c2ad9c7003a2a40b184b001a0d"
+    },
+    {
+      "id": "023",
+      "filename": "023_tauren-hunter-aiming-bow.png",
+      "skill_relative_path": "references/warpath/023_tauren-hunter-aiming-bow.png",
+      "width": 2542,
+      "height": 1058,
+      "aspect_ratio": 2.4026465,
+      "bytes": 1549936,
+      "sha256": "6f026567b0e24c744e4b2b6ebc4fe8cec681b934bcca77e5cd6c8bd26f15e182"
+    },
+    {
+      "id": "024",
+      "filename": "024_horde-party-facing-two-headed-ogre-mage.png",
+      "skill_relative_path": "references/warpath/024_horde-party-facing-two-headed-ogre-mage.png",
+      "width": 2531,
+      "height": 1058,
+      "aspect_ratio": 2.39224953,
+      "bytes": 2152863,
+      "sha256": "28fe154180447016f89ed261d67b2161e995904fed33b500978eca1e84ff1a5a"
+    },
+    {
+      "id": "025",
+      "filename": "025_alliance-party-resting-around-campfire.png",
+      "skill_relative_path": "references/warpath/025_alliance-party-resting-around-campfire.png",
+      "width": 2536,
+      "height": 1049,
+      "aspect_ratio": 2.41754051,
+      "bytes": 1898563,
+      "sha256": "b7493b1bca94aa02ce06eec8a9023abc23630a8c87e04ad7d3d3ab6e825d1236"
+    },
+    {
+      "id": "026",
+      "filename": "026_human-warrior-close-up-by-campfire.png",
+      "skill_relative_path": "references/warpath/026_human-warrior-close-up-by-campfire.png",
+      "width": 2542,
+      "height": 1062,
+      "aspect_ratio": 2.39359699,
+      "bytes": 754412,
+      "sha256": "bcdbb5517f7e0d6d8fa319d781add640d11850d66dfacb1a7ab3c74c410f3d7e"
+    },
+    {
+      "id": "027",
+      "filename": "027_troll-mage-knocked-back-in-red-light.png",
+      "skill_relative_path": "references/warpath/027_troll-mage-knocked-back-in-red-light.png",
+      "width": 2541,
+      "height": 1050,
+      "aspect_ratio": 2.42,
+      "bytes": 1297443,
+      "sha256": "b252cdc9d94369dcdc69cf963680568d2acf4d4f4978b2889bd105091b6086b7"
+    },
+    {
+      "id": "028",
+      "filename": "028_fireball-streaking-toward-airborne-fighter.png",
+      "skill_relative_path": "references/warpath/028_fireball-streaking-toward-airborne-fighter.png",
+      "width": 2542,
+      "height": 1049,
+      "aspect_ratio": 2.42326025,
+      "bytes": 1050411,
+      "sha256": "684da1b6a35e9c1350e8c6c39510baf4a6f758d8b6aebcbea7d3813e203d50e9"
+    },
+    {
+      "id": "029",
+      "filename": "029_troll-mage-casting-fire-with-outstretched-hands.png",
+      "skill_relative_path": "references/warpath/029_troll-mage-casting-fire-with-outstretched-hands.png",
+      "width": 2540,
+      "height": 1052,
+      "aspect_ratio": 2.41444867,
+      "bytes": 1675119,
+      "sha256": "ba5faf53d4c6b4c39d0b63b8c13ea740d029875d1325cb0da24d58780456eab5"
+    },
+    {
+      "id": "030",
+      "filename": "030_night-elf-priest-raising-staff-in-darkness.png",
+      "skill_relative_path": "references/warpath/030_night-elf-priest-raising-staff-in-darkness.png",
+      "width": 2538,
+      "height": 1057,
+      "aspect_ratio": 2.40113529,
+      "bytes": 493409,
+      "sha256": "b87392fda90daa2825f8b3cb8737c8266d38651a5e4c9c6445c946dc41509c9b"
+    },
+    {
+      "id": "031",
+      "filename": "031_night-elf-priest-summoning-holy-light.png",
+      "skill_relative_path": "references/warpath/031_night-elf-priest-summoning-holy-light.png",
+      "width": 2537,
+      "height": 1055,
+      "aspect_ratio": 2.40473934,
+      "bytes": 781102,
+      "sha256": "e57d414d4fbe8494f0103536dc7f25f1bc2b76f086f561e2c155b0bbf75f4b2f"
+    },
+    {
+      "id": "032",
+      "filename": "032_night-elf-priest-channeling-radiant-holy-burst.png",
+      "skill_relative_path": "references/warpath/032_night-elf-priest-channeling-radiant-holy-burst.png",
+      "width": 2538,
+      "height": 1055,
+      "aspect_ratio": 2.4056872,
+      "bytes": 858292,
+      "sha256": "c6ce8e73b998c7a9fca59c44bb08c7021a56f62b474f072543a285e4ed937ff1"
+    },
+    {
+      "id": "033",
+      "filename": "033_night-elf-priest-casting-holy-light-dome-shield.png",
+      "skill_relative_path": "references/warpath/033_night-elf-priest-casting-holy-light-dome-shield.png",
+      "width": 2547,
+      "height": 1060,
+      "aspect_ratio": 2.40283019,
+      "bytes": 1660377,
+      "sha256": "b1704f569b672d9b5ccdc0c6a8fe84cf04db40d8b4ffe495d32825e5a629fe67"
+    },
+    {
+      "id": "034",
+      "filename": "034_night-elf-priest-bracing-behind-holy-shield.png",
+      "skill_relative_path": "references/warpath/034_night-elf-priest-bracing-behind-holy-shield.png",
+      "width": 2546,
+      "height": 1061,
+      "aspect_ratio": 2.399623,
+      "bytes": 1369539,
+      "sha256": "103d8c888d39e17aa46a3ca893e044d34477fe8fe3ced0770a5b1a970e2ecbbc"
+    },
+    {
+      "id": "035",
+      "filename": "035_human-warrior-readying-blue-glowing-sword.png",
+      "skill_relative_path": "references/warpath/035_human-warrior-readying-blue-glowing-sword.png",
+      "width": 2551,
+      "height": 1055,
+      "aspect_ratio": 2.41800948,
+      "bytes": 1373090,
+      "sha256": "b533687804de5db48305a330f6b7f6496933627698cf01b08760229b8274ccea"
+    },
+    {
+      "id": "036",
+      "filename": "036_human-warrior-and-dwarf-shaman-reacting.png",
+      "skill_relative_path": "references/warpath/036_human-warrior-and-dwarf-shaman-reacting.png",
+      "width": 2548,
+      "height": 1064,
+      "aspect_ratio": 2.39473684,
+      "bytes": 1809845,
+      "sha256": "d8e2b3a5f062ab91084909e0b4b11e17ec5bc1a20ba9cd91b2afccc3dc74478c"
+    },
+    {
+      "id": "037",
+      "filename": "037_undead-paladin-holding-holy-light-magic-orb.png",
+      "skill_relative_path": "references/warpath/037_undead-paladin-holding-holy-light-magic-orb.png",
+      "width": 2547,
+      "height": 1060,
+      "aspect_ratio": 2.40283019,
+      "bytes": 1208574,
+      "sha256": "b7fb3041c72761f94d5dcc71a6c01bb88144d9482f4b42d7c66a427d73895a73"
+    },
+    {
+      "id": "038",
+      "filename": "038_undead-paladin-channeling-swirling-holy-light-energy.png",
+      "skill_relative_path": "references/warpath/038_undead-paladin-channeling-swirling-holy-light-energy.png",
+      "width": 2544,
+      "height": 1056,
+      "aspect_ratio": 2.40909091,
+      "bytes": 1333014,
+      "sha256": "68c12427f1aef7806db171b94909e6cd8fec4fd30c1510d591e58d73664cacb2"
+    },
+    {
+      "id": "039",
+      "filename": "039_undead-paladin-grinning-over-holy-light-orb.png",
+      "skill_relative_path": "references/warpath/039_undead-paladin-grinning-over-holy-light-orb.png",
+      "width": 2548,
+      "height": 1058,
+      "aspect_ratio": 2.40831758,
+      "bytes": 1317420,
+      "sha256": "21c67afdfbd5d7899b9ecc229602b1bb961230d232878770c336304fe0616258"
+    },
+    {
+      "id": "040",
+      "filename": "040_undead-paladin-close-up-with-glowing-yellow-eyes.png",
+      "skill_relative_path": "references/warpath/040_undead-paladin-close-up-with-glowing-yellow-eyes.png",
+      "width": 2545,
+      "height": 1058,
+      "aspect_ratio": 2.40548204,
+      "bytes": 1386377,
+      "sha256": "aa8cb3691fe890aa1fb4087ccafc8970760e36ab0710a9e392a6d3d8e5eb6eaf"
+    },
+    {
+      "id": "041",
+      "filename": "041_horde-party-surrounded-by-holy-light-teleportation-beams.png",
+      "skill_relative_path": "references/warpath/041_horde-party-surrounded-by-holy-light-teleportation-beams.png",
+      "width": 2546,
+      "height": 1060,
+      "aspect_ratio": 2.40188679,
+      "bytes": 2441415,
+      "sha256": "85458391efdc3ced02597572c3f1309afc20d181151145bb4963f6c7b85557ce"
+    },
+    {
+      "id": "042",
+      "filename": "042_skyborne-druid-with-crescent-moon-armor.png",
+      "skill_relative_path": "references/warpath/042_skyborne-druid-with-crescent-moon-armor.png",
+      "width": 2544,
+      "height": 1058,
+      "aspect_ratio": 2.40453686,
+      "bytes": 1636353,
+      "sha256": "e0553e6019246bd4b49868569eaaed49c80033c5f308afd9d242fa40dff7d843"
+    },
+    {
+      "id": "043",
+      "filename": "043_undead-paladin-shouting-in-profile.png",
+      "skill_relative_path": "references/warpath/043_undead-paladin-shouting-in-profile.png",
+      "width": 2542,
+      "height": 1062,
+      "aspect_ratio": 2.39359699,
+      "bytes": 1360614,
+      "sha256": "1e90b8bf0310d3f5888ddd3803bf514884f321630efb217f967283de3abb5a65"
+    }
+  ],
+  "skill_root": "."
+}

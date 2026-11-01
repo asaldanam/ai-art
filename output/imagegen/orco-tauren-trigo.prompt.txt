@@ -1,0 +1,22 @@
+Use case: illustration-story.
+Create one panoramic 2D fantasy animation frame, approximately 2.4:1, full image without black bars.
+
+REFERENCE ROLES
+Input 1 (004): STYLE, SHOT and LIGHT. Match its angular drawing, broad armor construction, wheat-height camera, spatial arrangement and warm late-afternoon light. The requested scene corresponds to this reference. Preserve the species features and visible equipment consistent with the written description below.
+Input 2 (007-A): approved subtle capture FINISH only: very fine barely visible luminance grain, gently softened contours and small drawing irregularities over clearly defined cel shadows. Do not transfer the human warrior, red hair, equipment or location.
+
+SCENE
+A massive olive-green orc on the left and a dark-brown-furred tauren slightly farther back on the right stand close together in a vast densely grown field of ripe golden wheat. Quiet pause, restrained expressions. Waist/lower bodies and much of the tauren's arms concealed by wheat. Orc turns his long face toward his companion, head slightly lowered, mouth closed, serious without aggression. Very broad shoulders and muscular arms, prominent jaw, broad nose, pointed ears, two upward lower tusks. Dark hair short on sides and raised in chunky locks, thick sideburns following the jaw. Heavy brown-gray armor: enormous layered pauldrons with thick edges, angular projections and tall plates next to head; breastplate and dark forearm guards. One large partially closed hand extends into the gap between them, holding a small bouquet of green stems and pale-petaled flowers hanging downward over the wheat. The bouquet is small and clearly held in the fingers, not floating.
+Tauren: large bovine humanoid with broad muzzle, large nose, lateral ears, abundant dark brown mane over crown and upper back. Exactly two pale biological horns, curving outward and then lifting at tips. Head and upper torso incline forward toward bouquet and nearby wheat; eyes partly narrowed, mouth slightly open. Bulky dark pauldrons edged in gold with curved projections and angular upper-chest plates. Keep armor projections distinguishable from the two actual horns.
+
+FRAMING AND DEPTH
+Medium two-character shot from wheat height, following input 1. Orc larger and closer on left; tauren on right slightly behind; both readable above the dense grain. Foreground enlarged softly out-of-focus wheat heads overlapping lower bodies. Narrative plane has readable faces, hand and drooping bouquet. Some wheat bends in different directions, others stand erect; selectively show grains and long awns without outlining every stalk. Field continues to a distant chain of rocky irregular peaks and shallow valleys, painted cool gray lavender with low contrast. Pale clear sky with broad scattered clouds.
+
+LIGHT
+Low late-afternoon sunlight as in input 1, warm peach-gold accents on wheat, exposed upper armor edges and top of tauren mane. Keep broad olive and brown shadows on characters, near-black spaces inside pauldrons, and cooler muted mountains. Maintain color distinctions, avoid uniform orange filter and all-around glowing outlines.
+
+DRAWING AND MATERIALS
+Match supplied Warpath visual language closely: angular character drawing, restrained small eyes and facial lines, clean dark slightly softened contours with selective line weight, massive readable silhouettes, thick large armor plates. Flat base colors with one or two broad sharply defined cel shadow masses on figures. Draw hair and fur in grouped locks, matte graphic metal highlights. Environment is layered painterly background with grouped brush texture and atmospheric depth. Fine subtle approved A finish; no extra polishing.
+
+CONSTRAINTS
+Only these two characters and the requested bouquet, field, mountains and clouds. Preserve quiet action and exact left-right relationship. No weapons, new ornaments, gems, emblems, runes or magical effects. No photorealism, 3D game rendering, waxy skin, airbrushed volume, chrome, individually detailed fur, doll eyes, exaggerated smiles, promotional poster composition, coarse grain, excessive detail, text, watermark, playback UI or loading indicators.

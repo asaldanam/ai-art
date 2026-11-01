@@ -1,0 +1,21 @@
+Use case: stylized-concept.
+Asset type: one canonical character reference portrait on a genuinely transparent background, high detail and clean edges, intended for future visual consistency.
+Primary request: Create a medium shot of Holly Willhelm, directly front-facing at eye level with a completely neutral expression. She stands upright, shoulders level, torso square to the camera, arms relaxed down at her sides, gaze straight at the viewer, mouth closed, relaxed eyebrows. Single character, single view.
+
+Reference roles:
+Image 1 (approved cemetery illustration): PRIMARY identity AND art-style reference for Holly. Preserve the exact approved character design, face, short plum bob, silhouette, costume details and elegant 2D linework. Change only her pose, camera angle, expression, lighting for reference clarity, and remove the environment and staff.
+Image 2 (original game close-up): supporting reference for the frontal facial anatomy, center hair part, eye color and neckline; translate into the approved 2D art style, do not copy the 3D rendering.
+Image 3 (original game full body): supporting reference for the outfit construction, belt and sleeve cuffs only. NO STAFF.
+Image 4 (simple framing diagram): camera angle and waist-up crop guide ONLY. Do not reproduce its sketch, guide lines, numbers, anatomy style or lack of clothing.
+
+Composition: portrait-oriented canvas. Complete top of head and hair visible with a little headroom, both shoulders and upper arms uncropped. Frame from crown to just below the waist so the entire wide belt and top of hips are visible, matching a conventional medium shot. Centered balanced straight frontal view, no head tilt, no three-quarter angle, no perspective distortion. The robe remains fully worn and correctly detailed. Lower arms can continue out of the bottom crop naturally.
+
+Character invariants: adult female Forsaken undead with an intact fresh-cadaver appearance. Very pale cold ivory skin, subtly gray-green, no blush, no decay or wounds. Slim build, narrow oval face, defined cheekbones, slightly hollow cheeks, tapered chin, fine straight nose, muted taupe-rose lips. Thin dark arched eyebrows in a relaxed neutral position. Almond-shaped yellow luminous eyes without distinct pupils; restrained glow, retain clear eyelid shapes and gray-green eye-socket shadows. Dark plum/burgundy short layered bob with a center part, broad pointed locks framing both sides of the face down to the base of the neck, shorter nape, as in approved image. Hair has flat graphic plum highlights and deep burgundy shadows, not individual photoreal strands.
+
+Costume invariants: fitted very dark purple/charcoal robe with a V neckline, silver-white branching ornamental collar trim, symmetrical gray-green and antique-metal chest panel with rib-like curved framing, central silver-white vertical ornament. Structured rounded fabric shoulders with white/silver diagonal bands, muted dark olive upper-arm panels edged in subdued antique gold, long dark purple sleeves with broad silver-white cuffs wherever visible. Defined narrow waist, wide muted beige-gold belt with small side fastenings, silver-white edging on the upper skirt. Match the approved image's clothing, do not invent armor, pauldrons, jewelry, emblems or accessories.
+
+Style/medium: exact same 2D fantasy anime animation style as the approved Holly image: clean controlled dark contours, angular but elegant facial design, hard-edged cel shading with two to three values, restrained flat graphic highlights, no airbrushed or photoreal skin and no 3D game look. Use neutral soft frontal illumination so her intrinsic pale skin, plum hair, charcoal-purple robe and silver trim are unambiguous. Detailed enough for a production reference without changing the animation style.
+
+Background: genuine transparent alpha, nothing behind the character, no white or colored backdrop, no painted checkerboard, no ground, no cast shadow.
+Text: none.
+Avoid: staff, weapon, graveyard, gravestone, environment, framing guides, labels, watermark, extra characters, multiple panels, smiling, sadness, angry expression, dramatic colored lighting, glowing aura, exposed bones, rot, gore, added ears or jewelry.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Warcraft · estilo Warpath"
+  short_description: "Escenas coherentes con las 43 referencias de Warpath"
+  default_prompt: "Usa $warcraft-warpath-style para preparar una escena coherente con las referencias y los personajes aprobados."
+policy:
+  allow_implicit_invocation: true

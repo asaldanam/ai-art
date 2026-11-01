@@ -1,0 +1,59 @@
+{
+  "source": "references/warpath/WARPATH.mp4",
+  "sha256": "f8729d902163afb8b2522e7d7252a3c2cb20322e06235e8c6115ec4f9a60382e",
+  "duration_seconds": 216.4,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "sampling": "12 puntual samples, not exhaustive shot analysis",
+  "frames": [
+    {
+      "seconds": 8,
+      "file": "frame-008s.jpg"
+    },
+    {
+      "seconds": 26,
+      "file": "frame-026s.jpg"
+    },
+    {
+      "seconds": 44,
+      "file": "frame-044s.jpg"
+    },
+    {
+      "seconds": 62,
+      "file": "frame-062s.jpg"
+    },
+    {
+      "seconds": 80,
+      "file": "frame-080s.jpg"
+    },
+    {
+      "seconds": 98,
+      "file": "frame-098s.jpg"
+    },
+    {
+      "seconds": 116,
+      "file": "frame-116s.jpg"
+    },
+    {
+      "seconds": 134,
+      "file": "frame-134s.jpg"
+    },
+    {
+      "seconds": 152,
+      "file": "frame-152s.jpg"
+    },
+    {
+      "seconds": 170,
+      "file": "frame-170s.jpg"
+    },
+    {
+      "seconds": 188,
+      "file": "frame-188s.jpg"
+    },
+    {
+      "seconds": 206,
+      "file": "frame-206s.jpg"
+    }
+  ]
+}

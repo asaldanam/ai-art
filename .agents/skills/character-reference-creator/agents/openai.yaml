@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Reference Creator"
+  short_description: "Identidad canónica y referencias por estilo"
+  default_prompt: "Usa $character-reference-creator junto con la skill *-style que indique para crear las referencias de mi personaje."
