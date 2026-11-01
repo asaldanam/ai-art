@@ -1,0 +1,55 @@
+NON-GENERATIVE COMPOSITING RECORD — no image-generation prompt was executed.
+User authorization: Autorizo, in reply to exact compositing of original isolated staffs over approved character views.
+Reuse the approved staff-free three_quarter character image without redrawing or changing its solid pixels. Apply one uniform scale/rotation/translation to the original isolated three_quarter staff illustration; preserve its exact hardware, corner-supported frame, materials and existing perspective. Place staff behind the character, head over anatomical left shoulder and lower tip beside right upper thigh. Use the original character silhouette for depth occlusion; keep hands empty. Extend transparent headroom without scaling the character.
+Exact inputs and affine transform:
+{
+  "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+  "base": "holly_willhelm_fullbody_three_quarter.png",
+  "staff": "holly_willhelm-base_blue_staff_three_quarter.png",
+  "source_axis": [
+    [
+      25,
+      570
+    ],
+    [
+      1910,
+      270
+    ]
+  ],
+  "target_axis": [
+    [
+      220,
+      1200
+    ],
+    [
+      835,
+      75
+    ]
+  ],
+  "canvas_size": [
+    1024,
+    1766
+  ],
+  "base_offset": [
+    0,
+    200
+  ],
+  "inverse_affine": [
+    0.9105301578611185,
+    -1.177799069258144,
+    1238.0422483803266,
+    1.177799069258144,
+    0.9105301578611185,
+    -781.7519846701339
+  ],
+  "solid_character_pixels_unchanged": true,
+  "visible_bbox_alpha_over_128": [
+    191,
+    85,
+    918,
+    1723
+  ],
+  "method": "Pillow similarity transform, original staff behind original character; no generation",
+  "approval": "pending_user_review"
+}
+Reproduction: run compose_blue_staff.py with Pillow.

@@ -1,0 +1,55 @@
+NON-GENERATIVE COMPOSITING RECORD — no image-generation prompt was executed.
+User authorization: Autorizo, in reply to exact compositing of original isolated staffs over approved character views.
+Reuse the approved staff-free front character image without redrawing or changing its solid pixels. Apply one uniform scale/rotation/translation to the original isolated front staff illustration; preserve its exact hardware, corner-supported frame, materials and existing perspective. Place staff behind the character, head over anatomical left shoulder and lower tip beside right upper thigh. Use the original character silhouette for depth occlusion; keep hands empty. Extend transparent headroom without scaling the character.
+Exact inputs and affine transform:
+{
+  "file": "holly_willhelm_base_blue_staff_fullbody_front_v05.png",
+  "base": "holly_willhelm_fullbody_front.png",
+  "staff": "holly_willhelm-base_blue_staff.png",
+  "source_axis": [
+    [
+      35,
+      395
+    ],
+    [
+      1900,
+      395
+    ]
+  ],
+  "target_axis": [
+    [
+      180,
+      1200
+    ],
+    [
+      850,
+      70
+    ]
+  ],
+  "canvas_size": [
+    1024,
+    1766
+  ],
+  "base_offset": [
+    0,
+    200
+  ],
+  "inverse_affine": [
+    0.7240410244524279,
+    -1.2211438173600648,
+    1370.0451964306408,
+    1.2211438173600648,
+    0.7240410244524279,
+    -693.6551164677253
+  ],
+  "solid_character_pixels_unchanged": true,
+  "visible_bbox_alpha_over_128": [
+    168,
+    45,
+    928,
+    1721
+  ],
+  "method": "Pillow similarity transform, original staff behind original character; no generation",
+  "approval": "pending_user_review"
+}
+Reproduction: run compose_blue_staff.py with Pillow.

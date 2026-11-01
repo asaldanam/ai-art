@@ -388,3 +388,15 @@ User confirmed the profile perspective but corrected placement: the staff must t
 Current state: rear v04 approved; profile v03 pending review; front and three-quarter unresolved. Proposed next approach is exact compositing of the isolated original staff over the unchanged approved character views, preserving geometry, scale, perspective and occlusion. Await explicit user instruction before switching from built-in image editing. No approval of the remaining views is inferred.
 
 Technical checks are in [blue_staff_remaining_views_validation.json](warcraft-warpath-style/blue_staff_remaining_views_validation.json); all generated outputs have genuine PNG alpha and matching prompt files. Images were generated with the built-in OpenAI tool; effective model is not exposed.
+
+
+### Authorized exact compositing — front and three-quarter v05
+
+User explicitly answered **“Autorizo”** to the proposal to composite the original isolated staffs over approved character views using non-generative image editing. This supersedes the previous pause and authorizes this method only; it does not approve unseen results.
+
+- [Front v05](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_front_v05.png) — pending user review.
+- [Anatomical-left three-quarter v05](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png) — pending user review.
+
+The two approved staff-free character PNGs are reused unchanged at native scale, translated down 200 pixels on a 1024 × 1766 transparent canvas. Original isolated broad-face and three-quarter staff artwork is transformed as a single rigid image using uniform scale, rotation and translation only. The original socket/corner relationship, four terminals, gem positions, shaft and source perspective are preserved. The character silhouette occludes the staff, with head above anatomical left shoulder and lower tip beside right upper thigh. No new image generation, face redrawing or costume changes were performed. Exact pixel comparisons confirm all solid character pixels are unchanged. Real alpha and full framing were checked and outputs inspected against a light background.
+
+The [reproducible script](warcraft-warpath-style/compose_blue_staff.py) and [exact composition parameters](warcraft-warpath-style/blue_staff_montage.json) record the operation. Corresponding `.prompt.txt` files are explicitly labeled non-generative execution records, not prompts sent to a generator. Prior rejected attempts remain archived. Rear v04 remains approved; profile v03 and both new montages await user approval.

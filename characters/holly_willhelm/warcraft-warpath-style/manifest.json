@@ -111,9 +111,7 @@
         "fullbody_back",
         "fullbody_three_quarter"
       ],
-      "pending_questions": [
-        "Authorize exact compositing of the original isolated staff over approved character views instead of another generative edit?"
-      ],
+      "pending_questions": [],
       "scope_override": "User requests four additive equipment variants only, derived from approved base views; no replacement, extra candidates or head portraits.",
       "issues": [
         {
@@ -128,7 +126,7 @@
             "fullbody_three_quarter"
           ],
           "finding": "Incorrect shaft/corner relationship persists; front v04 also drifts in identity.",
-          "status": "awaiting_user_decision"
+          "status": "addressed_by_authorized_exact_compositing_pending_artistic_review"
         }
       ],
       "selected_candidate_id": null,
@@ -157,12 +155,13 @@
       },
       "identity_revision": 2,
       "id": "base_blue_staff",
-      "stage": "needs_information",
-      "execution_status": "profile_contact_correction_pending_review_front_and_three_quarter_unresolved",
+      "stage": "awaiting_sheet_review",
+      "execution_status": "front_and_three_quarter_montages_pending_review_profile_v03_pending_review",
       "resume_instructions": [
-        "Rear v04 approved. Profile v03 pending review after contact correction.",
-        "Front and three-quarter v02-v04 rejected; two targeted correction attempts failed for each. Do not generate another round without user decision.",
-        "Proposed next approach: exact compositing of supplied isolated staff, with correct rotation, scale, perspective and occlusion, onto approved staff-free views. Requires explicit user instruction to use non-generative editing."
+        "Rear v04 remains approved.",
+        "Front v05 and three-quarter v05 are exact authorized montages; await artistic user review.",
+        "Profile v03 remains pending review after direct back-contact correction.",
+        "Previous rejected front/three-quarter v02-v04 retained only for history."
       ],
       "source_reference_ids": [
         "BLUE-FRONT",
@@ -176,7 +175,15 @@
         "fullbody_profile",
         "fullbody_three_quarter"
       ],
-      "current_request_evidence": "quiero que generes una versión adicional de Cuerpo de espaldas ... Pero con el bastón situado a su espalda. Respeta perspectivas y tamaños."
+      "current_request_evidence": "quiero que generes una versión adicional de Cuerpo de espaldas ... Pero con el bastón situado a su espalda. Respeta perspectivas y tamaños.",
+      "workflow_overrides": [
+        {
+          "id": "exact_staff_compositing_authorized",
+          "evidence": "Autorizo",
+          "scope": "Non-generative exact montage of original isolated staffs over approved front and three-quarter character views.",
+          "recorded_at": "2026-11-01T22:56:17.266590+01:00"
+        }
+      ]
     }
   ],
   "images": [
@@ -1030,6 +1037,166 @@
         "Built-in OpenAI image generation; model not exposed.",
         "Original approved staff-free character references preserved."
       ]
+    },
+    {
+      "id": "base_blue_staff_fullbody_front_r02_v05",
+      "file": "holly_willhelm_base_blue_staff_fullbody_front_v05.png",
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_front_v05.prompt.txt",
+      "outfit_id": "base_blue_staff",
+      "identity_revision": 2,
+      "kind": "reference",
+      "view": "fullbody_front",
+      "status": "pending_review",
+      "candidate_round": null,
+      "camera_side": "front",
+      "source_ids": [
+        "STAFF-ART-FRONT"
+      ],
+      "reference_image_ids": [
+        "base_fullbody_front_r01"
+      ],
+      "derived_from": "base_fullbody_front_r01",
+      "method": "non_generative_compositing_explicitly_authorized",
+      "recipe_file": "blue_staff_montage.json",
+      "script_file": "compose_blue_staff.py",
+      "technical_validation": {
+        "file": "holly_willhelm_base_blue_staff_fullbody_front_v05.png",
+        "base": "holly_willhelm_fullbody_front.png",
+        "staff": "holly_willhelm-base_blue_staff.png",
+        "source_axis": [
+          [
+            35,
+            395
+          ],
+          [
+            1900,
+            395
+          ]
+        ],
+        "target_axis": [
+          [
+            180,
+            1200
+          ],
+          [
+            850,
+            70
+          ]
+        ],
+        "canvas_size": [
+          1024,
+          1766
+        ],
+        "base_offset": [
+          0,
+          200
+        ],
+        "inverse_affine": [
+          0.7240410244524279,
+          -1.2211438173600648,
+          1370.0451964306408,
+          1.2211438173600648,
+          0.7240410244524279,
+          -693.6551164677253
+        ],
+        "solid_character_pixels_unchanged": true,
+        "visible_bbox_alpha_over_128": [
+          168,
+          45,
+          928,
+          1721
+        ],
+        "method": "Pillow similarity transform, original staff behind original character; no generation",
+        "approval": "pending_user_review"
+      },
+      "visual_review": {
+        "construction": "Original isolated staff preserved as one rigid object; socket remains on original corner terminal.",
+        "perspective": "Original broad-face or three-quarter projection retained, uniformly rotated to carry angle.",
+        "identity": "Solid original character pixels unchanged by exact comparison.",
+        "occlusion": "Original silhouette occludes shaft and grip; hands remain empty.",
+        "alpha": "True transparent PNG; complete staff and body within canvas.",
+        "approval": "pending_user_review"
+      }
+    },
+    {
+      "id": "base_blue_staff_fullbody_three_quarter_r02_v05",
+      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.prompt.txt",
+      "outfit_id": "base_blue_staff",
+      "identity_revision": 2,
+      "kind": "reference",
+      "view": "fullbody_three_quarter",
+      "status": "pending_review",
+      "candidate_round": null,
+      "camera_side": "left",
+      "source_ids": [
+        "STAFF-ART-THREE-QUARTER"
+      ],
+      "reference_image_ids": [
+        "base_fullbody_three_quarter_r01"
+      ],
+      "derived_from": "base_fullbody_three_quarter_r01",
+      "method": "non_generative_compositing_explicitly_authorized",
+      "recipe_file": "blue_staff_montage.json",
+      "script_file": "compose_blue_staff.py",
+      "technical_validation": {
+        "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+        "base": "holly_willhelm_fullbody_three_quarter.png",
+        "staff": "holly_willhelm-base_blue_staff_three_quarter.png",
+        "source_axis": [
+          [
+            25,
+            570
+          ],
+          [
+            1910,
+            270
+          ]
+        ],
+        "target_axis": [
+          [
+            220,
+            1200
+          ],
+          [
+            835,
+            75
+          ]
+        ],
+        "canvas_size": [
+          1024,
+          1766
+        ],
+        "base_offset": [
+          0,
+          200
+        ],
+        "inverse_affine": [
+          0.9105301578611185,
+          -1.177799069258144,
+          1238.0422483803266,
+          1.177799069258144,
+          0.9105301578611185,
+          -781.7519846701339
+        ],
+        "solid_character_pixels_unchanged": true,
+        "visible_bbox_alpha_over_128": [
+          191,
+          85,
+          918,
+          1723
+        ],
+        "method": "Pillow similarity transform, original staff behind original character; no generation",
+        "approval": "pending_user_review"
+      },
+      "visual_review": {
+        "construction": "Original isolated staff preserved as one rigid object; socket remains on original corner terminal.",
+        "perspective": "Original broad-face or three-quarter projection retained, uniformly rotated to carry angle.",
+        "identity": "Solid original character pixels unchanged by exact comparison.",
+        "occlusion": "Original silhouette occludes shaft and grip; hands remain empty.",
+        "alpha": "True transparent PNG; complete staff and body within canvas.",
+        "approval": "pending_user_review"
+      }
     }
   ],
   "preselected_imports": [
@@ -1281,6 +1448,28 @@
       "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v04.png",
       "tool": "image_gen.imagegen",
       "model": "not_exposed"
+    },
+    {
+      "view": "fullbody_front",
+      "outfit_id": "base_blue_staff",
+      "version": "v05",
+      "result": "saved",
+      "file": "holly_willhelm_base_blue_staff_fullbody_front_v05.png",
+      "tool": "Pillow",
+      "method": "non_generative_compositing",
+      "authorization_evidence": "Autorizo",
+      "recorded_at": "2026-11-01T22:56:17.266590+01:00"
+    },
+    {
+      "view": "fullbody_three_quarter",
+      "outfit_id": "base_blue_staff",
+      "version": "v05",
+      "result": "saved",
+      "file": "holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "tool": "Pillow",
+      "method": "non_generative_compositing",
+      "authorization_evidence": "Autorizo",
+      "recorded_at": "2026-11-01T22:56:17.266590+01:00"
     }
   ],
   "state_note": "Complete nine-view base-outfit reference library approved by the user for canonical identity revision 1 and Warpath style. Original files, exact prompts, superseded head-back output and failure history preserved.",
