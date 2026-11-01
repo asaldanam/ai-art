@@ -100,6 +100,56 @@
           "checker_note": "The stock --complete check requires three current candidates. Do not fabricate candidates to satisfy that rule; preserve this explicit user override and check the remaining file, alpha, unchanged-import and nine-view requirements separately."
         }
       ]
+    },
+    {
+      "based_on_identity_revision": 1,
+      "candidate_round": 0,
+      "master_reference_id": null,
+      "requested_views": [
+        "fullbody_front",
+        "fullbody_profile",
+        "fullbody_back",
+        "fullbody_three_quarter"
+      ],
+      "pending_questions": [],
+      "scope_override": "User requests four additive equipment variants only, derived from approved base views; no replacement, extra candidates or head portraits.",
+      "issues": [
+        {
+          "view": "fullbody_back",
+          "notes": "Earlier request interrupted by user; no output file was received or registered.",
+          "kind": "interrupted_generation"
+        }
+      ],
+      "selected_candidate_id": null,
+      "gap_fill_decisions": [],
+      "approvals": {
+        "character": {
+          "evidence": "Valido",
+          "identity_revision": 2,
+          "recorded_at": "2026-11-01T22:01:58+01:00",
+          "scope": "base_blue_staff equipment design only; base revision 1 remains approved"
+        },
+        "selection": null,
+        "sheet": null
+      },
+      "identity_revision": 2,
+      "id": "base_blue_staff",
+      "stage": "generating_views",
+      "execution_status": "deferred_to_another_session_by_user",
+      "resume_instructions": [
+        "The approved English equipment prompt remains valid.",
+        "Do not reuse deleted generated blue-staff images.",
+        "Use approved staff-free base views, original sources/blue_staff references and actual Warpath style images.",
+        "Rear view first, then user validation before other views.",
+        "Generate nothing further in this session."
+      ],
+      "source_reference_ids": [
+        "BLUE-FRONT",
+        "BLUE-BACK",
+        "BLUE-PROFILE",
+        "BLUE-DETAIL",
+        "BLUE-THREE-QUARTER"
+      ]
     }
   ],
   "images": [
@@ -668,6 +718,88 @@
       "finding": "Tight 5-pixel top margin; crown and whole figure remain visible.",
       "reviewed_by_user": true,
       "approval_evidence": "Apruebo las nueve vistas"
+    }
+  ],
+  "removed_images": [
+    {
+      "kind": "reference",
+      "derived_from": "base_fullbody_front_r01",
+      "notes": [
+        "Complementary equipment edit; original approved base image preserved.",
+        "Rejected by user: deformed staff geometry and insufficient Warpath style fidelity."
+      ],
+      "file": "holly_willhelm_base_blue_staff_fullbody_front.png",
+      "reference_image_ids": [
+        "base_fullbody_front_r01"
+      ],
+      "identity_revision": 2,
+      "candidate_round": null,
+      "status": "removed_by_user",
+      "source_ids": [
+        "BLUE-DETAIL",
+        "BLUE-FRONT"
+      ],
+      "camera_side": "front",
+      "id": "holly_willhelm_base_blue_staff_fullbody_front_r02",
+      "view": "fullbody_front",
+      "outfit_id": "base_blue_staff",
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_front.prompt.txt",
+      "removed_at": "2026-11-01T22:17:43+01:00",
+      "removal_reason": "User requested deletion of generated blue-staff images; keep prompts and source provenance."
+    },
+    {
+      "reference_image_ids": [
+        "base_fullbody_profile_r01"
+      ],
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_profile.prompt.txt",
+      "candidate_round": null,
+      "id": "holly_willhelm_base_blue_staff_fullbody_profile_r02",
+      "view": "fullbody_profile",
+      "identity_revision": 2,
+      "file": "holly_willhelm_base_blue_staff_fullbody_profile.png",
+      "source_ids": [
+        "BLUE-DETAIL",
+        "BLUE-PROFILE"
+      ],
+      "derived_from": "base_fullbody_profile_r01",
+      "camera_side": "left",
+      "kind": "reference",
+      "status": "removed_by_user",
+      "notes": [
+        "Complementary equipment edit; original approved base image preserved.",
+        "Rejected by user: deformed staff geometry and insufficient Warpath style fidelity."
+      ],
+      "outfit_id": "base_blue_staff",
+      "removed_at": "2026-11-01T22:17:43+01:00",
+      "removal_reason": "User requested deletion of generated blue-staff images; keep prompts and source provenance."
+    },
+    {
+      "status": "removed_by_user",
+      "view": "fullbody_back",
+      "identity_revision": 2,
+      "notes": [
+        "Rear view only, per explicit user steering. Await validation before any other view.",
+        "Geometry and flat rendering specifically requested; no claim of artistic approval."
+      ],
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_back_v02.prompt.txt",
+      "id": "base_blue_staff_fullbody_back_r02_v02",
+      "kind": "reference",
+      "derived_from": "base_fullbody_back_r01",
+      "source_ids": [
+        "BLUE-DETAIL",
+        "BLUE-BACK",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "file": "holly_willhelm_base_blue_staff_fullbody_back_v02.png",
+      "outfit_id": "base_blue_staff",
+      "candidate_round": null,
+      "camera_side": "back",
+      "reference_image_ids": [
+        "base_fullbody_back_r01"
+      ],
+      "removed_at": "2026-11-01T22:17:43+01:00",
+      "removal_reason": "User requested deletion of generated blue-staff images; keep prompts and source provenance."
     }
   ]
 }

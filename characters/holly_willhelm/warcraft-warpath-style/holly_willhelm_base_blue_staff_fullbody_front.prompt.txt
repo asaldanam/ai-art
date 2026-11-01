@@ -1,0 +1,82 @@
+EDIT — complementary Holly Willhelm equipment reference, fullbody_front.
+CANONICAL CHARACTER IDENTITY
+
+Name and defining identity:
+Holly Willhelm, an adult-presenting female Forsaken undead.
+
+Species and physical presentation:
+She has the intact appearance of a recently deceased person. Her exposed face
+and neck are extremely pale cool ivory with a subtle gray-green undertone.
+Her flesh is preserved rather than putrid. There are no visible open wounds,
+rotting patches or exposed bones. Her hands and feet share the same very pale
+cool ivory skin family with a subtle gray-green undertone. Each hand has five
+intact digits, including one thumb, and each foot has five intact toes. Her
+hands are slender and bony with long, dark, pointed nails. No digits are missing.
+
+Build, proportions and recognizable silhouette:
+She has a slim frame, a relatively narrow waist and an elongated neck.
+Preserve the head-to-shoulder proportions, facial spacing and upper-torso
+relationships of the selected Holly reference. Preserve the full-body
+proportions documented by the original front, profile and back references.
+
+Face structure and distinctive features:
+Her face is narrow and oval, with defined cheekbones, subtly hollow cheeks,
+a narrow jaw and a tapered chin. Her nose is fine and mostly straight.
+Her lips are shaped but restrained, with a muted taupe-rose intrinsic color.
+Her eyebrows are thin, dark and arched.
+
+Eyes:
+Her eyes are contained in size and almond-shaped, with defined lids, muted
+gray-green orbital shadows and luminous yellow interiors. There are no
+clearly defined pupils. Preserve their shape and spacing.
+
+Hair:
+Her hair is dark plum/burgundy, cut into a short layered bob with a center
+part. The front locks fall on both sides of the face, tapering into pointed
+ends near the base of the neck. The back is shorter at the nape. Preserve
+the selected reference's hairline, center part, major lock arrangement and
+overall hair silhouette.
+
+Marks and anatomical asymmetries:
+No distinctive facial scars, tattoos or jewelry are documented. Do not
+invent permanent marks, missing facial tissue or new left/right asymmetries.
+The ears remain covered by the established hairstyle.
+
+Non-negotiable identifying features:
+Very pale intact undead flesh, the narrow facial structure, luminous yellow
+almond-shaped eyes, dark arched eyebrows and the center-parted short plum
+bob must remain recognizable together. Do not replace her with a different
+face that merely shares the same species or colors.
+OUTFIT — base_blue_staff
+
+Retain Holly Willhelm's approved identity and the entire approved base robe,
+including its colors, panels, cuffs, belt, skirt layers and hem. Retain the
+approved pale intact hands and bare feet with five digits on each extremity.
+
+Add the blue staff shown in BLUE-DETAIL, stowed diagonally across her back.
+The staff head rises above her anatomical LEFT shoulder; its lower tip
+extends toward her anatomical RIGHT hip/thigh. Thus the head appears on the
+viewer's right in a front view and on the viewer's left in a back view.
+Keep this anatomical placement consistent when the camera changes angle.
+
+The shaft is long, straight and muted pale gray-green metal. Its segmented
+grip is deep cobalt blue with dark separating bands. The open square head,
+oriented like a diamond relative to the shaft, combines blue-steel sections,
+pale silver/champagne corner tips and restrained gold-colored settings.
+Four small blue gems occupy the four frame sides. A larger faceted
+sapphire/cyan-blue crystal appears suspended in the center. The lower tip
+is pointed pale metal with blue bands at its collar.
+
+Match the screenshots' proportions: the full staff is approximately as long
+as Holly's body, with its raised head clearly above her crown and its lower
+tip beside her right upper thigh. The broad head lies approximately parallel
+to her back and becomes edge-on in an exact side view.
+
+Both hands remain empty and relaxed. The shaft sits behind her torso,
+never through her body, hair or clothing. Preserve coherent occlusion in
+every angle. No visible extra harness, strap, sheath or buckle is documented;
+do not introduce one. Do not add an aura or recolor Holly's eyes blue.
+REFERENCE ROLES: Image 1 is the exact approved character, costume, pose, view angle and Warpath rendering to preserve. Image 2 defines ONLY the blue staff design. Image 3 defines ONLY the staff placement, size and orientation at this camera angle; ignore its game rendering, original skin textures, pose and background/UI.
+Change ONLY by adding this blue staff stowed behind her back, not in her hands. Keep the same drawing, robe and anatomy of image 1. Keep anatomical left/right: staff head above LEFT shoulder, lower tip at RIGHT upper thigh. In the back view the staff is fully visible across the back. In front views its middle is occluded by the torso. In exact side profile the broad head becomes edge-on, NOT a frontal diamond pasted sideways. Show the complete head, shaft and tip with coherent straight rigid construction, no duplicate staff. Preserve all existing outfit motifs and face, yellow eyes, plum hair and uniformly pale intact flesh. Hands empty, five fingers and bare five-toed feet as approved.
+Preserve Warpath angular drawing, thin dark outlines, few broad hard-edged cel shadows, matte facets and subtle finish A. Do not add realistic 3D materials, a harness, straps, buckles, new jewelry, a halo or magic particles.
+OUTPUT: one full-body view, portrait 2:3 PNG with genuine transparent alpha. Reframe the entire composition enough to include the raised staff head above the crown with clear margin; do not crop either staff or character. No scenery, floor, shadow, painted checkerboard, labels, watermark or viewer controls. These are NEW complementary files, not replacements.

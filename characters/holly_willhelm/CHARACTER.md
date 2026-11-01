@@ -278,3 +278,74 @@ Technical validation: nine required active views, readable PNGs with genuine alp
 Review note: the full-body front has a tight 5-pixel upper margin; the hair and entire figure remain visible. The user approved all nine active views after this note was presented.
 
 The complete set is **approved**. User evidence: **“Apruebo las nueve vistas”**, recorded at **2026-11-01T21:45:45+01:00**. The imported midshot and all eight additional active views are approved for outfit `base`, identity revision 1 and `warcraft-warpath-style`.
+
+## 9. Complementary outfit — `base_blue_staff` (revision 2 approved)
+
+Status: **equipment design approved**. User evidence: “Valido”, recorded 2026-11-01T22:01:58+01:00. Identity revision 1 and the approved staff-free `base` library remain valid and unchanged. Revision 2 adds only this complementary equipment configuration; it does not replace the existing outfit or its images.
+
+Requested scope: **four additional full-body views only** — front, anatomical-left profile, back and anatomical-left three-quarter. No replacement candidates or extra head portraits are requested.
+
+### Sources
+
+| ID | Local source | Function |
+|---|---|---|
+| BLUE-FRONT | [Front](sources/blue_staff/front.png) | Staff scale and placement from the front. |
+| BLUE-BACK | [Back](sources/blue_staff/back.png) | Diagonal direction and rear placement. |
+| BLUE-PROFILE | [Profile](sources/blue_staff/profile.png) | Depth behind the torso and edge-on staff head. |
+| BLUE-DETAIL | [Staff detail](sources/blue_staff/staff_detail.png) | Blue variant materials, frame and gems. |
+| BLUE-THREE-QUARTER | [Three-quarter](sources/blue_staff/three_quarter.png) | Perspective and silhouette. Ignore the viewer's rotation control. |
+
+User identifies the accessory as the blue version of [Bastón del Sacralizado](https://www.wowhead.com/mop-classic/es/item=65482/bast%C3%B3n-del-sacralizado#screenshots). The linked page could not be retrieved; the supplied screenshots are the visual design authority. Do not substitute the earlier red staff.
+
+### Approved English outfit addendum
+
+```text
+OUTFIT — base_blue_staff
+
+Retain Holly Willhelm's approved identity and the entire approved base robe,
+including its colors, panels, cuffs, belt, skirt layers and hem. Retain the
+approved pale intact hands and bare feet with five digits on each extremity.
+
+Add the blue staff shown in BLUE-DETAIL, stowed diagonally across her back.
+The staff head rises above her anatomical LEFT shoulder; its lower tip
+extends toward her anatomical RIGHT hip/thigh. Thus the head appears on the
+viewer's right in a front view and on the viewer's left in a back view.
+Keep this anatomical placement consistent when the camera changes angle.
+
+The shaft is long, straight and muted pale gray-green metal. Its segmented
+grip is deep cobalt blue with dark separating bands. The open square head,
+oriented like a diamond relative to the shaft, combines blue-steel sections,
+pale silver/champagne corner tips and restrained gold-colored settings.
+Four small blue gems occupy the four frame sides. A larger faceted
+sapphire/cyan-blue crystal appears suspended in the center. The lower tip
+is pointed pale metal with blue bands at its collar.
+
+Match the screenshots' proportions: the full staff is approximately as long
+as Holly's body, with its raised head clearly above her crown and its lower
+tip beside her right upper thigh. The broad head lies approximately parallel
+to her back and becomes edge-on in an exact side view.
+
+Both hands remain empty and relaxed. The shaft sits behind her torso,
+never through her body, hair or clothing. Preserve coherent occlusion in
+every angle. No visible extra harness, strap, sheath or buckle is documented;
+do not introduce one. Do not add an aura or recolor Holly's eyes blue.
+```
+
+### Output and preservation
+
+Save additional files in the existing style directory, using the outfit ID:
+
+- `holly_willhelm_base_blue_staff_fullbody_front.png`
+- `holly_willhelm_base_blue_staff_fullbody_profile.png`
+- `holly_willhelm_base_blue_staff_fullbody_back.png`
+- `holly_willhelm_base_blue_staff_fullbody_three_quarter.png`
+
+Each image will have its full English execution prompt and an independent manifest entry with `outfit_id: base_blue_staff`. Use the corresponding approved base image as the edit target. Preserve the same character and pose; allow the transparent canvas/headroom to accommodate the complete raised staff without cropping. The four additional images will retain the Warpath style and genuine PNG transparency.
+
+Equipment prompt remains validated. Generated blue-staff images have been deleted at user request. Generation is deferred to another session.
+
+### Continuation in another session
+
+The user requested deletion of all generated staff-equipped images, retaining the valid prompt and manifest references for image creation in another session. All three generated blue-staff PNGs were removed. Their complete execution prompts remain unchanged. Provenance is archived under removed_images in manifest.json instead of leaving missing files as active references. The five original BLUE reference screenshots and the approved staff-free base library remain available. No blue-staff image is approved or active.
+
+Resume from the approved equipment text, original source screenshots and actual Warpath style references. Preserve the rear-view-first validation checkpoint before producing other angles. Generate nothing further in this session.

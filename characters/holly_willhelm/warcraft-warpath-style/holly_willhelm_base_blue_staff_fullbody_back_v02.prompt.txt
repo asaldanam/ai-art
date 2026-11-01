@@ -1,0 +1,20 @@
+Create ONLY the full-body DIRECT BACK reference of Holly Willhelm wearing her approved robe and carrying the BLUE staff across her back. A new complementary transparent PNG; preserve the staff-free original.
+
+ACTUAL INPUT ROLES:
+1 IDENTITY + OUTFIT + SHOT: approved Holly back view. Preserve her anatomy, plum short layered bob, pale nape and hands, all garment panels, collar, sleeve bands, cuffs, gold belt and layered skirt, bare heels, relaxed A-pose. No face visible.
+2 ACCESSORY GEOMETRY AND COLORS ONLY: the complete blue staff. Translate it into drawn animation, do NOT copy game-render shading or watermark.
+3 PLACEMENT AND GEOMETRY ONLY: exact rear placement and scale. Ignore game character rendering and dark background.
+4 STYLE: original Warpath animation drawing, broad flat cel shadows, thin dark contours, matte graphic materials. Do not transfer the warrior's identity, outfit, pose, setting or cold lighting.
+5 FINISH A: accepted restrained captured-animation finish, fine barely visible grain and gently softened lines. No transfer of warrior identity, scenery or warm light.
+
+MECHANICAL GEOMETRY — CRITICAL:
+The staff is ONE STRAIGHT RIGID OBJECT. Seen from behind, it runs from above Holly's anatomical LEFT shoulder (viewer LEFT) down to her anatomical RIGHT upper thigh (viewer RIGHT).
+Its shaft, blue grip, lower pointed tip, head socket, central crystal center and opposite corner of the head lie along ONE SINGLE STRAIGHT DIAGONAL CENTERLINE. The shaft enters one CORNER of the open square, not the midpoint of a side. Extend the shaft's exact straight axis THROUGH that corner, THROUGH the center crystal and THROUGH the OPPOSITE corner. No elbow, bent shaft, joint, swivel, independently rotated head or twisted grip.
+Copy the integrated head-to-shaft relationship from images 2 and 3 as one solid piece. The square head is diamond-oriented relative to the shaft, with four simple flared pale corner tips, NOT four starbursts. Keep the head plane parallel to Holly's back, both viewed straight from behind: do not turn its face toward a different camera.
+Long muted pale gray-green shaft, cobalt segmented grip, blue-steel open square frame, pale champagne/silver corner tips, small blue side gems in restrained gold settings, larger faceted blue central crystal. Same scale as image 3, fully visible above the hair down to the right upper thigh.
+
+WARPATH REPRESENTATION — ALSO CRITICAL:
+DRAW every surface, including the staff, with flat color areas and ONE or TWO hard-edged shadow masses. Blue parts have broad flat navy shadows; pale metal has restrained cream-gray facets. The central gem has only a few large blue geometric facets. No shiny white specular stars, HDR reflections, glossy bevel modeling, rounded airbrushed gradients, chrome, glowing haze, lens flares or extra ornamentation. The accessory must look as simply shaded as the drawn armor in images 4 and 5, not like a 3D game weapon pasted behind a drawing.
+Holly's hair consists of broad plum locks; robe folds and silver borders use simple planar shadows. Preserve her existing identifying details while matching the selective line economy and subtle finish A. Neutral diffuse illumination, no dramatic color cast.
+
+OUTPUT: single direct BACK full-body reference on genuine transparent alpha. Portrait 2:3. Both empty relaxed hands, complete crown, robe hem, bare heels and the ENTIRE staff fit with clear margin. Reframe the whole figure a little smaller as needed to fit the raised staff, without changing character proportions. No straps or harness added, no floor or cast shadow, no background or painted checkerboard, no labels, red marks, UI, watermark, text or second view.
