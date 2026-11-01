@@ -349,3 +349,24 @@ Equipment prompt remains validated. Generated blue-staff images have been delete
 The user requested deletion of all generated staff-equipped images, retaining the valid prompt and manifest references for image creation in another session. All three generated blue-staff PNGs were removed. Their complete execution prompts remain unchanged. Provenance is archived under removed_images in manifest.json instead of leaving missing files as active references. The five original BLUE reference screenshots and the approved staff-free base library remain available. No blue-staff image is approved or active.
 
 Resume from the approved equipment text, original source screenshots and actual Warpath style references. Preserve the rear-view-first validation checkpoint before producing other angles. Generate nothing further in this session.
+
+
+### Rear view resumed — current additional-image request
+
+The user explicitly resumed generation requesting one additional full-body rear view with the blue staff, using the three isolated staff illustrations and attached rear-placement screenshots. This supersedes the earlier session-only deferral. Equipment revision 2 remains approved; no identity or garment changes are introduced. Only the rear view is requested in this continuation.
+
+Actual new sources attached to v03:
+
+| ID | File | Role |
+|---|---|---|
+| STAFF-ART-FRONT | [Staff broad-face](warcraft-warpath-style/holly_willhelm-base_blue_staff.png) | Accessory design and rendering, explicitly supplied by user for reuse. |
+| STAFF-ART-THREE-QUARTER | [Staff three-quarter](warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png) | Accessory depth and geometry. |
+| BLUE-BACK-CURRENT | [Current rear screenshot](sources/blue_staff/back_placement_2026-11-01.png) | Scale, placement and diagonal only. |
+
+The approved `base_fullbody_back_r01` was the edit target, and STYLE-003 was also attached for drawing. The side staff illustration and annotated second attachment were inspected but not attached to the generator. The side illustration confirms thickness; the rear composition calls for a broad-face head. Source illustrations are used per the current user request; this does not fabricate an earlier artistic approval.
+
+- [Additional rear view v04](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v04.png) — **pending user review**.
+- [Exact final cleanup prompt](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v04.prompt.txt).
+- [Complete composition prompt v03](warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_back_v03.prompt.txt).
+
+v03 is retained as superseded. v04 used v03 alone as its edit target for transparency cleanup. PNG alpha and full framing were checked; slight low-alpha fringe remains. No other angles were generated. The approved nine-view staff-free library remains unchanged. OpenAI built-in image generation was used; effective model identifier is not exposed. Await explicit review of this single additional image before other work on equipped views.

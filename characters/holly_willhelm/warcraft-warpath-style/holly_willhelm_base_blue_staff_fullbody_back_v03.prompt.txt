@@ -1,0 +1,25 @@
+Use case: compositing.
+Asset type: one additional transparent full-body rear character reference, Holly Willhelm, outfit base_blue_staff, approved equipment revision 2.
+Primary request: edit image 1 by adding the exact blue staff stowed diagonally across her back. Preserve the approved Holly drawing, rear pose, anatomy, robe construction, proportions, hair silhouette and colors. Expand the transparent canvas/headroom as necessary, scaling the complete composition uniformly to fit.
+
+ACTUAL INPUTS:
+1 IDENTITY / EDIT TARGET: approved staff-free full-body back. This determines Holly and her costume and existing restrained illumination.
+2 ACCESSORY: full broad-face blue staff design, exact construction and relative lengths.
+3 ACCESSORY / PERSPECTIVE: three-quarter view of same staff, to clarify thickness and rigid construction; do not copy its oblique projection blindly.
+4 SHOT / SCALE: original game rear screenshot with equipped staff. Use only staff-to-body size, diagonal direction and placement, NOT its 3D rendering, skin colors or feet.
+5 STYLE: original Warpath 003 capture. Use only angular drawing, dark selective contours, broad flat cel-shadow shapes, restrained graphic metal. Do not transfer warrior, armor, scenery, action or lighting palette.
+
+IDENTITY: Holly is an adult-presenting slim female Forsaken undead, intact freshly deceased appearance, very pale cool ivory with subtle gray-green undertone, no decay/exposed bone. Short dark plum/burgundy center-parted layered bob, shorter nape, ears covered. Preserve exact rear hairstyle from image 1. Hands slender and bony, each five intact digits including thumb, long dark pointed nails. Bare feet, pale like neck and hands, only slightly visible beneath hem. No shoes.
+
+OUTFIT: preserve image 1 exactly: charcoal-purple fitted upper robe, rounded cloth shoulders, pale shoulder bands, dark olive upper-arm panels edged muted antique gold, long sleeves with broad flared silver-white cuffs. Rear dark shoulder yoke with silver-white edging and broad pale shoulder-blade band. Fitted dark back panel with antique-gold piping. Wide muted beige-gold belt. Purple silver-edged rear skirt panels over charcoal under-skirt, horizontal silver border and broad pale hem with parallel dark bands. No new straps, harness, sheath, buckles, jewelry, armor, symbols or permanent marks.
+
+STAFF GEOMETRY / SCALE:
+Head above anatomical LEFT shoulder (viewer LEFT in this rear view); lower tip down toward anatomical RIGHT upper thigh (viewer RIGHT). Hands empty, relaxed. Staff lies outside and across the back, closer to rear camera than the robe, visibly overlapping the rear cloth where it crosses, never piercing body, hair, sleeves or hands.
+Match image 4: the staff axis is approximately 32 degrees from vertical, running upper-left to lower-right. Its complete end-to-end length is roughly equal to Holly's crown-to-heel height; because diagonal its vertical span is shorter. Head entirely above and to the left of crown; lower point beside upper thigh, not at knees or feet. Grip crosses upper back around shoulder-blade level. Maintain one perfectly straight rigid axis through shaft, segmented grip, head connector and lower tip. No bending, offset segments or varying shaft thickness.
+Exact object from images 2 and 3: muted pale gray-green metal shaft, cobalt-blue segmented grip separated by narrow dark bands, blue-steel and pale silver/champagne open square frame with four flared corner tips. Frame has FOUR straight equal sides around a clear open center, four small blue round gems in restrained gold side settings, ONE larger faceted sapphire/cyan crystal suspended centrally. Lower end has pale pointed metal tip and blue collar bands. Keep supplied head/shaft/grip length ratios. In this rear camera the broad head is near parallel to the back and therefore seen broad-face, not edge-on. Rotate the entire rigid accessory into its diagonal carry position: its open square projects similarly to image 4, with a clean consistent plane, not a twisted head. All internal crystal facets remain restrained graphic blue, no haze or aura.
+
+STYLE / LIGHT:
+Match the approved image 1 and Warpath drawing: dark clean slightly softened contours, angular large locks and folds, base color plus one or two broad cel-shadow masses, graphic matte metal highlights. Subtle captured-animation finish, barely visible fine luminance grain and small drawing irregularities. Maintain clear shadow boundaries. No photorealism, game render, PBR, chrome, glossy illustration, airbrush volumes, microtexture, added rim light, bloom or particles.
+
+FRAMING / TRANSPARENCY:
+One exact rear full-body view, neutral soft A-pose, level camera, no facial turn. All of Holly and entire staff visible with comfortable margin above headpiece and below bare feet. Portrait canvas. Genuine transparent background, including empty opening around suspended crystal. No painted backdrop, black background, checkerboard, ground plane, cast floor shadow, ambient cloudy halo, panel, text, watermark, UI or annotation. Keep near-opaque solid character and staff interiors and clean alpha silhouette.

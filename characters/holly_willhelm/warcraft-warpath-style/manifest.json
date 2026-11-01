@@ -134,14 +134,12 @@
       },
       "identity_revision": 2,
       "id": "base_blue_staff",
-      "stage": "generating_views",
-      "execution_status": "deferred_to_another_session_by_user",
+      "stage": "awaiting_sheet_review",
+      "execution_status": "rear_view_pending_user_review",
       "resume_instructions": [
-        "The approved English equipment prompt remains valid.",
-        "Do not reuse deleted generated blue-staff images.",
-        "Use approved staff-free base views, original sources/blue_staff references and actual Warpath style images.",
-        "Rear view first, then user validation before other views.",
-        "Generate nothing further in this session."
+        "Current request is one additional rear view only.",
+        "Await user review of v04 before any other view.",
+        "Keep approved staff-free base library unchanged."
       ],
       "source_reference_ids": [
         "BLUE-FRONT",
@@ -149,7 +147,11 @@
         "BLUE-PROFILE",
         "BLUE-DETAIL",
         "BLUE-THREE-QUARTER"
-      ]
+      ],
+      "current_request_views": [
+        "fullbody_back"
+      ],
+      "current_request_evidence": "quiero que generes una versión adicional de Cuerpo de espaldas ... Pero con el bastón situado a su espalda. Respeta perspectivas y tamaños."
     }
   ],
   "images": [
@@ -535,6 +537,81 @@
         "evidence": "Apruebo las nueve vistas",
         "recorded_at": "2026-11-01T21:45:45+01:00"
       }
+    },
+    {
+      "id": "base_blue_staff_fullbody_back_r02_v03",
+      "file": "holly_willhelm_base_blue_staff_fullbody_back_v03.png",
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_back_v03.prompt.txt",
+      "outfit_id": "base_blue_staff",
+      "identity_revision": 2,
+      "kind": "reference",
+      "view": "fullbody_back",
+      "status": "superseded",
+      "candidate_round": null,
+      "camera_side": "back",
+      "source_ids": [
+        "STAFF-ART-FRONT",
+        "STAFF-ART-THREE-QUARTER",
+        "BLUE-BACK-CURRENT",
+        "STYLE-003"
+      ],
+      "reference_image_ids": [
+        "base_fullbody_back_r01"
+      ],
+      "derived_from": "base_fullbody_back_r01",
+      "notes": [
+        "Additive rear view only; original approved base image preserved.",
+        "Built-in OpenAI image generator; effective model not exposed.",
+        "Followed by one targeted transparency cleanup; retained for provenance."
+      ]
+    },
+    {
+      "id": "base_blue_staff_fullbody_back_r02_v04",
+      "file": "holly_willhelm_base_blue_staff_fullbody_back_v04.png",
+      "prompt_file": "holly_willhelm_base_blue_staff_fullbody_back_v04.prompt.txt",
+      "outfit_id": "base_blue_staff",
+      "identity_revision": 2,
+      "kind": "reference",
+      "view": "fullbody_back",
+      "status": "pending_review",
+      "candidate_round": null,
+      "camera_side": "back",
+      "source_ids": [],
+      "reference_image_ids": [
+        "base_blue_staff_fullbody_back_r02_v03"
+      ],
+      "derived_from": "base_blue_staff_fullbody_back_r02_v03",
+      "notes": [
+        "Additive rear view only; original approved base image preserved.",
+        "Built-in OpenAI image generator; effective model not exposed."
+      ],
+      "technical_validation": {
+        "format": "PNG",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          254
+        ],
+        "fully_transparent_pixels": 1012980,
+        "visible_bbox_alpha_over_128": [
+          167,
+          19,
+          829,
+          1483
+        ],
+        "note": "True alpha; minor low-alpha fringe remains. Interior solids mostly alpha 253–254."
+      },
+      "visual_review": {
+        "drawing": "matches: angular outlined locks and broad cel shadows",
+        "identity": "matches: approved rear bob, pale intact hands, bare feet and robe motifs",
+        "staff": "approximately matches: rigid straight axis, four-sided open frame, four small blue gems and central crystal; head upper viewer-left, tip viewer-right beside thigh",
+        "scale": "approximately matches screenshot; full staff and figure visible",
+        "approval": "pending explicit user review"
+      }
     }
   ],
   "preselected_imports": [
@@ -696,6 +773,24 @@
       "reason": "Targeted crop correction; first version superseded",
       "tool": "image_gen.imagegen",
       "model": "not_exposed"
+    },
+    {
+      "view": "fullbody_back",
+      "version": "v03",
+      "outfit_id": "base_blue_staff",
+      "result": "saved",
+      "file": "holly_willhelm_base_blue_staff_fullbody_back_v03.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "fullbody_back",
+      "version": "v04",
+      "outfit_id": "base_blue_staff",
+      "result": "saved",
+      "file": "holly_willhelm_base_blue_staff_fullbody_back_v04.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
     }
   ],
   "state_note": "Complete nine-view base-outfit reference library approved by the user for canonical identity revision 1 and Warpath style. Original files, exact prompts, superseded head-back output and failure history preserved.",
@@ -800,6 +895,23 @@
       ],
       "removed_at": "2026-11-01T22:17:43+01:00",
       "removal_reason": "User requested deletion of generated blue-staff images; keep prompts and source provenance."
+    }
+  ],
+  "additional_sources": [
+    {
+      "id": "STAFF-ART-FRONT",
+      "file": "warcraft-warpath-style/holly_willhelm-base_blue_staff.png",
+      "role": "ACCESSORY design and Warpath rendering; explicitly requested by user"
+    },
+    {
+      "id": "STAFF-ART-THREE-QUARTER",
+      "file": "warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png",
+      "role": "ACCESSORY thickness and perspective"
+    },
+    {
+      "id": "BLUE-BACK-CURRENT",
+      "file": "sources/blue_staff/back_placement_2026-11-01.png",
+      "role": "SHOT staff-to-body scale, diagonal and placement; user attachment copied unchanged"
     }
   ]
 }
