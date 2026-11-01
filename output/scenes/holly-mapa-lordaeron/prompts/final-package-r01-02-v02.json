@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "selection_id": "sel-r01-02-v01",
+  "scene_revision": 1,
+  "prompt_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/final-r01-02-v02.txt",
+  "attachments_in_order": [
+    {
+      "index": 1,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+      "role": "SELECTED_STRUCTURAL_ANCHOR",
+      "sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3"
+    },
+    {
+      "index": 2,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "role": "HOLLY_IDENTITY_AND_UPPER_ROBE",
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c"
+    },
+    {
+      "index": 3,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "role": "HOLLY_OUTFIT_EQUIPMENT_AND_STAFF_GEOMETRY",
+      "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab"
+    },
+    {
+      "index": 4,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "role": "LORDAERON_AND_DRY_NIGHT_AMBIENCE",
+      "sha256": "fc930cd06c0f8e1d6ad445cfbda2ec3b38419d1704b829af43721797ae94f3a6"
+    },
+    {
+      "index": 5,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "role": "WARPATH_DRAWING_PAINTED_DEPTH_AND_APPROVED_A_FINISH",
+      "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040"
+    }
+  ],
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "effective_model": null,
+    "model_visibility": "not_exposed",
+    "requested_model_or_policy": "Most advanced selectable option; no selector exposed"
+  },
+  "tool_options": {
+    "transparent_background": false
+  },
+  "negative": {
+    "channel": "natural_language_in_main_prompt",
+    "separate_field": false
+  },
+  "format": {
+    "aspect_ratio": "approximately 2.4:1",
+    "same_as_selected_sketch": true
+  },
+  "canonical_description": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/CHARACTER.md",
+  "identity_revision": 1,
+  "equipment_revision": 2,
+  "outfit": "base_blue_staff",
+  "style_skill": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/SKILL.md",
+  "style_documents": [
+    "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/style-bible.md",
+    "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/finish-calibration.md",
+    "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/review-and-continuity.md",
+    "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/project-config.md",
+    "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/model-policy.md"
+  ],
+  "guide_sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "consulted_on": "2026-11-01"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/image-prompting",
+      "consulted_on": "2026-11-01"
+    }
+  ],
+  "composition_commitments": {
+    "crop": "Same medium-long thigh crop as selected sketch; no added body space",
+    "camera": "Same near frontal three-quarter view and height",
+    "placement": "Holly left foreground; gate center-right distance; road and banners recede toward entrance",
+    "pose": "Head lowered, both elbows bent, one hand at each scroll roll, map tilted toward face",
+    "equipment": "Rigid back-stowed diagonal staff head above anatomical left shoulder; lower tip toward right hip/thigh",
+    "scale": "Preserve selected figure/map/staff and gate relative sizes",
+    "environment": "Preserve gate, wall, tower, path, tree and banner principal masses"
+  },
+  "attempt_id": "v02",
+  "retry_reason": "Runtime rejected v01 before image generation: referenced_image_paths max 5; removed redundant references while retaining all required roles",
+  "runtime_constraint_observed": {
+    "max_referenced_image_paths": 5,
+    "source": "image_gen.imagegen rejection of v01"
+  },
+  "execution": {
+    "generations_this_attempt": 1,
+    "further_automatic_retries": false
+  }
+}

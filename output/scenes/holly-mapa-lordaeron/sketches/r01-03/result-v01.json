@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "branch_id": "r01-03",
+  "agent_id": "/root/boceto_03",
+  "agent_id_kind": "canonical_task_name",
+  "status": "success_with_visual_limitations",
+  "tool": "image_gen.imagegen",
+  "provider": "OpenAI",
+  "effective_model": null,
+  "model_visibility": "not_exposed",
+  "generation_count": 1,
+  "automatic_retries": 0,
+  "effective_options": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/scene-creator/references/boceto-3.png"
+    ],
+    "num_last_images_to_include": "omitted",
+    "model_selector": "not_exposed",
+    "resolution_selector": "not_exposed",
+    "seed": "not_exposed",
+    "quality": "not_exposed"
+  },
+  "prompt_source": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/sketch-r01.txt",
+  "prompt_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-03/sketch-v01.prompt.txt",
+  "prompt_transmission": "Exact text read using System.IO.File.ReadAllText from the byte-for-byte copied prompt file; no rewrite or additions.",
+  "prompt_sha256": "32cb80da70ba1eab152a237e9da9d4f54944a78ccce48d394b23b396242b05c9",
+  "file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-03/sketch-v01.png",
+  "native_source_file": "C:/Users/vee_m/.codex/generated_images/01a1992d-6905-7013-9598-802d81821a39/exec-3038a8d3-9e46-42ce-ba3c-f35d4f85f2af.png",
+  "native_copy_without_image_modification": true,
+  "image_sha256": "502beda13550b32c9ef4e8210fa2a947540e4300e9f51159572199068396e2f1",
+  "dimensions": {
+    "width": 1942,
+    "height": 809,
+    "unit": "px",
+    "format": "PNG",
+    "aspect_ratio": 2.400494437577256
+  },
+  "attachments_transmitted_in_order": [
+    {
+      "position": 1,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "role": "ACTION_AND_PLACE_STRUCTURE",
+      "viewed_before_generation": true
+    },
+    {
+      "position": 2,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "role": "ARCHITECTURAL_STRUCTURE",
+      "viewed_before_generation": true
+    },
+    {
+      "position": 3,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/scene-creator/references/boceto-3.png",
+      "role": "SKETCH_DEVELOPMENT_LEVEL_ONLY",
+      "viewed_before_generation": true
+    }
+  ],
+  "restrictions_in_prompt": {
+    "channel": "natural_language_in_main_prompt",
+    "separate_negative_field": false,
+    "summary": [
+      "One rough structural sketch, one continuous approximately 2.4:1 panoramic image; no bars, panels, labels or captions.",
+      "Exactly one slim adult female figure reading an open map with both hands, each gripping a different rolled end; head and gaze down.",
+      "Believable connected arms and contacting hands; map must not float or pass through torso; five intact digits when sufficiently visible.",
+      "One rigid back-stowed staff, head above anatomical left shoulder, tip toward anatomical right hip/thigh; corner connection; approximately standing body length.",
+      "Recognizable Lordaeron gate, receding path, walls, towers, banners and sparse trees at consistent scale and perspective.",
+      "Monochrome graphite-like construction, simple volumes and guides, schematic environment; no finished rendering, detailed face, trim, jewels, map lettering or textures.",
+      "No extra people, creatures, weapons, harness, moon, magic, rain, snow, interface, watermarks or readable text."
+    ]
+  },
+  "metadata_recorded_at": "2026-11-01T23:15:33+01:00",
+  "timezone": "Europe/Madrid",
+  "dimension_and_hash_method": "System.Drawing.Image and PowerShell Get-FileHash SHA256 on the saved native PNG; no pixel edits.",
+  "local_result_opened_for_review": true,
+  "errors": [],
+  "limitations": [
+    "Integrated image tool exposes neither effective model ID nor seed, quality or resolution selectors.",
+    "Generated detail exceeds the requested economical structural level: masonry, trees, ground and parchment contain substantial small lines and texture.",
+    "Clothing includes belt and extra seam or strap-like lines over the shoulders; these may conflict with the no-trim/no-harness restriction.",
+    "Lower body is cropped, so bare feet and actual ground contact cannot be assessed.",
+    "Visible digits overlap in searching pencil lines; exact five-digit anatomy is not reliably verifiable at this scale."
+  ],
+  "visual_observations": {
+    "action": "Single woman occupies the left foreground, head tilted down toward an open scroll held at lower-chest height. Quiet reading action is clear.",
+    "anatomy": "Adult slender torso, narrow waist, short bob mass, long sleeves and robe. Shoulder-elbow-wrist routes remain readable beneath wide cuffs. Facial construction is simple with downturned features.",
+    "contacts": "Each hand visibly wraps a different rolled side of the scroll. The parchment lies in front of the torso without an obvious intersection or unsupported floating gap.",
+    "staff": "Single diagonal rod passes behind the figure; open quadrilateral head appears above her anatomical left shoulder, on the viewer's right. Lower end appears on the viewer's left toward her right side, below the visible waist. Head connection is at a corner. Back contact and full body-length comparison remain partly occluded/cropped.",
+    "scale": "Foreground figure and map are much larger than the distant entrance, with banners diminishing along the approach. Overall near-to-far scale is coherent.",
+    "perspective": "Path edges, ground slabs and banner rows converge toward the arched gate. Tower and side walls read as large architectural masses, although their masonry is developed in excessive detail.",
+    "camera": "Near eye-level or mildly low three-quarter frontal view of the figure, cropped below the upper robe; gate occupies the middle-right distance with broad space to the right.",
+    "format": "Single monochrome panoramic PNG, 1942 by 809 pixels, ratio approximately 2.4005:1. No letterbox bars, panels, captions, interface or readable text observed.",
+    "development_level": "Loose repeated pencil lines and some construction remain visible, but environment and costume detailing push the result toward a developed pencil illustration."
+  },
+  "review_scope": "Worker structural observations only; no user artistic approval claimed."
+}

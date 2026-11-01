@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "selection_id": "sel-r01-02-v01",
+  "attempt_id": "v04",
+  "agent_id": "/root",
+  "method": "authorized_hybrid_exact_head_montage_and_generated_mouth_patch",
+  "status": "delivered_agent_reviewed",
+  "file": "final-v04.png",
+  "image_sha256": "a51f9eb1d0e3b037ad3651f4ac93d84be4dc950c5ba0893d66fe794d34582ccf",
+  "dimensions": {
+    "width": 1942,
+    "height": 809,
+    "aspect_ratio": 2.400494437577256
+  },
+  "execution_script": "../../scripts/compose_scene_v04.py",
+  "montage_record": "../../work/v04/montage-v01.json",
+  "execution_file": "final-v04.execution.md",
+  "component_generation_report": "v04-face/result-v01.json",
+  "component_prompt_file": "v04-face/face-v01.prompt.txt",
+  "component_prompt_sha256": "79cc8f960508929cd362556b84f4f00e34caeef72f452dbdeb0d408dd9625dcd",
+  "component_provider": "OpenAI",
+  "component_tool": "image_gen.imagegen",
+  "component_effective_model": null,
+  "model_visibility": "not_exposed",
+  "user_authorization": "Sí, montaje exacto y retoque del rostro (recomendado)",
+  "recorded_at": "2026-11-02T00:24:51.009666+01:00",
+  "timezone": "Europe/Madrid",
+  "changed_pixels": 20711,
+  "unchanged_outside_mask": true,
+  "coordinator_visual_review": {
+    "by": "coordinator",
+    "visually_inspected": true,
+    "views": [
+      "full_scene_native",
+      "head_region_4x",
+      "face_region_6x"
+    ],
+    "structure": "Matches selected sketch 2 camera, crop, figure/map contacts and gate/path masses",
+    "identity": "Approved pale narrow face, yellow eyes, plum bob and robe retained; only mouth integration changes local face pixels",
+    "staff": "Original approved quadrilateral head, four corner terminals and four blue side gems plus central crystal verified visually; rigid original geometry preserved",
+    "lips": "Natural rounded lower lip and restrained closed separation replace the awkward dark wedge; small deliberate cel shadow remains below lip",
+    "sketch_residue": "No facial construction axes, ghosted parchment guides or searching figure contours visible; deliberate drawn contours and painted background texture retained",
+    "compositing": "Head joins the existing shaft; local sky repair and mouth edges reviewed enlarged; no obvious compositing seam at native scale",
+    "style": "Angular drawn figure, broad cel shadows, subdued green night and layered painted background; subtle A softness retained",
+    "format": "1942x809 PNG, ratio 2.40049:1, opaque",
+    "outside_authorized_regions_unchanged": true,
+    "user_artistic_approval": null
+  },
+  "user_approval": null
+}

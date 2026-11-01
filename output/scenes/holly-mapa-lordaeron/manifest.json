@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "scene_id": "holly-mapa-lordaeron",
+  "scene_revision": 1,
+  "stage": "delivered",
+  "style_skill": {
+    "name": "warcraft-warpath-style",
+    "path": ".agents/skills/warcraft-warpath-style/SKILL.md",
+    "base": "project"
+  },
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "requested_model_or_policy": "Most advanced selectable option; integrated tool has no model selector",
+    "effective_model": null,
+    "model_visibility": "not_exposed",
+    "guide_sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/guides/image-generation",
+        "consulted_on": "2026-11-01"
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/guides/image-prompting",
+        "consulted_on": "2026-11-01"
+      }
+    ],
+    "runtime_constraints": {
+      "max_referenced_image_paths": 5,
+      "source": "Observed tool validation error on final v01"
+    }
+  },
+  "format": {
+    "aspect_ratio": "approximately 2.4:1",
+    "requested_options": {
+      "transparent_background": false
+    },
+    "dimension_control": "prompt_only"
+  },
+  "sources": [
+    {
+      "id": "SCENE-ACTION",
+      "path": "output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "base": "project",
+      "role": "ACTION_AND_PLACE_STRUCTURE",
+      "provenance": "C:/Users/vee_m/Desktop/escena.jpg",
+      "sha256": "fc930cd06c0f8e1d6ad445cfbda2ec3b38419d1704b829af43721797ae94f3a6",
+      "visually_inspected": true
+    },
+    {
+      "id": "LORDAERON-ARCHITECTURE",
+      "path": "output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "base": "project",
+      "role": "ARCHITECTURAL_STRUCTURE",
+      "provenance": "C:/Users/vee_m/AppData/Local/Temp/codex-clipboard-d5ff3476-ae85-45f5-aa81-8f04a0197c64.jpg",
+      "sha256": "b01173dba1bf602740d08097ca38f3218100f17c84a5c769d2937be01698dafb",
+      "visually_inspected": true
+    },
+    {
+      "id": "SKETCH-LEVEL-3",
+      "path": ".agents/skills/scene-creator/references/boceto-3.png",
+      "base": "project",
+      "role": "SKETCH_DEVELOPMENT_LEVEL_ONLY",
+      "provenance": null,
+      "sha256": "5fc74f37dfe64765a5802eb5673d3b36ca9a03dca3c9c27f80358b9fbb479ace",
+      "visually_inspected": true
+    },
+    {
+      "id": "HOLLY-MIDSHOT",
+      "path": "characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "base": "project",
+      "role": "IDENTITY_FOR_FUTURE_FINAL_ONLY",
+      "provenance": null,
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c",
+      "visually_inspected": true
+    },
+    {
+      "id": "HOLLY-BLUE-FRONT",
+      "path": "characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_front_v05.png",
+      "base": "project",
+      "role": "IDENTITY_AND_EQUIPMENT_FOR_FUTURE_FINAL_ONLY",
+      "provenance": null,
+      "sha256": "932ebb3b2ca9f2469b228e2298d8d30ee4b0f37ae8939517595a89af0aa7513e",
+      "visually_inspected": true
+    },
+    {
+      "id": "HOLLY-BLUE-THREE-QUARTER",
+      "path": "characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "base": "project",
+      "role": "IDENTITY_AND_EQUIPMENT_FOR_FUTURE_FINAL_ONLY",
+      "provenance": null,
+      "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab",
+      "visually_inspected": true
+    },
+    {
+      "id": "STYLE-006",
+      "path": ".agents/skills/warcraft-warpath-style/references/warpath/006_human-warrior-profile-at-night.png",
+      "base": "project",
+      "role": "STYLE_AND_LOW_NIGHT_EXPOSURE_FOR_FUTURE_FINAL_ONLY",
+      "provenance": null,
+      "sha256": "4982241bd4ee21b6ab4deae686144c6283ad37b80401310b37c62ec2de9f2856",
+      "visually_inspected": true
+    },
+    {
+      "id": "STYLE-019",
+      "path": ".agents/skills/warcraft-warpath-style/references/warpath/019_alliance-party-ready-for-battle-in-dark-forest.png",
+      "base": "project",
+      "role": "LAYERED_NIGHT_BACKGROUND_FOR_FUTURE_FINAL_ONLY",
+      "provenance": null,
+      "sha256": "e5f889249720c281a5ecd4bd91b0e2731d00628d2092221b635dcdc141cf6f98",
+      "visually_inspected": true
+    },
+    {
+      "id": "STYLE-003-A",
+      "path": ".agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "base": "project",
+      "role": "APPROVED_FINISH_A_FOR_FUTURE_FINAL_ONLY",
+      "provenance": null,
+      "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040",
+      "visually_inspected": true
+    },
+    {
+      "id": "BLUE_STAFF_GEOMETRY",
+      "path": "characters/holly_willhelm/warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png",
+      "base": "project",
+      "role": "BLUE_STAFF_GEOMETRY",
+      "sha256": "4d1abd842660f72b62682aa0d154b5c162b62f2812f2c1e75fe22b97b72b7492",
+      "visually_inspected": true
+    }
+  ],
+  "characters": [
+    {
+      "id": "holly_willhelm",
+      "description_path": "characters/holly_willhelm/CHARACTER.md",
+      "description_sha256": "38e84dc0b72807b7b7c2e9739208e75c9f05f73e2b1e0f8555926dd6323fae37",
+      "manifest": "characters/holly_willhelm/warcraft-warpath-style/manifest.json",
+      "manifest_sha256": "2d8d53bd1486cd00001f8ec1fc9890608d6041f4c5365c7ad02ff5c1cde728bd",
+      "base": "project",
+      "identity_revision": 1,
+      "equipment_revision": 2,
+      "outfit": "base_blue_staff",
+      "approval_status": "approved_by_user_in_character_library",
+      "scene_action_override": "Both hands hold map instead of neutral empty-handed library pose"
+    }
+  ],
+  "pending_questions": [],
+  "sketch_rounds": [
+    {
+      "id": "r01",
+      "scene_revision": 1,
+      "prompt_file": "prompts/sketch-r01.txt",
+      "prompt_sha256": "32cb80da70ba1eab152a237e9da9d4f54944a78ccce48d394b23b396242b05c9",
+      "package_file": "prompts/sketch-package-r01.json",
+      "package_sha256": "582fef853da38a3a0bce2fd51e40743a23932b7cca350a66a37307b5c6de535e",
+      "attachments": [
+        {
+          "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+          "role": "ACTION_AND_PLACE_STRUCTURE"
+        },
+        {
+          "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+          "role": "ARCHITECTURAL_STRUCTURE"
+        },
+        {
+          "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/scene-creator/references/boceto-3.png",
+          "role": "SKETCH_DEVELOPMENT_LEVEL_ONLY"
+        }
+      ],
+      "options": {
+        "transparent_background": false
+      },
+      "negative": {
+        "channel": "natural_language_in_main_prompt",
+        "separate_field": false
+      },
+      "branches": [
+        {
+          "id": "r01-01",
+          "agent_id": "/root/boceto_01",
+          "attempts": [
+            {
+              "id": "v01",
+              "report_file": "sketches/r01-01/result-v01.json",
+              "file": "sketches/r01-01/sketch-v01.png",
+              "prompt_file": "sketches/r01-01/sketch-v01.prompt.txt",
+              "prompt_sha256": "32cb80da70ba1eab152a237e9da9d4f54944a78ccce48d394b23b396242b05c9",
+              "image_sha256": "74ff20fac9ff4725bc6b03184e56f0b80edade074c966ac6d8a03cc5872605bf",
+              "dimensions": {
+                "width": 1942,
+                "height": 809,
+                "aspect_ratio": 2.400494437577256,
+                "format": "PNG"
+              },
+              "attachments_verified": true,
+              "initial_package_matches": true
+            }
+          ],
+          "review": {
+            "by": "coordinator",
+            "visually_inspected": true,
+            "status": "structurally_usable",
+            "action": "Both-handed reading and downward attention legible",
+            "anatomy": "Adult slim torso and coherent bent arms; lower-body support outside crop",
+            "contacts": "Each hand overlaps a separate scroll roll; exact digit count partly occluded",
+            "staff": "Diagonal behind body with head above anatomical left shoulder; back contact mostly occluded",
+            "depth": "Gate, road and banner scale progression coherent",
+            "format": "1942x809, ratio 2.40049",
+            "limitations": [
+              "Environment more detailed than schematic sketch target",
+              "Similar camera/composition in all three independent outputs",
+              "Final must develop canonical face, robe and exact staff geometry instead of provisional sketch details"
+            ],
+            "user_approval": null
+          }
+        },
+        {
+          "id": "r01-02",
+          "agent_id": "/root/boceto_02",
+          "attempts": [
+            {
+              "id": "v01",
+              "report_file": "sketches/r01-02/result-v01.json",
+              "file": "sketches/r01-02/sketch-v01.png",
+              "prompt_file": "sketches/r01-02/sketch-v01.prompt.txt",
+              "prompt_sha256": "32cb80da70ba1eab152a237e9da9d4f54944a78ccce48d394b23b396242b05c9",
+              "image_sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3",
+              "dimensions": {
+                "width": 1942,
+                "height": 809,
+                "aspect_ratio": 2.400494437577256,
+                "format": "PNG"
+              },
+              "attachments_verified": true,
+              "initial_package_matches": true
+            }
+          ],
+          "review": {
+            "by": "coordinator",
+            "visually_inspected": true,
+            "status": "structurally_usable",
+            "action": "Both-handed reading and downward attention legible",
+            "anatomy": "Adult slim torso and coherent bent arms; lower-body support outside crop",
+            "contacts": "Each hand overlaps a separate scroll roll; exact digit count partly occluded",
+            "staff": "Diagonal behind body with head above anatomical left shoulder; back contact mostly occluded",
+            "depth": "Gate, road and banner scale progression coherent",
+            "format": "1942x809, ratio 2.40049",
+            "limitations": [
+              "Environment more detailed than schematic sketch target",
+              "Similar camera/composition in all three independent outputs",
+              "Final must develop canonical face, robe and exact staff geometry instead of provisional sketch details"
+            ],
+            "user_approval": null
+          }
+        },
+        {
+          "id": "r01-03",
+          "agent_id": "/root/boceto_03",
+          "attempts": [
+            {
+              "id": "v01",
+              "report_file": "sketches/r01-03/result-v01.json",
+              "file": "sketches/r01-03/sketch-v01.png",
+              "prompt_file": "sketches/r01-03/sketch-v01.prompt.txt",
+              "prompt_sha256": "32cb80da70ba1eab152a237e9da9d4f54944a78ccce48d394b23b396242b05c9",
+              "image_sha256": "502beda13550b32c9ef4e8210fa2a947540e4300e9f51159572199068396e2f1",
+              "dimensions": {
+                "width": 1942,
+                "height": 809,
+                "unit": "px",
+                "format": "PNG",
+                "aspect_ratio": 2.400494437577256
+              },
+              "attachments_verified": true,
+              "initial_package_matches": true
+            }
+          ],
+          "review": {
+            "by": "coordinator",
+            "visually_inspected": true,
+            "status": "structurally_usable",
+            "action": "Both-handed reading and downward attention legible",
+            "anatomy": "Adult slim torso and coherent bent arms; lower-body support outside crop",
+            "contacts": "Each hand overlaps a separate scroll roll; exact digit count partly occluded",
+            "staff": "Diagonal behind body with head above anatomical left shoulder; back contact mostly occluded",
+            "depth": "Gate, road and banner scale progression coherent",
+            "format": "1942x809, ratio 2.40049",
+            "limitations": [
+              "Environment more detailed than schematic sketch target",
+              "Similar camera/composition in all three independent outputs",
+              "Final must develop canonical face, robe and exact staff geometry instead of provisional sketch details"
+            ],
+            "user_approval": null
+          }
+        }
+      ]
+    }
+  ],
+  "selections": [
+    {
+      "id": "sel-r01-02-v01",
+      "scene_revision": 1,
+      "branch": "r01-02",
+      "file": "sketches/r01-02/sketch-v01.png",
+      "image_sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3",
+      "evidence": "Boceto 2",
+      "recorded_at": "2026-11-02T00:01:01.662367+01:00",
+      "source": "User reply to sketch selection question",
+      "valid": true,
+      "composition_commitments": {
+        "crop": "Same medium-long thigh crop as selected sketch; no added body space",
+        "camera": "Same near frontal three-quarter view and height",
+        "placement": "Holly left foreground; gate center-right distance; road and banners recede toward entrance",
+        "pose": "Head lowered, both elbows bent, one hand at each scroll roll, map tilted toward face",
+        "equipment": "Rigid back-stowed diagonal staff head above anatomical left shoulder; lower tip toward right hip/thigh",
+        "scale": "Preserve selected figure/map/staff and gate relative sizes",
+        "environment": "Preserve gate, wall, tower, path, tree and banner principal masses"
+      }
+    }
+  ],
+  "finals": [
+    {
+      "id": "final-r01-02",
+      "selection_id": "sel-r01-02-v01",
+      "agent_id": "/root/acabado_02",
+      "attempts": [
+        {
+          "id": "v01",
+          "status": "tool_rejected_no_image",
+          "report_file": "finals/r01-02/result-v01.json",
+          "prompt_file": "finals/r01-02/final-v01.prompt.txt",
+          "prompt_sha256": "d9e3761c0de56f8e1c190c9282503433599c04f2f81d25f6de530a08ec14eb09",
+          "error": "referenced_image_paths must contain at most 5 paths",
+          "attachments_requested": 8,
+          "attachments_accepted": false
+        },
+        {
+          "id": "v02",
+          "status": "generated_needs_revision",
+          "file": "finals/r01-02/final-v02.png",
+          "report_file": "finals/r01-02/result-v02.json",
+          "prompt_file": "finals/r01-02/final-v02.prompt.txt",
+          "prompt_sha256": "03d3edf598e5ee30d0c008344086db8e68df73bf217bf0e5429b851c48664821",
+          "image_sha256": "8217d317489d0ca5dfb8f39028305f9dd78806fdb44150816ab7dc324d4814a0",
+          "dimensions": {
+            "width": 1942,
+            "height": 809,
+            "aspect_ratio": 2.400494437577256
+          },
+          "attachments_actually_transmitted": [
+            {
+              "index": 1,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+              "role": "SELECTED_STRUCTURAL_ANCHOR",
+              "sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3"
+            },
+            {
+              "index": 2,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+              "role": "HOLLY_IDENTITY_AND_UPPER_ROBE",
+              "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c"
+            },
+            {
+              "index": 3,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+              "role": "HOLLY_OUTFIT_EQUIPMENT_AND_STAFF_GEOMETRY",
+              "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab"
+            },
+            {
+              "index": 4,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+              "role": "LORDAERON_AND_DRY_NIGHT_AMBIENCE",
+              "sha256": "fc930cd06c0f8e1d6ad445cfbda2ec3b38419d1704b829af43721797ae94f3a6"
+            },
+            {
+              "index": 5,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+              "role": "WARPATH_DRAWING_PAINTED_DEPTH_AND_APPROVED_A_FINISH",
+              "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040"
+            }
+          ],
+          "coordinator_review": {
+            "visually_inspected": true,
+            "structure": "Matches selected camera, crop, reading contacts and gate/path masses",
+            "identity": "Pale narrow face, yellow eyes, plum bob and robe relationships broadly retained",
+            "style": "Drawn figure and painted night environment retained; background fairly detailed",
+            "staff": "FAIL: five perimeter gems and a polygonal head instead of canonical four-sided/four-gem head",
+            "action": "Both hands grip separate scroll rolls; downward attention legible",
+            "format": "1942x809, 2.40049:1"
+          },
+          "user_approval": null,
+          "user_review": {
+            "evidence": "Corrige el cabezal, el labio se ve raro y se aprecian las marcas de boceto todavía",
+            "issues": [
+              "Malformed staff head",
+              "Awkward lips",
+              "Residual sketch/construction marks"
+            ],
+            "approval": false
+          }
+        },
+        {
+          "id": "v03",
+          "status": "generated_needs_revision",
+          "file": "finals/r01-02/final-v03.png",
+          "report_file": "finals/r01-02/result-v03.json",
+          "prompt_file": "finals/r01-02/final-v03.prompt.txt",
+          "prompt_sha256": "d964257e577dea07cab6b1ecccb3b9f28d6b4804385acb569e3d28f47218c3aa",
+          "image_sha256": "6738b361b5aecd8928de83336fb50824805df6ca8396b90eb0314227aebbd01f",
+          "dimensions": {
+            "width": 1942,
+            "height": 809,
+            "aspect_ratio": 2.400494437577256
+          },
+          "attachments_actually_transmitted": [
+            {
+              "index": 1,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/final-v02.png",
+              "role": "EDIT_TARGET_AND_COMPOSITION_LOCK",
+              "sha256": "8217d317489d0ca5dfb8f39028305f9dd78806fdb44150816ab7dc324d4814a0"
+            },
+            {
+              "index": 2,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png",
+              "role": "EXACT_STAFF_HEAD_GEOMETRY",
+              "sha256": "4d1abd842660f72b62682aa0d154b5c162b62f2812f2c1e75fe22b97b72b7492"
+            },
+            {
+              "index": 3,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+              "role": "HOLLY_FACE_AND_LIPS",
+              "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c"
+            },
+            {
+              "index": 4,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+              "role": "APPROVED_EQUIPPED_CONTINUITY",
+              "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab"
+            },
+            {
+              "index": 5,
+              "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+              "role": "WARPATH_DRAWING_AND_APPROVED_A_FINISH",
+              "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040"
+            }
+          ],
+          "user_authorization": {
+            "evidence": "Corrige el cabezal, el labio se ve raro y se aprecian las marcas de boceto todavia",
+            "original_message": "Corrige el cabezal, el labio se ve raro y se aprecian las marcas de boceto todavía",
+            "recorded_at": "2026-11-02T00:11:12.031106+01:00",
+            "scope": [
+              "Canonical staff head",
+              "Approved lips in same head angle",
+              "Remove residual sketch/construction marks"
+            ],
+            "further_generation_authorized": true
+          },
+          "coordinator_review": {
+            "visually_inspected": true,
+            "structure": "Selected composition and pose retained",
+            "staff": "FAIL: five perimeter gems and extra polygonal side/corner remain",
+            "lips": "Partly cleaner; requested natural lip shape not confidently resolved at native scale",
+            "sketch_residue": "Figure, scroll and robe cleaner; not declared fully resolved",
+            "format": "1942x809, 2.40049:1"
+          },
+          "user_approval": null
+        },
+        {
+          "id": "v04",
+          "status": "delivered_agent_reviewed",
+          "method": "authorized_hybrid_exact_head_montage_and_generated_mouth_patch",
+          "file": "finals/r01-02/final-v04.png",
+          "image_sha256": "a51f9eb1d0e3b037ad3651f4ac93d84be4dc950c5ba0893d66fe794d34582ccf",
+          "report_file": "finals/r01-02/result-v04.json",
+          "execution_file": "finals/r01-02/final-v04.execution.md",
+          "execution_script": "scripts/compose_scene_v04.py",
+          "montage_record": "work/v04/montage-v01.json",
+          "component_generation_report": "finals/r01-02/v04-face/result-v01.json",
+          "component_prompt_file": "finals/r01-02/v04-face/face-v01.prompt.txt",
+          "dimensions": {
+            "width": 1942,
+            "height": 809,
+            "aspect_ratio": 2.400494437577256
+          },
+          "coordinator_review": {
+            "by": "coordinator",
+            "visually_inspected": true,
+            "views": [
+              "full_scene_native",
+              "head_region_4x",
+              "face_region_6x"
+            ],
+            "structure": "Matches selected sketch 2 camera, crop, figure/map contacts and gate/path masses",
+            "identity": "Approved pale narrow face, yellow eyes, plum bob and robe retained; only mouth integration changes local face pixels",
+            "staff": "Original approved quadrilateral head, four corner terminals and four blue side gems plus central crystal verified visually; rigid original geometry preserved",
+            "lips": "Natural rounded lower lip and restrained closed separation replace the awkward dark wedge; small deliberate cel shadow remains below lip",
+            "sketch_residue": "No facial construction axes, ghosted parchment guides or searching figure contours visible; deliberate drawn contours and painted background texture retained",
+            "compositing": "Head joins the existing shaft; local sky repair and mouth edges reviewed enlarged; no obvious compositing seam at native scale",
+            "style": "Angular drawn figure, broad cel shadows, subdued green night and layered painted background; subtle A softness retained",
+            "format": "1942x809 PNG, ratio 2.40049:1, opaque",
+            "outside_authorized_regions_unchanged": true,
+            "user_artistic_approval": null
+          },
+          "user_approval": null
+        }
+      ],
+      "prompt_file": "prompts/final-r01-02.txt",
+      "prompt_sha256": "d9e3761c0de56f8e1c190c9282503433599c04f2f81d25f6de530a08ec14eb09",
+      "package_file": "prompts/final-package-r01-02.json",
+      "package_sha256": "4e5ec48782b53579f5f0b274fdc452517a7d353b4703188021fabac470a5cbed",
+      "status": "delivered",
+      "automatic_corrections_used": 1,
+      "automatic_corrections_remaining": 0,
+      "active_prompt_file": "prompts/final-r01-02-v03.txt",
+      "active_package_file": "prompts/final-package-r01-02-v03.json",
+      "remaining_issue": null,
+      "candidate_file": "finals/r01-02/final-v04.png",
+      "additional_authorizations": [
+        {
+          "evidence": "Corrige el cabezal, el labio se ve raro y se aprecian las marcas de boceto todavia",
+          "original_message": "Corrige el cabezal, el labio se ve raro y se aprecian las marcas de boceto todavía",
+          "recorded_at": "2026-11-02T00:11:12.031106+01:00",
+          "scope": [
+            "Canonical staff head",
+            "Approved lips in same head angle",
+            "Remove residual sketch/construction marks"
+          ],
+          "further_generation_authorized": true
+        }
+      ],
+      "delivered_file": "finals/r01-02/final-v04.png",
+      "user_artistic_approval": null
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-11-01T23:14:37.275664+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "inputs_validated_and_three_workers_dispatched",
+      "details": "Fetched origin/main; HEAD current at 81400f35a7ab86a19c384aaa4c33df09b9d60a9c. Three pre-existing deleted character files excluded. User confirmed dry green-sky night, canonical blue staff and camera exploration. External attachments copied byte-identically. New isolated workers use one frozen prompt and the same structural references, no finished identity/style images. No final generated or user selection inferred."
+    },
+    {
+      "at": "2026-11-02T00:01:01.662367+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "sketches_reviewed_and_selection_recorded",
+      "details": "All three original PNGs visually reviewed, dimensions and CRC/hash verified, identical prompts/options/attachments confirmed. User selected Boceto 2. One isolated final package prepared from only r01-02. Pencil detail density noted; no structural repair or extra sketch generation required."
+    },
+    {
+      "at": "2026-11-02T00:01:41.459457+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "isolated_final_worker_dispatched",
+      "details": "New context-empty worker /root/acabado_02 receives only selected sketch r01-02, canonical references and eight-role frozen package. One initial final generation authorized."
+    },
+    {
+      "at": "2026-11-02T00:03:52.807345+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "final_v01_rejected_and_single_automatic_retry_prepared",
+      "details": "v01 produced no image because runtime admits at most 5 references despite no limit in visible schema. v02 retains selected sketch, Holly portrait, approved equipped three-quarter, location/night screenshot, and Warpath A reference. Removed only redundant isolated staff, secondary architecture and background examples; essential identity, equipment, place, lighting, style and structure remain covered. No compositional change. This consumes the one allowed automatic retry."
+    },
+    {
+      "at": "2026-11-02T00:08:22.576803+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "final_v02_reviewed_staff_geometry_requires_revision",
+      "details": "Native PNG saved and opened by worker and coordinator. Selected structure and reading action retained; malformed staff has five perimeter gems and extra frame sides/points. v03 localized correction prompt and four-reference package prepared but NOT executed; awaiting user instruction because automatic retry allowance exhausted."
+    },
+    {
+      "at": "2026-11-02T00:11:12.031106+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "user_authorized_v03_and_expanded_finish_corrections",
+      "details": "Corrige el cabezal, el labio se ve raro y se aprecian las marcas de boceto todavía",
+      "scope": [
+        "Canonical staff head",
+        "Approved lips in same head angle",
+        "Remove residual sketch/construction marks"
+      ],
+      "proposal_superseded": "Staff-only v03-proposal remains unexecuted; executed v03 prompt also corrects lips and removes sketch residue without changing structure."
+    },
+    {
+      "at": "2026-11-02T00:15:31.929345+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "v03_review_failed_and_v04_alternative_prepared_not_executed",
+      "details": "v03 again preserves malformed five-gem/polygonal staff head. Lips and construction lines partly cleaner. No further image generation or non-generative editing executed. Concrete plan proposes exact original-head montage and local face-crop edit, pending user instruction."
+    },
+    {
+      "at": "2026-11-02T00:18:34.358896+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "user_authorized_exact_montage_and_local_face_retouch",
+      "evidence": "Sí, montaje exacto y retoque del rostro (recomendado)",
+      "scope": "Non-generative exact original head montage plus one generated local face-crop correction; preserve rest of scene."
+    },
+    {
+      "at": "2026-11-02T00:24:51.009666+01:00",
+      "time_zone": "Europe/Madrid",
+      "action": "authorized_v04_hybrid_completed_and_reviewed",
+      "details": "Exact original head montage plus one local mouth-crop generation integrated through small mask. Four-sided/four-gem head and natural lips visually verified at full frame and enlarged scales. Construction residue absent in figure/parchment; intentional drawing and painted texture preserved. Pixel comparison confirms no changes outside local authorized masks. No user artistic approval inferred.",
+      "file": "finals/r01-02/final-v04.png",
+      "image_sha256": "a51f9eb1d0e3b037ad3651f4ac93d84be4dc950c5ba0893d66fe794d34582ccf"
+    }
+  ]
+}

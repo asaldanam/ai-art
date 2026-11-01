@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "selection_id": "sel-r01-02-v01",
+  "attempt_id": "v03",
+  "status": "proposal_not_executed",
+  "requires_user_authorization": true,
+  "prompt_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/final-r01-02-v03-proposal.txt",
+  "attachments_in_order": [
+    {
+      "index": 1,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/final-v02.png",
+      "role": "EDIT_TARGET",
+      "sha256": "8217d317489d0ca5dfb8f39028305f9dd78806fdb44150816ab7dc324d4814a0"
+    },
+    {
+      "index": 2,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png",
+      "role": "EXACT_STAFF_GEOMETRY",
+      "sha256": "4d1abd842660f72b62682aa0d154b5c162b62f2812f2c1e75fe22b97b72b7492"
+    },
+    {
+      "index": 3,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "role": "APPROVED_EQUIPPED_CONTINUITY",
+      "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab"
+    },
+    {
+      "index": 4,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "role": "WARPATH_DRAWING",
+      "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040"
+    }
+  ],
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "requested_model_or_policy": "Most advanced selectable option; integrated tool has no model selector",
+    "effective_model": null,
+    "model_visibility": "not_exposed",
+    "guide_sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/guides/image-generation",
+        "consulted_on": "2026-11-01"
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/guides/image-prompting",
+        "consulted_on": "2026-11-01"
+      }
+    ],
+    "runtime_constraints": {
+      "max_referenced_image_paths": 5,
+      "source": "Observed tool validation error on final v01"
+    }
+  },
+  "tool_options": {
+    "transparent_background": false
+  },
+  "negative": {
+    "channel": "natural_language_in_main_prompt",
+    "separate_field": false
+  },
+  "fixed": "Preserve all selected composition and finished scene; only staff head/immediate socket may change",
+  "execution": {
+    "generations_if_authorized": 1,
+    "further_automatic_retries": false
+  }
+}

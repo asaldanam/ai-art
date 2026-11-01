@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "selection_id": "sel-r01-02-v01",
+  "attempt_id": "v04-face-v01",
+  "prompt_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/face-local-correction-v04.txt",
+  "attachments_in_order": [
+    {
+      "index": 1,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/work/v04/face-target-6x.png",
+      "role": "EDIT_TARGET_FACE_CROP",
+      "sha256": "525dd802b2b9d4f6dd72fe8c4297a80358219fe6f96f02336620fbc1539d3e79"
+    },
+    {
+      "index": 2,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "role": "APPROVED_FACE_AND_LIPS",
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c"
+    },
+    {
+      "index": 3,
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "role": "WARPATH_DRAWING_AND_A_FINISH",
+      "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040"
+    }
+  ],
+  "tool_options": {
+    "transparent_background": false
+  },
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "effective_model": null,
+    "model_visibility": "not_exposed"
+  },
+  "format": {
+    "aspect_ratio": "1:1",
+    "target_crop_native_size": [
+      160,
+      160
+    ],
+    "input_upscaled_size": [
+      960,
+      960
+    ],
+    "original_scene_box": [
+      510,
+      180,
+      670,
+      340
+    ]
+  },
+  "user_authorization": "Sí, montaje exacto y retoque del rostro (recomendado)",
+  "execution": {
+    "generations_this_attempt": 1,
+    "further_automatic_retries": false
+  },
+  "output_dir": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/v04-face"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "branch_id": "r01-02",
+  "agent_id": "/root/boceto_02",
+  "status": "generated_for_user_review",
+  "generation_success": true,
+  "generation_attempts": 1,
+  "automatic_retries": 0,
+  "provider": "OpenAI",
+  "tool": "image_gen.imagegen",
+  "effective_model": null,
+  "model_visibility": "not_exposed",
+  "effective_options": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/scene-creator/references/boceto-3.png"
+    ]
+  },
+  "unexposed_controls": [
+    "model",
+    "seed",
+    "resolution",
+    "quality",
+    "negative_prompt"
+  ],
+  "prompt_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.prompt.txt",
+  "prompt_source_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/sketch-r01.txt",
+  "prompt_verbatim": true,
+  "prompt_sha256": "32cb80da70ba1eab152a237e9da9d4f54944a78ccce48d394b23b396242b05c9",
+  "file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+  "native_source_file": "C:/Users/vee_m/.codex/generated_images/01a1992d-5393-7b73-b855-6ac9a9826d0a/exec-118db1ae-c0ac-49e9-9a26-e9f13b90dca8.png",
+  "native_image_preserved": true,
+  "image_sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3",
+  "native_source_sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3",
+  "dimensions": {
+    "width": 1942,
+    "height": 809,
+    "aspect_ratio": 2.400494437577256,
+    "format": "PNG"
+  },
+  "image_manipulations": [],
+  "attachments_transmitted_in_order": [
+    {
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "role": "ACTION_AND_PLACE_STRUCTURE",
+      "sha256": "fc930cd06c0f8e1d6ad445cfbda2ec3b38419d1704b829af43721797ae94f3a6"
+    },
+    {
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "role": "ARCHITECTURAL_STRUCTURE",
+      "sha256": "b01173dba1bf602740d08097ca38f3218100f17c84a5c769d2937be01698dafb"
+    },
+    {
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/scene-creator/references/boceto-3.png",
+      "role": "SKETCH_DEVELOPMENT_LEVEL_ONLY",
+      "sha256": "5fc74f37dfe64765a5802eb5673d3b36ca9a03dca3c9c27f80358b9fbb479ace"
+    }
+  ],
+  "restrictions_in_prompt": [
+    "One adult woman only, standing and reading an open scroll with both hands contacting separate rolled ends.",
+    "Slim adult morphology, elongated neck, narrow waist, bob hair mass, wide cuffs and long robe; five digits when visible; grounded bare feet if shown.",
+    "One rigid staff touching the back, open square or diamond head above anatomical left shoulder, lower tip toward anatomical right hip or thigh, shaft joining a corner.",
+    "Recognizable Lordaeron gate, side walls, towers, receding path, trees and banners with coherent scale and perspective.",
+    "One continuous panoramic image approximately 2.4:1, no letterbox bars or multiple panels.",
+    "Monochrome rough construction lines and schematic masses, unfinished edges and guides; no developed night lighting or identity colors.",
+    "No detailed face, trim, jewels, lettering, textures, polished rendering, extra figures, creatures, weapons, harness, moon, effects, weather, interface, watermarks or readable text."
+  ],
+  "negative_restrictions_channel": "natural_language_in_main_prompt",
+  "reported_at": "2026-11-01T23:58:13.239702+01:00",
+  "timezone": "Europe/Madrid",
+  "utc_offset_at_report": "+01:00",
+  "native_file_modified_at": "2026-11-01T23:15:24.878822+01:00",
+  "native_file_modified_at_note": "Filesystem timestamp; request start and completion timestamps were not separately captured.",
+  "errors": [],
+  "auxiliary_incidents": [
+    "Worker git fetch was denied access to .git/FETCH_HEAD. Coordinator confirmed successful central fetch and HEAD...origin/main = 0 0; no worker Git mutations followed.",
+    "Initial metadata command could not import PIL. Dimensions were then measured from PNG IHDR with Python struct; no packages were installed."
+  ],
+  "visual_observations": {
+    "action": "One woman occupies the left foreground, with head inclined toward an open scroll held at lower chest level. The quiet reading action is legible.",
+    "anatomy": "Slim adult torso, narrow waist, long neck, bob hair mass and flared sleeves are present. Shoulder, elbow and wrist paths remain understandable beneath the sleeves. Head has a construction cross and only minimal facial indications. Legs and feet are cropped, so ground support is not directly verifiable.",
+    "contacts": "Each hand overlaps and visibly grips a separate rolled scroll end. The sheet stays in front of the torso. Finger strokes are simplified and partly occluded; five individual digits per hand cannot be independently counted with confidence.",
+    "staff": "One straight shaft appears behind the body, with an open diamond head above the anatomical left shoulder (viewer right) and lower tip toward the anatomical right thigh side (viewer left). The shaft joins the lower corner of the diamond. Torso occlusion implies back contact, but precise contact through the hidden segment cannot be verified.",
+    "scale": "Foreground woman and scroll are strongly separated in size from the distant broad gate. Staff overall projected length is roughly comparable to a standing body, though the body is cropped.",
+    "perspective": "The path and paired banner posts diminish toward the gate entrance; flanking walls, towers and tree masses establish depth. Some individual stones and foliage strokes are more developed than the requested economical environment masses.",
+    "camera": "Front three-quarter view of the figure, cropped around upper thighs, left of center. The gate is visible in the center-right background. Camera height cannot be fixed precisely from the sketch.",
+    "format": "Single uninterrupted monochrome graphite-like panorama, 1942 by 809 pixels, ratio 2.40049:1, with visible construction strokes and no panels, letterbox bars or readable text.",
+    "development_level": "Searching figure lines and construction guides remain visible, but the environment includes substantial masonry and foliage detail; it is more developed than a very minimal blocking sketch."
+  },
+  "limitations": [
+    "Effective model, seed, resolution selector and quality selector are not exposed by the integrated tool.",
+    "No regeneration, cropping, stretching, retouching or tonal changes were performed.",
+    "Worker review is observational only and does not represent user artistic approval."
+  ],
+  "user_approval": false
+}

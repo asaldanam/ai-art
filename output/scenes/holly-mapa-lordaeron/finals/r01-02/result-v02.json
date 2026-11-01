@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "selection_id": "sel-r01-02-v01",
+  "selected_sketch": "Boceto 2",
+  "scene_revision": 1,
+  "attempt_id": "v02",
+  "agent_id": "/root/acabado_02",
+  "status": "generated_with_known_deviations",
+  "approval_status": "pending_user_artistic_review",
+  "user_artistic_approval": false,
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "effective_model": null,
+    "model_visibility": "not_exposed",
+    "model_selector_exposed": false
+  },
+  "execution": {
+    "calls_this_attempt": 1,
+    "previous_calls": 1,
+    "authorized_retry": true,
+    "retry_reason": "Runtime rejected v01 before image generation: referenced_image_paths max 5; removed redundant references while retaining all required roles",
+    "further_automatic_retries": false,
+    "started_at_utc": "2026-11-01T23:04:35.716Z",
+    "completed_at_utc": "2026-11-01T23:05:02.233Z",
+    "started_at_europe_madrid": "2026-11-02T00:04:35+01:00",
+    "completed_at_europe_madrid": "2026-11-02T00:05:02+01:00",
+    "timezone": "Europe/Madrid",
+    "outcome": "One image returned",
+    "tool_result_fields": [
+      "image_url",
+      "output_hint"
+    ],
+    "tool_output_hint": "Generated images are saved to C:\\Users\\vee_m\\.codex\\generated_images\\01a19958-7ca3-7b21-86ef-366edabf9c7e as C:\\Users\\vee_m\\.codex\\generated_images\\01a19958-7ca3-7b21-86ef-366edabf9c7e\\exec-39ed172f-f1ef-4a18-ab60-6591eeeaddf9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "effective_options": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png"
+    ]
+  },
+  "other_controls": {
+    "model": null,
+    "quality": null,
+    "seed": null,
+    "width": null,
+    "height": null,
+    "separate_negative_field": false,
+    "note": "No separate model, quality, seed, dimensions or negative control was exposed or supplied. Requested panorama is written in the exact prompt."
+  },
+  "attachments_in_order": [
+    {
+      "index": 1,
+      "role": "SELECTED_STRUCTURAL_ANCHOR",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+      "sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3",
+      "hash_matches_package": true,
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 2967331
+    },
+    {
+      "index": 2,
+      "role": "HOLLY_IDENTITY_AND_UPPER_ROBE",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c",
+      "hash_matches_package": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 1630966
+    },
+    {
+      "index": 3,
+      "role": "HOLLY_OUTFIT_EQUIPMENT_AND_STAFF_GEOMETRY",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab",
+      "hash_matches_package": true,
+      "dimensions": [
+        1024,
+        1766
+      ],
+      "bytes": 1060991
+    },
+    {
+      "index": 4,
+      "role": "LORDAERON_AND_DRY_NIGHT_AMBIENCE",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "sha256": "fc930cd06c0f8e1d6ad445cfbda2ec3b38419d1704b829af43721797ae94f3a6",
+      "hash_matches_package": true,
+      "dimensions": null,
+      "bytes": 666741
+    },
+    {
+      "index": 5,
+      "role": "WARPATH_DRAWING_PAINTED_DEPTH_AND_APPROVED_A_FINISH",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040",
+      "hash_matches_package": true,
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 1806432
+    }
+  ],
+  "prompt": {
+    "source_path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/final-r01-02-v02.txt",
+    "saved_path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/final-v02.prompt.txt",
+    "sha256": "03d3edf598e5ee30d0c008344086db8e68df73bf217bf0e5429b851c48664821",
+    "bytes": 9533,
+    "character_count": 9523,
+    "byte_identical_source_copy": true,
+    "transmitted_verbatim": true,
+    "reformulated": false
+  },
+  "canon": {
+    "character_id": "holly_willhelm",
+    "identity_revision": 1,
+    "equipment_revision": 2,
+    "outfit": "base_blue_staff",
+    "canonical_description": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/CHARACTER.md"
+  },
+  "style": {
+    "skill": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/SKILL.md",
+    "documents": [
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/style-bible.md",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/finish-calibration.md",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/review-and-continuity.md",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/project-config.md",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/model-policy.md"
+    ],
+    "finish": "approved subtle A"
+  },
+  "composition_commitments": {
+    "crop": "Same medium-long thigh crop as selected sketch; no added body space",
+    "camera": "Same near frontal three-quarter view and height",
+    "placement": "Holly left foreground; gate center-right distance; road and banners recede toward entrance",
+    "pose": "Head lowered, both elbows bent, one hand at each scroll roll, map tilted toward face",
+    "equipment": "Rigid back-stowed diagonal staff head above anatomical left shoulder; lower tip toward right hip/thigh",
+    "scale": "Preserve selected figure/map/staff and gate relative sizes",
+    "environment": "Preserve gate, wall, tower, path, tree and banner principal masses"
+  },
+  "requested_format": {
+    "aspect_ratio": "approximately 2.4:1",
+    "same_as_selected_sketch": true
+  },
+  "output": {
+    "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/final-v02.png",
+    "native_source": "C:\\Users\\vee_m\\.codex\\generated_images\\01a19958-7ca3-7b21-86ef-366edabf9c7e\\exec-39ed172f-f1ef-4a18-ab60-6591eeeaddf9.png",
+    "sha256": "8217d317489d0ca5dfb8f39028305f9dd78806fdb44150816ab7dc324d4814a0",
+    "bytes": 2292329,
+    "dimensions": {
+      "width": 1942,
+      "height": 809
+    },
+    "aspect_ratio": 2.400494437577256,
+    "png_bit_depth": 8,
+    "png_color_type": 2,
+    "opaque_rgb": true,
+    "native_byte_identical": true,
+    "postprocessing": "none; copied native PNG bytes without crop, stretch or retouch"
+  },
+  "visual_review": {
+    "result_local_file_opened": true,
+    "reviewed_against_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "drawing": {
+      "status": "aproximada",
+      "observation": "Dark contours, angular face and major folds are present. Hair and several garment edges carry more fine linear detail than the broad restrained locks of the approved references."
+    },
+    "shading": {
+      "status": "aproximada",
+      "observation": "Main character retains large sharply bounded shadow shapes and extensive dark cloth; background has denser local stone and branch detail than the grouped Warpath example."
+    },
+    "identity": {
+      "status": "aproximada",
+      "observation": "Pale intact skin, narrow face, yellow eyes and center-parted plum bob remain recognizable. The lowered face is redrawn with a sharper chin and more subdivided hair locks; exact facial equivalence is not asserted."
+    },
+    "robe": {
+      "status": "aproximada",
+      "observation": "Charcoal-purple cloth, pale flared cuffs, green-gray chest panels, belt and pale skirt borders survive. The branching collar and chest trim are simplified relative to the approved upper-body reference."
+    },
+    "lighting": {
+      "status": "aproximada",
+      "observation": "Dry muted green night, violet-gray stone and broad shadow are preserved; eyes, map and staff have no added halo. Warm doorway and window accents are more conspicuous than in the source but remain local and do not key-light Holly."
+    },
+    "materials": {
+      "status": "coincide",
+      "observation": "Skin, cloth and staff remain drawn rather than photorealistic or plastic; metal is rendered in graphic facets."
+    },
+    "background": {
+      "status": "aproximada",
+      "observation": "The same gate, wall, road, banners and principal tree masses are retained with layered depth. Cobbles, masonry and branches are drawn more individually and strongly than the prompt's economical brush-group request."
+    },
+    "framing_and_action": {
+      "status": "coincide",
+      "observation": "1942x809 exactly matches the selected sketch dimensions. Holly remains left foreground at the same crop, head lowered, with gate center-right, same receding path and banner progression."
+    },
+    "hands_and_map": {
+      "status": "coincide",
+      "observation": "Each pale hand wraps its separate scroll roll; wrists meet bent arms naturally. The plain brown reverse faces the viewer and holds the same approximate scale and tilt. No readable labels or obvious extra digits are visible; occlusion prevents verifying every digit separately."
+    },
+    "staff": {
+      "status": "desvía",
+      "observation": "Rear diagonal, anatomical side, pale lower tip and blue equipment color remain coherent. The head visibly has five small peripheral blue gems and a multi-sided outline rather than the required four-sided frame with exactly four side gems and four terminals. Its canonical rigid head geometry is therefore not preserved."
+    },
+    "integrity": {
+      "status": "desvía",
+      "observation": "No additional figure, UI, watermark, sketch paper or construction strokes remain. Main anatomical contacts are coherent, but the staff head construction has the specific noncanonical error described above."
+    },
+    "finish": {
+      "status": "aproximada",
+      "observation": "Fine grain and mildly softened contours are visible while facial and cel-shadow edges stay readable. Overall background detail is busier than the supplied A reference."
+    }
+  },
+  "incidents": [
+    {
+      "severity": "major",
+      "code": "STAFF_HEAD_GEOMETRY_DRIFT",
+      "detail": "Five peripheral blue gems and a more-than-four-sided head silhouette replace the canonical four-sided/four-gem frame. No automatic correction was attempted."
+    },
+    {
+      "severity": "minor",
+      "code": "BACKGROUND_DETAIL_DENSITY",
+      "detail": "Individual cobbles, masonry edges and branches remain more strongly drawn than the requested grouped painterly background."
+    },
+    {
+      "severity": "minor",
+      "code": "IDENTITY_AND_TRIM_APPROXIMATION",
+      "detail": "Face, hair subdivisions and collar/chest trim are approximate adaptations rather than exact preservation of the approved reference."
+    },
+    {
+      "severity": "minor",
+      "code": "MORE_CONSPICUOUS_WARM_ACCENTS",
+      "detail": "Doorway and lit windows create more visible localized warm accents than the place source."
+    }
+  ],
+  "previous_attempt": {
+    "report_path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/result-v01.json",
+    "status": "generation_failed_no_output",
+    "preserved": true
+  },
+  "source_canon_skills_central_records_modified": false,
+  "git_operations_performed": false
+}

@@ -1,0 +1,88 @@
+{
+  "method": "user-authorized non-generative exact head montage and local generated-mouth integration",
+  "user_authorization": "Sí, montaje exacto y retoque del rostro (recomendado)",
+  "recorded_at": "2026-11-02T00:23:02.226543+01:00",
+  "timezone": "Europe/Madrid",
+  "base_file": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\output\\scenes\\holly-mapa-lordaeron\\finals\\r01-02\\final-v03.png",
+  "base_sha256": "6738b361b5aecd8928de83336fb50824805df6ca8396b90eb0314227aebbd01f",
+  "staff_file": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\characters\\holly_willhelm\\warcraft-warpath-style\\holly_willhelm-base_blue_staff_three_quarter.png",
+  "staff_sha256": "4d1abd842660f72b62682aa0d154b5c162b62f2812f2c1e75fe22b97b72b7492",
+  "face_file": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\output\\scenes\\holly-mapa-lordaeron\\finals\\r01-02\\v04-face\\face-v01.png",
+  "face_sha256": "ea52183c6c75b9c009c4f428e86b71c8973b8805cf7b2ffea620b9ac7a75dee9",
+  "source_head_crop": [
+    1450,
+    180,
+    1944,
+    560
+  ],
+  "rigid_transform": {
+    "uniform_scale": 0.4,
+    "rotation_degrees_image_coordinates": -46.0,
+    "source_anchor": [
+      1480.0,
+      355.0
+    ],
+    "target_anchor": [
+      689.0,
+      170.0
+    ],
+    "inverse_affine_matrix": [
+      1.7366459261474931,
+      -1.798349500846628,
+      589.1703720283042,
+      1.798349500846628,
+      1.7366459261474931,
+      -1179.2926135284004
+    ]
+  },
+  "alpha_cleanup": "source alpha below32 removed, remaining alpha remapped linearly; premultiplied-alpha affine resampling",
+  "head_color_transform": {
+    "uniform_rgb_scale": 0.86,
+    "rgb_offset": [
+      2,
+      4,
+      4
+    ]
+  },
+  "sky_reconstruction": "fixed-boundary harmonic interpolation inside only old-head mask, 1600 iterations",
+  "face_source_box": [
+    510,
+    180,
+    670,
+    340
+  ],
+  "face_target_size": [
+    160,
+    160
+  ],
+  "mouth_mask_polygon": [
+    [
+      576,
+      268
+    ],
+    [
+      611,
+      270
+    ],
+    [
+      612,
+      284
+    ],
+    [
+      598,
+      292
+    ],
+    [
+      580,
+      285
+    ]
+  ],
+  "outside_authorized_mask_pixels_unchanged": true,
+  "output_file": "C:\\Users\\vee_m\\Pictures\\Warcraft anime\\output\\scenes\\holly-mapa-lordaeron\\work\\v04\\montage-v01.png",
+  "output_sha256": "a51f9eb1d0e3b037ad3651f4ac93d84be4dc950c5ba0893d66fe794d34582ccf",
+  "dimensions": [
+    1942,
+    809
+  ],
+  "visual_review_pending": true
+}

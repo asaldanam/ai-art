@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "selection_id": "sel-r01-02-v01",
+  "selected_sketch": "Boceto 2",
+  "scene_revision": 1,
+  "agent_id": "/root/acabado_02",
+  "status": "generation_failed_no_output",
+  "user_artistic_approval": false,
+  "generated_image": null,
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "effective_model": null,
+    "model_visibility": "not_exposed"
+  },
+  "execution": {
+    "calls_attempted": 1,
+    "retries": 0,
+    "started_at_utc": "2026-11-01T23:02:33.201Z",
+    "completed_at_utc": "2026-11-01T23:02:33.205Z",
+    "started_at_europe_madrid": "2026-11-02T00:02:33+01:00",
+    "completed_at_europe_madrid": "2026-11-02T00:02:33+01:00",
+    "timezone": "Europe/Madrid",
+    "tool_error": "`referenced_image_paths` must contain at most 5 paths",
+    "request_outcome": "Rejected by tool input validation: referenced_image_paths accepts at most five paths; the exact package requires eight.",
+    "tool_result_exposed": false
+  },
+  "requested_options": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/warpath/019_alliance-party-ready-for-battle-in-dark-forest.png"
+    ]
+  },
+  "accepted_options": null,
+  "attachments_requested_in_order": [
+    {
+      "index": 1,
+      "role": "SELECTED_STRUCTURAL_ANCHOR",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sketches/r01-02/sketch-v01.png",
+      "sha256": "0890fb911093ae4bef9e8209d1d0a851e39e4890fc5f161d4fa1437781a330a3",
+      "hash_matches_package": true,
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 2967331
+    },
+    {
+      "index": 2,
+      "role": "HOLLY_IDENTITY_AND_UPPER_ROBE",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_midshot.png",
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c",
+      "hash_matches_package": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 1630966
+    },
+    {
+      "index": 3,
+      "role": "HOLLY_OUTFIT_AND_EQUIPMENT_CONTINUITY",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm_base_blue_staff_fullbody_three_quarter_v05.png",
+      "sha256": "d8713adfe25ef1fbe758b5e5611eadb30856fd95f07e8cbe99107bee3828adab",
+      "hash_matches_package": true,
+      "dimensions": [
+        1024,
+        1766
+      ],
+      "bytes": 1060991
+    },
+    {
+      "index": 4,
+      "role": "BLUE_STAFF_GEOMETRY",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/characters/holly_willhelm/warcraft-warpath-style/holly_willhelm-base_blue_staff_three_quarter.png",
+      "sha256": "4d1abd842660f72b62682aa0d154b5c162b62f2812f2c1e75fe22b97b72b7492",
+      "hash_matches_package": true,
+      "dimensions": [
+        1944,
+        809
+      ],
+      "bytes": 415771
+    },
+    {
+      "index": 5,
+      "role": "PLACE_AND_DRY_NIGHT_AMBIENCE",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg",
+      "sha256": "fc930cd06c0f8e1d6ad445cfbda2ec3b38419d1704b829af43721797ae94f3a6",
+      "hash_matches_package": true,
+      "dimensions": null,
+      "bytes": 666741
+    },
+    {
+      "index": 6,
+      "role": "LORDAERON_ARCHITECTURE",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg",
+      "sha256": "b01173dba1bf602740d08097ca38f3218100f17c84a5c769d2937be01698dafb",
+      "hash_matches_package": true,
+      "dimensions": null,
+      "bytes": 491509
+    },
+    {
+      "index": 7,
+      "role": "WARPATH_DRAWING_AND_APPROVED_A_FINISH",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/calibration/003-A.png",
+      "sha256": "d926f5801f8416f0c0c210f424a7fcf7f9fd1db55cf4eb4ea6c171ba70666040",
+      "hash_matches_package": true,
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 1806432
+    },
+    {
+      "index": 8,
+      "role": "WARPATH_BACKGROUND_DEPTH",
+      "path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/warcraft-warpath-style/references/warpath/019_alliance-party-ready-for-battle-in-dark-forest.png",
+      "sha256": "e5f889249720c281a5ecd4bd91b0e2731d00628d2092221b635dcdc141cf6f98",
+      "hash_matches_package": true,
+      "dimensions": [
+        2545,
+        1058
+      ],
+      "bytes": 2362163
+    }
+  ],
+  "accepted_attachments": null,
+  "accepted_attachments_note": "No accepted generation or attachment set was exposed because the tool rejected the request.",
+  "prompt": {
+    "source_path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/final-r01-02.txt",
+    "saved_path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/finals/r01-02/final-v01.prompt.txt",
+    "sha256": "d9e3761c0de56f8e1c190c9282503433599c04f2f81d25f6de530a08ec14eb09",
+    "bytes": 9974,
+    "character_count": 9958,
+    "byte_identical_source_copy": true,
+    "transmitted_verbatim": true,
+    "reformulated": false
+  },
+  "requested_format": {
+    "aspect_ratio": "approximately 2.4:1",
+    "same_as_selected_sketch": true
+  },
+  "output": {
+    "path": null,
+    "sha256": null,
+    "dimensions": null,
+    "native_bytes_saved": false
+  },
+  "visual_review": {
+    "reference_images_opened": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "result_opened": false,
+    "composition": "no evaluable: no image returned",
+    "identity": "no evaluable: no image returned",
+    "robe": "no evaluable: no image returned",
+    "hands_map": "no evaluable: no image returned",
+    "staff": "no evaluable: no image returned",
+    "lighting": "no evaluable: no image returned",
+    "warpath_style": "no evaluable: no image returned"
+  },
+  "incidents": [
+    {
+      "severity": "blocking",
+      "code": "REFERENCE_PATH_LIMIT_5",
+      "detail": "The exact eight-reference request was rejected: `referenced_image_paths` must contain at most 5 paths.",
+      "action": "Stopped after the single authorized call; notified coordinator. No fallback, reduction of attachments, correction or retry performed."
+    }
+  ],
+  "source_canon_skills_central_records_modified": false,
+  "git_operations_performed": false
+}

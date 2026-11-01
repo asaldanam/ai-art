@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "scene_revision": 1,
+  "prompt_file": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/prompts/sketch-r01.txt",
+  "attachments_in_order": [
+    {"path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/scene-action.jpg", "role": "ACTION_AND_PLACE_STRUCTURE"},
+    {"path": "C:/Users/vee_m/Pictures/Warcraft anime/output/scenes/holly-mapa-lordaeron/sources/lordaeron-architecture.jpg", "role": "ARCHITECTURAL_STRUCTURE"},
+    {"path": "C:/Users/vee_m/Pictures/Warcraft anime/.agents/skills/scene-creator/references/boceto-3.png", "role": "SKETCH_DEVELOPMENT_LEVEL_ONLY"}
+  ],
+  "generator": {
+    "provider": "OpenAI",
+    "tool": "image_gen.imagegen",
+    "requested_model_or_policy": "Most advanced selectable option; integrated tool has no model selector",
+    "effective_model": null,
+    "model_visibility": "not_exposed"
+  },
+  "tool_options": {"transparent_background": false},
+  "format": {"aspect_ratio": "approximately 2.4:1", "channel": "prompt", "verify_actual_dimensions": true},
+  "negative": {"channel": "natural_language_in_main_prompt", "separate_field": false},
+  "execution": {"initial_generations_per_branch": 1, "automatic_retries_by_worker": false, "worker_must_not_rewrite_prompt": true},
+  "guide_sources": [
+    {"url": "https://developers.openai.com/api/docs/guides/image-generation", "consulted_on": "2026-11-01"},
+    {"url": "https://developers.openai.com/api/docs/guides/image-prompting", "consulted_on": "2026-11-01"}
+  ],
+  "structural_specification": {
+    "subjects": 1,
+    "action": "Standing slim adult woman reads an open scroll with both hands; each hand grips a separate rolled end; head and gaze down toward the sheet",
+    "morphology": "Adult proportions, slender build, elongated neck, narrow waist, short bob mass, flared long sleeves and long robe; five intact digits when visible; bare grounded feet if shown",
+    "equipment_volume": "One rigid staff directly touching back; open geometric head above anatomical left shoulder, lower tip toward right hip/thigh; shaft connects to a corner; staff length approximately body length",
+    "environment": "Lordaeron approach and gate volumes from supplied scene references; path, banners and trees in receding perspective",
+    "fixed": ["One figure", "Two-handed map-reading contacts", "Recognizable ruins behind her", "Panoramic approximately 2.4:1", "Rough monochrome construction drawing only"],
+    "exploration": ["Camera position and height", "Shot size and crop", "Body orientation", "Horizontal distribution", "Relative frame area devoted to environment"]
+  }
+}
