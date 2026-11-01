@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scene Creator"
+  short_description: "Escenas con tres bocetos y acabado desde una selección"
+  default_prompt: "Usa $scene-creator con la descripción, la skill de estilo y las fichas de personajes para proponer tres bocetos antes del acabado final."
