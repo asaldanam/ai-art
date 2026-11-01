@@ -1,0 +1,673 @@
+{
+  "schema_version": 1,
+  "character_id": "holly_willhelm",
+  "style_skill": "warcraft-warpath-style",
+  "generator": {
+    "tool": "image_gen",
+    "model": "not_exposed"
+  },
+  "outfits": [
+    {
+      "id": "base",
+      "identity_revision": 1,
+      "stage": "approved",
+      "candidate_round": 0,
+      "selected_candidate_id": null,
+      "master_reference_id": "base_midshot_r01",
+      "approvals": {
+        "character": {
+          "identity_revision": 1,
+          "scope": [
+            "identity",
+            "outfit:base",
+            "P01",
+            "P02",
+            "P03"
+          ],
+          "evidence": "Apruebo la revisión 1 y las tres propuestas",
+          "recorded_at": "2026-11-01T21:17:14+01:00"
+        },
+        "selection": {
+          "identity_revision": 1,
+          "scope": "Existing Warpath midshot selected as first visual reference; compatibility with revision 1 validated.",
+          "evidence": "quiero que la usemos como primera imagen para crear la referencia visual de este personaje; Apruebo la revisión 1 y las tres propuestas",
+          "recorded_at": "2026-11-01T21:17:14+01:00"
+        },
+        "sheet": {
+          "identity_revision": 1,
+          "scope": [
+            "midshot",
+            "fullbody_front",
+            "fullbody_back",
+            "fullbody_profile",
+            "fullbody_three_quarter",
+            "head_front",
+            "head_profile",
+            "head_three_quarter",
+            "head_back"
+          ],
+          "evidence": "Apruebo las nueve vistas",
+          "recorded_at": "2026-11-01T21:45:45+01:00"
+        }
+      },
+      "pending_questions": [],
+      "gap_fill_decisions": [
+        {
+          "id": "P01",
+          "status": "approved",
+          "proposal": "Use the same very pale cool ivory skin family with a faint gray-green undertone on face, neck, hands and feet.",
+          "authorization": {
+            "evidence": "Propón esos detalles para que los valide",
+            "scope": "Extremity skin color, digit counts and footwear",
+            "recorded_at": "2026-11-01T21:08:45+01:00"
+          },
+          "approval_evidence": "Apruebo la revisión 1 y las tres propuestas",
+          "approved_at": "2026-11-01T21:17:14+01:00"
+        },
+        {
+          "id": "P02",
+          "status": "approved",
+          "proposal": "Five intact digits per hand including a thumb, and five intact toes per foot; slender bony hands with the documented long dark pointed nails.",
+          "approval_evidence": "Apruebo la revisión 1 y las tres propuestas",
+          "approved_at": "2026-11-01T21:17:14+01:00"
+        },
+        {
+          "id": "P03",
+          "status": "approved",
+          "proposal": "Bare feet without boots, shoes or sandals; forefeet and toes only slightly visible under the robe.",
+          "approval_evidence": "Apruebo la revisión 1 y las tres propuestas",
+          "approved_at": "2026-11-01T21:17:14+01:00"
+        }
+      ],
+      "issues": [
+        {
+          "view": "fullbody_back",
+          "kind": "generation_failed",
+          "message": "`referenced_image_paths` must contain at most 5 paths",
+          "prompt_file": "holly_willhelm_fullbody_back_failed_01.prompt.txt",
+          "resolution": "Reduced actual reference attachments to the tool's maximum of five: approved anchor, two relevant originals, two style references.",
+          "status": "resolved_before_retry"
+        }
+      ],
+      "workflow_overrides": [
+        {
+          "id": "reuse_existing_selected_midshot",
+          "evidence": "Bien, efectivamente la segunda es más fiel al estilo. ... quiero que la usemos como primera imagen para crear la referencia visual de este personaje.",
+          "scope": "Use the existing Warpath midshot as the first reference, without generating three replacement candidates.",
+          "recorded_at": "2026-11-01T21:08:45+01:00",
+          "approval_scope_limit": "This selects the existing image; it does not approve the new CHARACTER.md, proposals P01-P03, or ungenerated views.",
+          "candidate_generation": "skipped_by_explicit_user_instruction",
+          "checker_note": "The stock --complete check requires three current candidates. Do not fabricate candidates to satisfy that rule; preserve this explicit user override and check the remaining file, alpha, unchanged-import and nine-view requirements separately."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "base_midshot_r01",
+      "file": "holly_willhelm_midshot.png",
+      "prompt_file": "holly_willhelm_midshot.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "midshot",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "front",
+      "source_ids": [
+        "SRC-PREVIOUS",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [],
+      "derived_from": null,
+      "provenance": {
+        "operation": "byte_identical_import",
+        "source_file": "../holly-willhelm-plano-medio-frontal-warpath-v01.png",
+        "identity_revision_at_generation": null,
+        "approved_compatible_revision": 1,
+        "compatibility_evidence": "Apruebo la revisión 1 y las tres propuestas",
+        "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c"
+      },
+      "notes": [
+        "User explicitly chose this pre-existing image, overriding generation of three candidates.",
+        "Original execution prompt preserved byte-identically; no claim that it was generated from CHARACTER.md.",
+        "Selection and compatibility with the initial written revision are both approved. Other views still require final sheet review."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:midshot",
+        "evidence": "Existing image chosen as first reference; Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_fullbody_front_r01",
+      "file": "holly_willhelm_fullbody_front.png",
+      "prompt_file": "holly_willhelm_fullbody_front.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "fullbody_front",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "front",
+      "source_ids": [
+        "SRC-FRONT",
+        "SRC-PROFILE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "notes": [
+        "Generated independently using approved written canon, selected midshot, relevant original sources and Warpath style inputs.",
+        "All anatomy and robe borders visible. Headroom tight; no cropping observed.",
+        "Visual review: principal facial features, plum bob, robe, pale five-digit hands and bare five-toed feet retained."
+      ],
+      "visual_review": {
+        "status": "visually_checked",
+        "identity": "approved face and hairstyle retained at full-body scale",
+        "outfit": "collar, chest, belt, cuffs, layered skirt and striped hem retained",
+        "extremities": "pale intact five-digit hands and bare five-toed feet, following approved proposals",
+        "shot": "complete figure; top margin 5 pixels and therefore tight, but crown is not clipped",
+        "approval": "approved_by_user"
+      },
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:fullbody_front",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_fullbody_back_r01",
+      "file": "holly_willhelm_fullbody_back.png",
+      "prompt_file": "holly_willhelm_fullbody_back.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "fullbody_back",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "back",
+      "source_ids": [
+        "SRC-BACK",
+        "SRC-PROFILE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "view": "fullbody_back",
+        "status": "visually_checked",
+        "drawing": "matches Warpath broad cel masses",
+        "identity": "short layered plum nape and pale neck retained",
+        "outfit": "rear yoke, broad pale band, gold-edged back panel, belt and skirt topology match the back source",
+        "integrity": "complete robe, hands and bare heels visible; no staff or exposed face",
+        "approval": "approved_by_user"
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:fullbody_back",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_fullbody_profile_r01",
+      "file": "holly_willhelm_fullbody_profile.png",
+      "prompt_file": "holly_willhelm_fullbody_profile.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "fullbody_profile",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "left",
+      "source_ids": [
+        "SRC-PROFILE",
+        "SRC-FRONT",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "view": "fullbody_profile",
+        "status": "visually_checked",
+        "identity": "fine nose and chin, one visible yellow eye, long front locks and short nape retained",
+        "outfit": "front chest framing, sleeve flare, belt and layered skirt read coherently from the side",
+        "integrity": "entire figure visible; empty near hand and bare foot present, no staff or game slouch",
+        "camera_side": "left",
+        "approval": "approved_by_user"
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:fullbody_profile",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_fullbody_three_quarter_r01",
+      "file": "holly_willhelm_fullbody_three_quarter.png",
+      "prompt_file": "holly_willhelm_fullbody_three_quarter.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "fullbody_three_quarter",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "left",
+      "source_ids": [
+        "SRC-FRONT",
+        "SRC-PROFILE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "view": "fullbody_three_quarter",
+        "status": "visually_checked",
+        "identity": "same plum bob, narrow face, neutral yellow-eyed expression and pale complexion",
+        "outfit": "chest central ornament, collar, belt, cuffs, skirt layers and striped hem retained under perspective",
+        "integrity": "whole figure, hands and bare toes visible; no props",
+        "camera_side": "left",
+        "approval": "approved_by_user"
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:fullbody_three_quarter",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_head_front_r01",
+      "file": "holly_willhelm_head_front.png",
+      "prompt_file": "holly_willhelm_head_front.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "head_front",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "front",
+      "source_ids": [
+        "SRC-FACE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "view": "head_front",
+        "status": "visually_checked",
+        "identity": "same facial proportions, contained yellow eyes, center hair part and pointed front locks as approved anchor",
+        "outfit": "V collar and upper chest motifs retained in closer crop",
+        "shot": "head and shoulders front, complete hair crown, neutral closed-mouth expression",
+        "approval": "approved_by_user"
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:head_front",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_head_profile_r01",
+      "file": "holly_willhelm_head_profile.png",
+      "prompt_file": "holly_willhelm_head_profile.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "head_profile",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "left",
+      "source_ids": [
+        "SRC-PROFILE",
+        "SRC-FACE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "view": "head_profile",
+        "status": "visually_checked",
+        "identity": "one near yellow eye, fine nose bridge, closed muted lips and tapered chin preserved; ear remains covered",
+        "hair": "long pointed front locks, short layered nape and plum color maintained",
+        "shot": "head reads in left profile, shoulder/chest visible in upper-body crop",
+        "approval": "approved_by_user"
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:head_profile",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_head_three_quarter_r01",
+      "file": "holly_willhelm_head_three_quarter.png",
+      "prompt_file": "holly_willhelm_head_three_quarter.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "head_three_quarter",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "left",
+      "source_ids": [
+        "SRC-FACE",
+        "SRC-PROFILE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "view": "head_three_quarter",
+        "status": "visually_checked",
+        "identity": "narrow face, yellow almond eyes under perspective, same hairline and center-parted plum bob",
+        "outfit": "collar and chest framing retained at left three-quarter angle",
+        "shot": "head and shoulders, neutral closed mouth, crown and hair ends visible",
+        "approval": "approved_by_user"
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ],
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:head_three_quarter",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    },
+    {
+      "id": "base_head_back_r01",
+      "file": "holly_willhelm_head_back.png",
+      "prompt_file": "holly_willhelm_head_back.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "head_back",
+      "status": "superseded",
+      "candidate_round": null,
+      "camera_side": "back",
+      "source_ids": [
+        "SRC-BACK",
+        "SRC-PROFILE",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_midshot_r01"
+      ],
+      "derived_from": null,
+      "visual_review": {
+        "status": "framing_deviation",
+        "issue": "Too wide for head-and-shoulders: waist belt visible.",
+        "correction": "Replaced by v02 with closer crop only."
+      },
+      "notes": [
+        "Independent generation from approved canonical revision 1, selected midshot, actual original references and explicit Warpath style inputs."
+      ]
+    },
+    {
+      "id": "base_head_back_r01_v02",
+      "file": "holly_willhelm_head_back_v02.png",
+      "prompt_file": "holly_willhelm_head_back_v02.prompt.txt",
+      "outfit_id": "base",
+      "identity_revision": 1,
+      "kind": "reference",
+      "view": "head_back",
+      "status": "approved",
+      "candidate_round": null,
+      "camera_side": "back",
+      "source_ids": [
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "reference_image_ids": [
+        "base_head_back_r01",
+        "base_head_front_r01",
+        "base_midshot_r01"
+      ],
+      "derived_from": "base_head_back_r01",
+      "notes": [
+        "One targeted framing correction: close head and shoulders instead of waist crop. Original version preserved."
+      ],
+      "visual_review": {
+        "status": "visually_checked",
+        "identity": "same short plum nape and pale neck as the original rear design",
+        "outfit": "rear collar, shoulder bands and upper yoke retained",
+        "shot": "corrected head-and-shoulders crop; no belt or waist; comparable head scale to frontal close portrait",
+        "approval": "approved_by_user"
+      },
+      "user_approval": {
+        "identity_revision": 1,
+        "scope": "reference_view:head_back",
+        "evidence": "Apruebo las nueve vistas",
+        "recorded_at": "2026-11-01T21:45:45+01:00"
+      }
+    }
+  ],
+  "preselected_imports": [
+    {
+      "id": "preexisting_warpath_midshot_v01",
+      "file": "holly_willhelm_midshot.png",
+      "prompt_file": "holly_willhelm_midshot.prompt.txt",
+      "source_file": "../holly-willhelm-plano-medio-frontal-warpath-v01.png",
+      "source_prompt_file": "../holly-willhelm-plano-medio-frontal-warpath-v01.prompt.txt",
+      "outfit_id": "base",
+      "view": "midshot",
+      "camera_side": "front",
+      "identity_revision": 1,
+      "status": "registered_as_approved_midshot",
+      "approval_evidence": "Bien, efectivamente la segunda es más fiel al estilo. ... quiero que la usemos como primera imagen para crear la referencia visual de este personaje.",
+      "recorded_at": "2026-11-01T21:08:45+01:00",
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha_checked": {
+        "corner": 0,
+        "face": 253,
+        "center": 253
+      },
+      "sources_actually_attached_in_original_generation": [
+        "SRC-PREVIOUS",
+        "STYLE-003",
+        "STYLE-007-A"
+      ],
+      "original_execution_record": "../holly-willhelm-plano-medio-frontal-warpath-v01.registro.json",
+      "notes": [
+        "This is an unchanged file copy, not a new image-generation call.",
+        "The existing image predates CHARACTER.md. No claim is made that it was generated using canonical revision 1.",
+        "Register the import as the active midshot reference and bind the user's selection to the approved revision only after explicit document validation. Do not ask the user to reselect an image already chosen.",
+        "Compatibility with revision 1 explicitly validated on 2026-11-01T21:17:14+01:00."
+      ]
+    }
+  ],
+  "planned_views": [
+    {
+      "view": "midshot",
+      "camera_side": "front",
+      "file": "holly_willhelm_midshot.png",
+      "state": "approved"
+    },
+    {
+      "view": "fullbody_front",
+      "camera_side": "front",
+      "file": "holly_willhelm_fullbody_front.png",
+      "state": "approved"
+    },
+    {
+      "view": "fullbody_profile",
+      "camera_side": "left",
+      "file": "holly_willhelm_fullbody_profile.png",
+      "state": "approved"
+    },
+    {
+      "view": "fullbody_back",
+      "camera_side": "back",
+      "file": "holly_willhelm_fullbody_back.png",
+      "state": "approved"
+    },
+    {
+      "view": "fullbody_three_quarter",
+      "camera_side": "left",
+      "file": "holly_willhelm_fullbody_three_quarter.png",
+      "state": "approved"
+    },
+    {
+      "view": "head_front",
+      "camera_side": "front",
+      "file": "holly_willhelm_head_front.png",
+      "state": "approved"
+    },
+    {
+      "view": "head_profile",
+      "camera_side": "left",
+      "file": "holly_willhelm_head_profile.png",
+      "state": "approved"
+    },
+    {
+      "view": "head_three_quarter",
+      "camera_side": "left",
+      "file": "holly_willhelm_head_three_quarter.png",
+      "state": "approved"
+    },
+    {
+      "view": "head_back",
+      "camera_side": "back",
+      "file": "holly_willhelm_head_back_v02.png",
+      "state": "approved"
+    }
+  ],
+  "generation_log": [
+    {
+      "view": "fullbody_front",
+      "result": "saved",
+      "file": "holly_willhelm_fullbody_front.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "fullbody_back",
+      "result": "saved",
+      "file": "holly_willhelm_fullbody_back.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "fullbody_profile",
+      "result": "saved",
+      "file": "holly_willhelm_fullbody_profile.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "fullbody_three_quarter",
+      "result": "saved",
+      "file": "holly_willhelm_fullbody_three_quarter.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "head_front",
+      "result": "saved",
+      "file": "holly_willhelm_head_front.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "head_profile",
+      "result": "saved",
+      "file": "holly_willhelm_head_profile.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "head_three_quarter",
+      "result": "saved",
+      "file": "holly_willhelm_head_three_quarter.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "head_back",
+      "result": "saved",
+      "file": "holly_willhelm_head_back.png",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    },
+    {
+      "view": "head_back",
+      "version": "v02",
+      "result": "saved",
+      "file": "holly_willhelm_head_back_v02.png",
+      "reason": "Targeted crop correction; first version superseded",
+      "tool": "image_gen.imagegen",
+      "model": "not_exposed"
+    }
+  ],
+  "state_note": "Complete nine-view base-outfit reference library approved by the user for canonical identity revision 1 and Warpath style. Original files, exact prompts, superseded head-back output and failure history preserved.",
+  "validation_report": "validation.json",
+  "validation_summary": {
+    "status": "passed_with_explicit_user_workflow_override",
+    "active_reference_count": 9,
+    "png_alpha_checks": "passed",
+    "anchor_unchanged": "passed",
+    "unexpected_checker_errors": [],
+    "candidate_requirement": "overridden by explicit user selection of the existing midshot",
+    "notes": [
+      "The stock --complete check flags only the omitted three-candidate stage and candidate selection, which the user explicitly replaced by reuse of an existing image.",
+      "Independent completeness checks confirm the nine required views, unchanged approved anchor, correct files and genuine alpha."
+    ]
+  },
+  "known_nonblocking_findings": [
+    {
+      "view": "fullbody_front",
+      "finding": "Tight 5-pixel top margin; crown and whole figure remain visible.",
+      "reviewed_by_user": true,
+      "approval_evidence": "Apruebo las nueve vistas"
+    }
+  ]
+}

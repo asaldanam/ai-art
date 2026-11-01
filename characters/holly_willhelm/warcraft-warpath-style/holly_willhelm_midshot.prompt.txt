@@ -1,0 +1,25 @@
+Use case: style-transfer.
+Task: Restyle the existing Holly Willhelm portrait in input 1 into the specific Warpath 2D animation style of inputs 2 and 3. Produce exactly one image. This is the SAME CHARACTER and SAME SHOT, not a new character design. Change rendering only.
+
+REFERENCE ROLES (actual attachments in order):
+1 — IDENTITY + SHOT + CONTINUITY, and the edit target: the previous front-facing medium portrait of Holly. Preserve its facial anatomy, proportions, center-parted plum bob silhouette, eyes, outfit motifs, costume construction, body shape, pose, framing, palette and neutral expression. Its more modeled illustration finish is precisely what must change.
+2 — STYLE: original Warpath capture 003. Use ONLY the economical angular drawing, thin dark contours, selective facial lines and broad hard-edged cel-shadow masses. Do not copy its warrior, face, red hair, armor, shield, action, camera angle, environment or blue lighting.
+3 — STYLE / FINISH A: accepted Warpath 007-A calibration. Use its restrained flat-color animation rendering, broad drawn hair masses and subtle captured-frame finish only. Do not copy its character identity, equipment, pose, setting, warm light or colors.
+
+SUBJECT AND INVARIANTS:
+Holly is a slim adult female Forsaken undead with a fresh intact cadaver appearance: very pale cool ivory skin with a faint gray-green undertone, no rot or wounds. Preserve input 1's narrow oval face, cheekbones, slightly hollow cheeks, tapered chin, fine straight nose, closed muted taupe-rose lips, thin arched dark eyebrows and contained almond-shaped glowing yellow eyes without distinct pupils. Relaxed neutral expression looking straight at the camera. Keep her exact short dark plum/burgundy bob, center part, longer pointed locks framing the face down to the base of the neck, shorter nape. The outline and major partings remain the same; render the existing locks with fewer internal strokes.
+Preserve the exact robe from input 1: dark charcoal-purple fitted torso, V neckline, silver-white branching collar borders, symmetrical muted gray-green chest panels and antique-gold borders, curved rib-like silver framing, the existing central vertical silver ornament, rounded cloth shoulders with crossing silver-white bands, dark olive upper-arm panels, long flared sleeves and broad pale silver cuffs. Same narrow waist, wide muted beige-gold belt with small side fastenings, and silver-edged purple upper skirt. Keep all identifying motifs in their existing positions; simplify shading rather than add or remove costume pieces. No staff or other equipment.
+
+SHOT AND LIGHT:
+Match input 1 exactly: portrait 2:3, straight-on medium shot at eye level, no tilt or three-quarter angle, complete head and a little headroom, shoulders and torso square to camera, arms relaxed down, full belt and top of hips visible, lower sleeves cut by the lower edge as in the reference. One figure. Neutral diffuse frontal illumination as already established for this reference image. Preserve intrinsic cool pale skin and dark plum hair. No change to light direction, color grading, expression or pose.
+
+WARPATH DRAWING AND MATERIALS:
+Make this look like the same animated production as inputs 2 and 3, applied to Holly. Color base plus one or two broad shadow levels, sharply shaped angular shadows at nose, cheekbones, jaw, neck, folds and panel overlaps. Large quiet areas of flat color. Draw the nose and mouth with only the few lines needed to retain her exact anatomy. Hair in broad graphic locks with restrained block highlights, not fine strand detail. Fabric in a few broad fold masses, silver in simple matte facets, skin in clean flat planes. Remove the smooth sculpted gradient modeling, glossy lips and numerous little highlights of input 1 while preserving identity. DO NOT merely overlay grain on the earlier illustration; genuinely simplify its rendering to the reference animation's visual economy.
+
+APPROVED FINISH A:
+Very fine, barely visible luminance grain, gently softened thin dark contours with small natural drawing irregularities. Angular cel-shadow shapes remain clearly readable. Keep the restrained subtle A finish seen in input 3; not vector-sharp, plastic or heavily denoised. Do not use coarse grain, rough paper, excessive blur or chromatic noise.
+
+BACKGROUND AND OUTPUT:
+Genuinely transparent PNG with alpha. Only Holly is opaque; the surrounding empty area is fully transparent. No background color, gradient, halo, cast shadow, painted checkerboard, scenery, frame, text or guide lines. Treat any hidden dark pixels visible in input 1's transparent area as empty transparency, not as an environment to reproduce.
+No 3D rendering, airbrushed rounded volumes, photo texture, glossy materials, mirror-chrome, extra ornamentation, changed jewelry, oversized doll eyes, blush, decorative sparkles, rim light, staff, weapons, new accessories, added people, captions, logos or UI.
+Retain the previous portrait's composition and every identifying design feature; the authorized change is Warpath drawing, cel shading and finish A only.

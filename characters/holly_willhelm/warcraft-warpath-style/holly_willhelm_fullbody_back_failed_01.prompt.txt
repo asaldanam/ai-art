@@ -1,0 +1,124 @@
+CHARACTER REFERENCE — holly_willhelm / base / approved revision 1 / fullbody_back
+
+CANONICAL CHARACTER IDENTITY
+
+Name and defining identity:
+Holly Willhelm, an adult-presenting female Forsaken undead.
+
+Species and physical presentation:
+She has the intact appearance of a recently deceased person. Her exposed face
+and neck are extremely pale cool ivory with a subtle gray-green undertone.
+Her flesh is preserved rather than putrid. There are no visible open wounds,
+rotting patches or exposed bones. Her hands and feet share the same very pale
+cool ivory skin family with a subtle gray-green undertone. Each hand has five
+intact digits, including one thumb, and each foot has five intact toes. Her
+hands are slender and bony with long, dark, pointed nails. No digits are missing.
+
+Build, proportions and recognizable silhouette:
+She has a slim frame, a relatively narrow waist and an elongated neck.
+Preserve the head-to-shoulder proportions, facial spacing and upper-torso
+relationships of the selected Holly reference. Preserve the full-body
+proportions documented by the original front, profile and back references.
+
+Face structure and distinctive features:
+Her face is narrow and oval, with defined cheekbones, subtly hollow cheeks,
+a narrow jaw and a tapered chin. Her nose is fine and mostly straight.
+Her lips are shaped but restrained, with a muted taupe-rose intrinsic color.
+Her eyebrows are thin, dark and arched.
+
+Eyes:
+Her eyes are contained in size and almond-shaped, with defined lids, muted
+gray-green orbital shadows and luminous yellow interiors. There are no
+clearly defined pupils. Preserve their shape and spacing.
+
+Hair:
+Her hair is dark plum/burgundy, cut into a short layered bob with a center
+part. The front locks fall on both sides of the face, tapering into pointed
+ends near the base of the neck. The back is shorter at the nape. Preserve
+the selected reference's hairline, center part, major lock arrangement and
+overall hair silhouette.
+
+Marks and anatomical asymmetries:
+No distinctive facial scars, tattoos or jewelry are documented. Do not
+invent permanent marks, missing facial tissue or new left/right asymmetries.
+The ears remain covered by the established hairstyle.
+
+Non-negotiable identifying features:
+Very pale intact undead flesh, the narrow facial structure, luminous yellow
+almond-shaped eyes, dark arched eyebrows and the center-parted short plum
+bob must remain recognizable together. Do not replace her with a different
+face that merely shares the same species or colors.
+
+OUTFIT — base
+
+Garment layers, shape and intrinsic colors:
+Holly wears a floor-length robe with a fitted charcoal-purple upper body,
+long sleeves and a flared lower silhouette. A dark charcoal under-skirt
+falls in long vertical folds. The upper skirt is deep purple, with
+silver-white borders and layered panels over the darker lower skirt.
+
+Front construction:
+The neckline forms a V bordered by branching silver-white ornamental trim.
+The chest has symmetrical muted gray-green panels, curved rib-like
+silver-gray framing and narrow subdued antique-gold borders. A distinctive
+vertical silver-gray ornament follows the center of the torso. Preserve
+the shapes and locations established by the selected midshot.
+
+Shoulders and sleeves:
+The shoulders are rounded cloth forms rather than oversized armor
+pauldrons. Silver-white bands cross the upper-sleeve area. Dark olive
+upper-arm panels have narrow subdued antique-gold edging. The long
+charcoal-purple sleeves broaden toward the wrists and end in wide,
+silver-white flared cuffs.
+
+Waist and lower front:
+A wide muted beige-gold belt wraps around the narrow waist. Small
+silver-gray side fastenings remain on both sides as shown in the selected
+reference. Silver-white borders continue down the purple upper skirt,
+framing long pointed or curved panel ends over the charcoal under-skirt.
+The floor-length hem is broad silver-white with narrow dark parallel
+bands above it.
+
+Side and back construction:
+Preserve the original profile's fitted torso, sleeve flare and layered
+robe depth. At the back, the short nape leaves part of the pale neck visible.
+The dark shoulder yoke has silver-white edging and a broad pale band
+across the shoulder-blade area. Beneath it, a fitted dark back panel has
+subdued antique-gold piping. The gold belt continues around the waist.
+Rear purple skirt panels are framed by silver-white borders descending
+from near the belt and curving outward. Preserve the horizontal silver
+border above the lower charcoal skirt and the broad banded hem.
+
+Materials and accessories:
+The primary robe and sleeves are cloth. Keep the pale ornamental borders
+and the chest framing distinct from the dark cloth, with restrained
+silver-gray and antique-gold material colors. No new straps, jewelry,
+runes, badges, armor plates or other accessories are introduced.
+No staff or other weapon is carried for the base reference set. Her feet are
+bare: only a small part of the forefeet and toes extends beyond the robe hem.
+No boots, shoes, sandals or other footwear are added.
+
+Outfit-specific invariants:
+Preserve the V neckline, branching collar motif, symmetrical chest
+construction, central vertical ornament, shoulder bands, flared pale
+cuffs, wide gold belt and silver-edged skirt layers in their established
+positions. Do not swap anatomical sides or add permanent costume damage.
+
+ACTUAL REFERENCE IMAGE ROLES
+Image 1 — base_midshot_r01: PRIMARY IDENTITY + OUTFIT: user-approved Holly anchor; exact face, hairstyle, intrinsic colors and outfit.
+Image 2 — SRC-BACK: OUTFIT BACK AND NAPE: rear garment topology and short hair nape; NOT staff, rendering or old extremity color
+Image 3 — SRC-PROFILE: IDENTITY AND OUTFIT PROFILE: known facial profile, nape and side garment; NOT slouched pose, staff or old extremity color
+Image 4 — SRC-FRONT: OUTFIT AND PROPORTIONS: front, lower skirt and hem; NOT style, old extremity color, staff or pose
+Image 5 — base_fullbody_front_r01: SUPPORTING REVIEWED VIEW ONLY: consistent scale, proportions and garment construction; do not replace the primary approved midshot or original references.
+Image 6 — STYLE-003: STYLE ONLY: angular animation drawing, selective contours and broad hard cel-shadow masses; ignore character identity, equipment, pose, setting and lighting color.
+Image 7 — STYLE-007-A: FINISH A ONLY: barely visible fine grain and gently softened animation contours; no transfer of its character, equipment, scene or colors.
+
+REQUESTED VIEW
+Full body direct BACK view, exactly from behind, showing the complete back of the head, short layered nape, neck, robe back yoke, back panel, belt, posterior skirt borders, sleeves, hands and feet. Head faces straight away from the viewer, no cheek or eye showing. Soft neutral A-pose with arms about 12 degrees away from the torso. Follow the original back render's garment topology but without its staff. The user-approved bare feet and uniform pale skin replace the ambiguous old foot textures. Preserve the approved plum bob's overall length; do not invent a ponytail, long hair, hood, cape, fastener or rear emblem. Entire character inside safe margins, same scale and camera height as the front full-body reference.
+
+STYLE AND PRESERVATION:
+Match the specific Warpath 2D animation drawing of the STYLE images and the approved Holly midshot. Thin controlled dark contours, selective internal lines, angular facial shapes, large drawn hair locks, flat base color plus one or two broad hard-edged cel-shadow levels. Robe folds are few large masses; metal borders are simple matte facets, not glossy chrome. Very fine barely visible luminance grain and gently softened contours at the approved finish A level; keep shadow shapes clear. No individual hair fibers, airbrushed sculpting, cosmetic lips, doll eyes, 3D game rendering, new ornamentation or exaggerated anatomy.
+Preserve the midshot's actual face, eye spacing, plum hair outline, pale skin and existing costume design at the new angle. Do not substitute the warrior from a STYLE image. The game renders supply unseen garment construction, not their low-polygon rendering, green backgrounds, old olive-colored extremity textures, staff or slouched pose.
+Use the already approved neutral diffuse illumination and intrinsic colors, with restrained yellow eye emission only. No dramatic colored key light, rim light, halo or scenery. Apply the validated design decisions: five fingers including a thumb on each hand, five toes on each bare foot, intact very pale skin matching the face. The robe nearly covers the feet, leaving a little forefoot and toes visible. No footwear. No staff or other weapon.
+OUTPUT:
+One independent 2:3 portrait PNG. Genuinely transparent alpha: only the character is opaque, all surrounding empty space fully transparent, no background color or gradient, ground plane, cast shadow, painted checkerboard, labels, frame, text, watermark, UI or extra views. Maintain generous safe margins. Do not reproduce RGB colors hidden in the source PNG's transparent area as an opaque backdrop.

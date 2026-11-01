@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "character_id": "holly_willhelm",
+  "identity_revision": 1,
+  "outfit_id": "base",
+  "style_skill": "warcraft-warpath-style",
+  "result": "passed_with_explicit_user_workflow_override",
+  "basic_checker_errors": [],
+  "stock_complete_checker_findings": [
+    "base: expected exactly three candidates in the current round.",
+    "base: expected one selected current candidate matching selected_candidate_id."
+  ],
+  "authorized_override": "The user explicitly selected the existing second/Warpath midshot. Three replacement candidates were intentionally not generated. All remaining completeness, path, file, transparency, approval-scope and unchanged-anchor requirements were checked.",
+  "unexpected_complete_checker_errors": [],
+  "required_view_count": 9,
+  "active_reference_count": 9,
+  "selected_anchor_byte_identical": true,
+  "all_active_images_png_with_transparency": true,
+  "fullbody_figures_not_clipped": true,
+  "artistic_approval": "All nine required views approved by the user: Apruebo las nueve vistas.",
+  "images": [
+    {
+      "view": "midshot",
+      "file": "holly_willhelm_midshot.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 630574,
+      "visible_bbox_alpha_at_least_128": [
+        0,
+        63,
+        1024,
+        1536
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        253,
+        253
+      ],
+      "sha256": "91e7db8b1a4bdca834566be2eeb4d08a05dfd54a3250a3f282ed943afdc5726c",
+      "intentional_crop": "shoulder/upper-torso crop"
+    },
+    {
+      "view": "fullbody_front",
+      "file": "holly_willhelm_fullbody_front.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 905183,
+      "visible_bbox_alpha_at_least_128": [
+        168,
+        5,
+        857,
+        1521
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "be493e419098515b34767211b6d238015f79740f25a4d468ff00e179fee15f5f",
+      "intentional_crop": "none"
+    },
+    {
+      "view": "fullbody_back",
+      "file": "holly_willhelm_fullbody_back.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 978628,
+      "visible_bbox_alpha_at_least_128": [
+        173,
+        29,
+        837,
+        1495
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "7f5cf046350343211697ebc2a773327096e029a373aca7f96385ffcbc01b32a2",
+      "intentional_crop": "none"
+    },
+    {
+      "view": "fullbody_profile",
+      "file": "holly_willhelm_fullbody_profile.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1116003,
+      "visible_bbox_alpha_at_least_128": [
+        265,
+        10,
+        816,
+        1517
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "3a0c602b5087f75f4bd38e94b81ca67a261f04602f62704ff056f8eaff4cee33",
+      "intentional_crop": "none"
+    },
+    {
+      "view": "fullbody_three_quarter",
+      "file": "holly_willhelm_fullbody_three_quarter.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 958890,
+      "visible_bbox_alpha_at_least_128": [
+        191,
+        15,
+        903,
+        1523
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "5c8d224072f88dd3365a65194298f72f9f087b8224f6be7150d51e57e41ccf56",
+      "intentional_crop": "none"
+    },
+    {
+      "view": "head_front",
+      "file": "holly_willhelm_head_front.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 462124,
+      "visible_bbox_alpha_at_least_128": [
+        0,
+        89,
+        1024,
+        1536
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        253,
+        253
+      ],
+      "sha256": "49d5b6331a944db8406f95791f58c26bca253e4bccbf29d9fa10f5edda80699f",
+      "intentional_crop": "shoulder/upper-torso crop"
+    },
+    {
+      "view": "head_profile",
+      "file": "holly_willhelm_head_profile.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 618000,
+      "visible_bbox_alpha_at_least_128": [
+        136,
+        36,
+        1007,
+        1536
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "27ae3e70a911d95a61785fa9ec493e204c9fe042cf3689afb367183bf68ef8ea",
+      "intentional_crop": "shoulder/upper-torso crop"
+    },
+    {
+      "view": "head_three_quarter",
+      "file": "holly_willhelm_head_three_quarter.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 499710,
+      "visible_bbox_alpha_at_least_128": [
+        0,
+        76,
+        1024,
+        1536
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        251,
+        253
+      ],
+      "sha256": "20bc80bf268c63289234034dcab56799f28a948b22a43090f0cc7a0a876d4215",
+      "intentional_crop": "shoulder/upper-torso crop"
+    },
+    {
+      "view": "head_back",
+      "file": "holly_willhelm_head_back_v02.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels": 519553,
+      "visible_bbox_alpha_at_least_128": [
+        0,
+        97,
+        1024,
+        1536
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        254,
+        253
+      ],
+      "sha256": "626973a6195672229994724d2405b43f6948c65ea97b252d1b8ed2b1b56632ce",
+      "intentional_crop": "shoulder/upper-torso crop"
+    }
+  ]
+}
